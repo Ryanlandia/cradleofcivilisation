@@ -167,7 +167,7 @@ create_country_leader = {
 create_corps_commander = {
 	name = "Hassan Arfa"
 	portrait_path = "gfx/leaders/PER/Hassan_Arfa.tga"
-	traits = {  trickster }
+	traits = {  trickster desert_fox }
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
@@ -176,12 +176,12 @@ create_corps_commander = {
 }
 
 create_field_marshal = {
-	name = "Teymour Bakhtiar"
-	portrait_path = "gfx/leaders/PER/Teymour_Bakhtiar.tga"
-	traits = {  }
-	skill = 3
+	name = "Reza Shah"
+	portrait_path = "gfx/leaders/PER/Reza_Khan.tga"
+	traits = { old_guard war_hero defensive_doctrine }
+	skill = 4
 	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 4
+	defense_skill = 4
+	planning_skill = 1
 	logistics_skill = 3
 }
