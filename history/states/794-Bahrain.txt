@@ -1,0 +1,23 @@
+state={
+	id=794
+	name="STATE_794"
+	history={
+		add_core_of = QAT
+		owner = ENG
+		victory_points = {
+			13218 1
+		}
+		buildings = {
+			infrastructure = 2
+			13218 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces={
+		13218 
+	}
+	manpower=95610
+	state_category=rural
+	buildings_max_level_factor=1.000
+}
