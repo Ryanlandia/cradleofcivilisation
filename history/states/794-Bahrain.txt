@@ -2,7 +2,7 @@ state={
 	id=794
 	name="STATE_794"
 	history={
-		add_core_of = QAT
+		add_core_of = BRI
 		owner = ENG
 		victory_points = {
 			13218 1

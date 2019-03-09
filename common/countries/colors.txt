@@ -1,7 +1,19 @@
 ### MODIFIED COLORS
 TUR = {
-	color = rgb { 185 50 50 }
-	color_ui = rgb { 185 50 50 }
+	color = rgb { 160 45 45 }
+	color_ui = rgb { 160 45 45 }
+}
+HAT = {
+	color = rgb { 180 20 20 }
+	color_ui = rgb { 180 20 20 }
+}
+BRI = {
+	color = rgb { 240 200 0 }
+	color_ui = rgb { 240 200 0 }
+}
+YEM = {
+	color = rgb { 233 155 81 }
+	color_ui = rgb { 233 155 81 }
 }
 ### END
 GER = {
@@ -285,10 +297,6 @@ DOM = {
 HAI = {
 	color = rgb { 174 113 113 }
 	color_ui = rgb { 174 113 113 }
-}
-YEM = {
-	color = rgb { 155 101 107 }
-	color_ui = rgb { 202 131 139 }
 }
 OMA = {
 	color = rgb { 155 101 107 }
