@@ -1,0 +1,17 @@
+on_actions = {
+	on_subject_free = {
+		effect = {
+			if = {
+				limit = { 
+					OR = {
+						TAG = UAE
+						TAG = BRI
+						TAG = QAT
+						TAG = KUW
+					}
+				} 
+				drop_cosmetic_tag = yes
+			}
+		}
+	}
+}

@@ -15,14 +15,18 @@ YEM = {
 	color = rgb { 233 155 81 }
 	color_ui = rgb { 233 155 81 }
 }
+OMA = {
+	color = rgb { 125 0 25 }
+	color_ui = rgb { 125 0 25 }
+}
+ENG = {
+    color = rgb { 201 56 93 }
+    color_ui = rgb { 255 73 121 }
+}
 ### END
 GER = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
-}
-ENG = {
-	color = rgb { 201 56 93 }
-	color_ui = rgb { 255 73 121 }
 }
 SOV = {
 	color = rgb { 125 13 24 }
@@ -297,10 +301,6 @@ DOM = {
 HAI = {
 	color = rgb { 174 113 113 }
 	color_ui = rgb { 174 113 113 }
-}
-OMA = {
-	color = rgb { 155 101 107 }
-	color_ui = rgb { 202 131 139 }
 }
 SLO = {
 	color = rgb { 158  161  188 }

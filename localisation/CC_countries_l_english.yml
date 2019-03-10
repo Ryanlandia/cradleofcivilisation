@@ -1,4 +1,6 @@
 ﻿l_english:
+ autonomy_protectorate:0 "Protectorate"
+  ### Hatay
  HAT_fascism:0 "Hatay"
  HAT_fascism_DEF:0 "Hatay"
  HAT_democratic:0 "Hatay"
@@ -11,6 +13,7 @@
  HAT_democratic_ADJ:0 "Hatay"
  HAT_neutrality_ADJ:0 "Hatay"
  HAT_communism_ADJ:0 "Hatay"
+  ### Bahrain
  BRI_fascism:0 "Bahrain"
  BRI_fascism_DEF:0 "Bahrain"
  BRI_democratic:0 "Bahrain"
@@ -23,4 +26,6 @@
  BRI_democratic_ADJ:0 "Bahraini"
  BRI_neutrality_ADJ:0 "Bahraini"
  BRI_communism_ADJ:0 "Bahraini"
- 
+  ### UAE
+ UAE_UK_autonomy_protectorate:0 "Trucial States"
+ UAE_UK_autonomy_protectorate_DEF:0 "the Trucial States" 
