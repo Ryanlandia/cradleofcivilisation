@@ -73,7 +73,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "Hamad ibn Isa Al Khalifa"
-	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_democratic1.dds"
+	picture = "Portrait_Bahrain_Hamad_al_Khalifa"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
