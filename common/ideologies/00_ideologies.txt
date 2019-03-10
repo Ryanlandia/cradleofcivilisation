@@ -158,6 +158,9 @@ ideologies = {
 			despotism  = {
 			}
 			
+			authoritarian_democracy  = {
+			}
+			
 			oligarchism  = {
 			}
 			
