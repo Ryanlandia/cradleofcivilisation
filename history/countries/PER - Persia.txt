@@ -38,6 +38,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+	PER_oil_concessions
+}
+
 create_country_leader = {
 	name = "Reza Shah Pahlavi"
 	desc = ""
