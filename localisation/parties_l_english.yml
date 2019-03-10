@@ -37,6 +37,8 @@
  neutrality_desc:0 "Authoritarian Regime"
  despotism:0 "Despotic"
  despotism_desc:0 "Despotism is a form of government in which a single person rules with absolute power."
+ authoritarian_democracy:0 "Authoritarian Democracy"
+ authoritarian_democracy_desc:0 "Representing a menagerie of ideologies from constitutional monarchy to especially strong republics, Authoriarian Democrats believe that the hand of the people shall dictate how we elect our leaders, and our leaders shall in turn dictate the people."
  oligarchism:0 "Oligarchic"
  oligarchism_desc:0 "Oligarchy is a form of government in which a group of people rule with absolute power."
  moderatism:1 "Moderatism"
