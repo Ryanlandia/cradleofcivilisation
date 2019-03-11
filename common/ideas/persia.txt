@@ -17,9 +17,6 @@ ideas = {
 
 			modifier = {
 			}
-			on_add = {
-				custom_effect_tooltip = PER_oil_give_tt
-			}
 		}
 	}
 	

@@ -1,6 +1,6 @@
 spriteTypes = {	
 	spriteType = {
-	name = "GFX_generic_oil_concession"
-	texturefile = "gfx/interface/ideas/generic_oil_concession.dds"			
+	name = "GFX_idea_generic_oil_concession"
+	texturefile = "gfx/interface/ideas/idea_generic_oil_concession.dds"			
 	}	
 }

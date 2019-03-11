@@ -4,6 +4,7 @@ state={
 	history={
 		add_core_of = BRI
 		owner = BRI
+		add_claim_by = PER
 		victory_points = {
 			13218 1
 		}
