@@ -1,6 +1,9 @@
 state={
 	id=794
 	name="STATE_794"
+	resources={
+		oil=6 # was: 3
+	}
 	history={
 		add_core_of = BRI
 		owner = BRI
