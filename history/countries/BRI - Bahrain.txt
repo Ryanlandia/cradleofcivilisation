@@ -73,7 +73,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "Hamad ibn Isa Al Khalifa"
-	picture = "Portrait_Bahrain_Hamad_al_Khalifa"
+	picture = "Portrait_Bahrain_Hamad_al_Khalifa.tga"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
@@ -90,7 +90,7 @@ create_country_leader = {
 
 	parties = {
 		democratic = { 
-			popularity = 51
+			popularity = 21
 		}
 
 		fascism = {
@@ -103,11 +103,11 @@ create_country_leader = {
 		}
 		
 		neutrality = { 
-			popularity = 47
+			popularity = 77
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes

@@ -9,21 +9,11 @@ state={
 	history={
 		owner = SAU
 		victory_points = {
-			12883 1 
-		}
-		victory_points = {
-			12101 1 
-		}
-		victory_points = {
-			5037 5 
+			12101 3
 		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-			12883 = {
-				naval_base = 5
-
-			}
 
 		}
 		add_core_of = SAU
@@ -31,9 +21,9 @@ state={
 	}
 
 	provinces={
-		1033 1923 2027 2033 2095 4981 5037 8092 10835 12101 12883 
+		1033 2027 2033 2095 4981 8092 10835 12101 
 	}
-	manpower=1135000
+	manpower=462000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pastoral
 }
