@@ -1,0 +1,26 @@
+state={
+	id=811
+	name="STATE_811"
+	history={
+		add_core_of = UAE
+		owner = UAE
+		victory_points = {
+			10904 1 
+		}
+		buildings = {
+			infrastructure = 2
+			10904 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+	provinces={
+		10904 
+	}
+	manpower=72400
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

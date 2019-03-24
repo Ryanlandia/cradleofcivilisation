@@ -1,0 +1,29 @@
+state={
+	id=818
+	name="STATE_818"
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 2
+			4206 = {
+				naval_base = 3
+
+			}
+
+		}
+		victory_points = {
+			4206 1 
+		}
+		add_claim_by = PAL
+		add_core_of = ISR
+
+	}
+	provinces={
+		1065 1201 4088 4206 
+	}
+	manpower=418000
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

@@ -4,6 +4,7 @@ state={
 	history = {
 		owner = KUW
 		add_core_of = KUW
+		add_claim_by = IRQ
 		
 		buildings = {
 			infrastructure = 1

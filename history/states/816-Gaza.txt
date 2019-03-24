@@ -1,0 +1,21 @@
+state={
+	id=816
+	name="STATE_816"
+	
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = PAL
+		add_claim_by = ISR
+
+	}
+	
+	provinces={
+		13237 13238 
+	}
+	manpower=76000
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}
