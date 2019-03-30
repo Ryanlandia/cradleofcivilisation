@@ -725,14 +725,12 @@ do_not_waste_pp_if_saving_for_manpower_laws = {
 
 ai_unit_production_limiter = {
     enable = {
-        is_exempt_from_division_limit = no
         check_variable = {
             num_divisions > num_of_factories
         }
     }
     abort = {
         OR = {
-            is_exempt_from_division_limit = yes
             check_variable = {
                 num_divisions < num_of_factories
             }

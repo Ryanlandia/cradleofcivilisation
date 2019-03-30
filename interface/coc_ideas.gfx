@@ -3,4 +3,48 @@ spriteTypes = {
 	name = "GFX_idea_generic_oil_concession"
 	texturefile = "gfx/interface/ideas/idea_generic_oil_concession.dds"			
 	}	
+	spriteType = {
+	name = "GFX_idea_generic_infidel_religion"
+	texturefile = "gfx/interface/ideas/idea_generic_infidel_religion.dds"			
+	}	
+	spriteType = {
+	name = "GFX_idea_generic_sunni_islam"
+	texturefile = "gfx/interface/ideas/idea_generic_sunni_islam.dds"			
+	}	
+	spriteType = {
+	name = "GFX_idea_generic_shia_islam"
+	texturefile = "gfx/interface/ideas/idea_generic_shia_islam.dds"			
+	}	
+	spriteType = {
+	name = "GFX_idea_generic_ibadi_islam"
+	texturefile = "gfx/interface/ideas/idea_generic_ibadi_islam.dds"			
+	}
+	spriteType = {
+	name = "GFX_idea_generic_school_hanafi"
+	texturefile = "gfx/interface/ideas/idea_generic_school_hanafi.dds"			
+	}	
+	spriteType = {
+	name = "GFX_idea_generic_school_hanbali"
+	texturefile = "gfx/interface/ideas/idea_generic_school_hanbali.dds"			
+	}	
+	spriteType = {
+	name = "GFX_idea_generic_school_maliki"
+	texturefile = "gfx/interface/ideas/idea_generic_school_maliki.dds"			
+	}
+	spriteType = {
+	name = "GFX_idea_generic_school_shafi"
+	texturefile = "gfx/interface/ideas/idea_generic_school_shafi.dds"			
+	}	
+	spriteType = {
+	name = "GFX_idea_generic_school_shia_ismaili"
+	texturefile = "gfx/interface/ideas/idea_generic_school_shia_ismaili.dds"			
+	}	
+	spriteType = {
+	name = "GFX_idea_generic_school_shia_jafari"
+	texturefile = "gfx/interface/ideas/idea_generic_school_shia_jafari.dds"			
+	}	
+	spriteType = {
+	name = "GFX_idea_generic_school_shia_zaidi"
+	texturefile = "gfx/interface/ideas/idea_generic_school_shia_zaidi.dds"			
+	}	
 }

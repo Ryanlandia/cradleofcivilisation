@@ -818,3 +818,6 @@
  STATE_817:0 "Negev"
  STATE_818:0 "Tel Aviv"
  STATE_819:0 "Jerusalem"
+ STATE_820:0 "Bir Tawil"
+ STATE_821:0 "Halaib Triangle"
+ STATE_822:0 "Suez"

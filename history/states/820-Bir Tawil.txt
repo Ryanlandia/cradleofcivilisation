@@ -1,0 +1,15 @@
+state={
+	id=820
+	name="STATE_820"
+	history = {
+		owner = ENG
+		add_core_of = EGY
+		add_core_of = SUD
+	}
+	provinces={
+		13240 
+	}
+	manpower=1
+	state_category=wasteland
+	buildings_max_level_factor=1.000
+}

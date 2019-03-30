@@ -40,6 +40,7 @@ set_politics = {
 
 add_ideas = {
 	PER_oil_concessions
+	shia_islam
 }
 
 create_country_leader = {

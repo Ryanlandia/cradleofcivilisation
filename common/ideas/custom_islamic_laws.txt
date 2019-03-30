@@ -1,0 +1,128 @@
+ideas = {
+	hidden_ideas = {
+		muslim_nation = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			}
+		}
+		sunni_nation = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			}
+		}
+		shia_nation = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			}
+		}
+		ibadi_nation = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			}
+		}
+	}
+	islamic_religions = {
+		infidel = {
+			allowed = {
+				has_idea = muslim_nation
+			}
+			cost = 150
+			removal_cost = -1
+			
+			default = yes
+			
+			picture = generic_infidel_religion
+			
+			modifier = {
+			
+			}
+			
+			cancel_if_invalid = yes
+		}
+		sunni_islam = {
+			available = {
+				always = no
+			}
+			cost = 150
+			removal_cost = -1
+			
+			picture = generic_sunni_islam
+			
+			modifier = {
+			 	stability_factor = 0.05
+				army_attack_factor = -0.025 
+				army_defence_factor = -0.025 
+			}
+			
+			cancel_if_invalid = no
+		}
+		shia_islam = {
+			available = {
+				always = no
+			}
+			cost = 150
+			removal_cost = -1
+			
+			picture = generic_shia_islam
+			
+			modifier = {
+				army_attack_factor = 0.025 
+				army_defence_factor = 0.025 
+			 	stability_factor = -0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+		ibadi_islam = {
+			available = {
+				always = no
+			}
+			cost = 150
+			removal_cost = -1
+			
+			picture = generic_ibadi_islam
+			
+			modifier = {
+			 	stability_factor = 0.1
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+}
