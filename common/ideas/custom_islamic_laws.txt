@@ -125,4 +125,72 @@ ideas = {
 			cancel_if_invalid = no
 		}
 	}
+	islamic_schools = {
+		hanafi_school = {
+			available = {
+				has_idea = sunni_islam
+			}
+			cost = 150
+			removal_cost = -1
+			
+			picture = generic_school_hanafi
+			
+			modifier = {
+			 	stability_factor = 0.05
+				war_support_factor = -0.05
+			}
+			
+			cancel_if_invalid = yes
+		}
+		hanbali_school = {
+			available = {
+				has_idea = sunni_islam
+			}
+			cost = 150
+			removal_cost = -1
+			
+			picture = generic_school_hanbali
+			
+			modifier = {
+				war_support_factor = 0.1
+				army_attack_factor = 0.025 
+				army_defence_factor = 0.025 
+				stability_factor = -0.1
+			}
+			
+			cancel_if_invalid = yes
+		}
+		maliki_school = {
+			available = {
+				has_idea = sunni_islam
+			}
+			cost = 150
+			removal_cost = -1
+			
+			picture = generic_school_maliki
+			
+			modifier = {
+				war_support_factor = 0.05
+				stability_factor = -0.05
+			}
+			
+			cancel_if_invalid = yes
+		}
+		shafi_school = {
+			available = {
+				has_idea = sunni_islam
+			}
+			cost = 150
+			removal_cost = -1
+			
+			picture = generic_school_shafi
+			
+			modifier = {
+				war_support_factor = 0.025
+				stability_factor = 0.025
+			}
+			
+			cancel_if_invalid = yes
+		}
+	}
 }

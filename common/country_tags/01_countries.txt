@@ -1,2 +1,3 @@
 HAT	= "countries/Hatay.txt"
 BRI	= "countries/Bahrain.txt"
+JKS	= "countries/Kashmir.txt"
