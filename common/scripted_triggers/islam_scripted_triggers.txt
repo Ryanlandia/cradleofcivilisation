@@ -1,0 +1,25 @@
+#	Example:
+# 
+#	example_trigger = {
+#		tag = GER
+#		is_ai = no
+#	}
+#
+#
+#	In a script file:
+#
+#	trigger = {
+#		exampel_trigger = yes
+#	}
+# 
+#	THIS FILE IS FOR TRIGGERS SPECIFICALLY FOR THE GER TAG
+
+is_sunni = {
+	has_idea = sunni_islam
+}
+is_shia = {
+	has_idea = shia_islam
+}
+is_ibadi = {
+	has_idea = ibadi_islam
+}

@@ -23,6 +23,10 @@ ENG = {
     color = rgb { 201 56 93 }
     color_ui = rgb { 255 73 121 }
 }
+JKS = {
+    color = rgb { 255 82 0 }
+    color_ui = rgb { 255 82 0 }
+}
 ### END
 GER = {
 	color = HSV { 0.1 0.15 0.4 }

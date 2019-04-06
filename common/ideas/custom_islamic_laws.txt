@@ -128,7 +128,7 @@ ideas = {
 	islamic_schools = {
 		hanafi_school = {
 			available = {
-				has_idea = sunni_islam
+				is_sunni = yes
 			}
 			cost = 150
 			removal_cost = -1
@@ -144,7 +144,7 @@ ideas = {
 		}
 		hanbali_school = {
 			available = {
-				has_idea = sunni_islam
+				is_sunni = yes
 			}
 			cost = 150
 			removal_cost = -1
@@ -162,7 +162,7 @@ ideas = {
 		}
 		maliki_school = {
 			available = {
-				has_idea = sunni_islam
+				is_sunni = yes
 			}
 			cost = 150
 			removal_cost = -1
@@ -178,7 +178,7 @@ ideas = {
 		}
 		shafi_school = {
 			available = {
-				has_idea = sunni_islam
+				is_sunni = yes
 			}
 			cost = 150
 			removal_cost = -1
@@ -188,6 +188,37 @@ ideas = {
 			modifier = {
 				war_support_factor = 0.025
 				stability_factor = 0.025
+			}
+			
+			cancel_if_invalid = yes
+		}
+		ismaili_school = {
+			available = {
+				is_shia = yes
+			}
+			cost = 150
+			removal_cost = -1
+			
+			picture = generic_school_ismaili
+			
+			modifier = {
+				war_support_factor = 0.05
+			}
+			
+			cancel_if_invalid = yes
+		}
+		zaidi_school = {
+			available = {
+				is_shia = yes
+			}
+			cost = 150
+			removal_cost = -1
+			
+			picture = generic_school_shia_zaidi
+			
+			modifier = {
+				army_core_attack_factor = 0.1 
+				army_core_defence_factor = 0.1 
 			}
 			
 			cancel_if_invalid = yes

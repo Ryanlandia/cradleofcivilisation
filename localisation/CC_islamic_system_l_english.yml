@@ -1,6 +1,10 @@
 ﻿l_english:
  islamic_sects:0 "Islamic Religion Overview"
  islamic_religions:0 "Islamic Religion"
+ is_sunni:0 "Follows the Sunni sect"
+ is_shia:0 "Follows the Shia sect"
+ is_ibadi:0 "Follows the Ibadi sect"
+ sunni_available_tt:0 "Follows the Sunni sect"
  infidel:0 "Infidel Religion"
  infidel_desc:0 "This nation believes in a religion other than Islam."
  sunni_islam:0 "Sunni Islam"
