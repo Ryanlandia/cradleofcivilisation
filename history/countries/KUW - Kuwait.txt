@@ -43,7 +43,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "Ahmad Al-Jaber Al-Sabah"
-	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_3.dds"
+	picture = "gfx/leaders/KUW/Portrait_Ahmad_al_Jaber.dds"
 	expire = "1965.1.1"
 	ideology = centrism
 	traits = {
