@@ -6,9 +6,9 @@ oob = "YEM_1936"
 set_technology = {
 	infantry_weapons = 1
 }
-set_war_support = 0.1
-set_stability = 0.8
-set_convoys = 5
+set_war_support = 0.2
+set_stability = 0.5
+set_convoys = 10
 
 add_ideas = {
 	shia_islam
@@ -57,11 +57,11 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 0
+			popularity = 7
 		}
 
 		fascism = {
-			popularity = 0
+			popularity = 6
 		}
 		
 		communism = {
@@ -70,7 +70,7 @@ set_politics = {
 		}
 		
 		neutrality = { 
-			popularity = 100
+			popularity = 87
 		}
 	}
 	
@@ -80,8 +80,15 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+	YEM_family_struggle
+	YEM_debt_1
+	YEM_pastoralism
+	YEM_army
+}	
+
 create_country_leader = {
-	name = "Imam Yahya"
+	name = "Yahya Muhammad Hamid ed-Din"
 	desc = "POLITICS_IMAM_YAHYA_DESC"
 	picture = "GFX_portrait_yemen_imam_yahya"
 	expire = "1965.1.1"
@@ -89,6 +96,27 @@ create_country_leader = {
 	traits = {
 		#
 	}
+}
+create_country_leader = {
+	name = "Ahmad Muhammad Numan"
+	desc = "POLITICS_SHABAB_AL-AMR_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {}
+}
+
+create_corps_commander = {
+	name = "Abdullah as-Sallal"
+	picture = ""
+	traits = {
+		commando
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
 }
 
 1939.1.1 = {

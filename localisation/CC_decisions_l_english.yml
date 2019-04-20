@@ -1,0 +1,13 @@
+﻿l_english:
+ taking_debt_payment:0 "Already taking financial payments"
+ YEM_debt_up_tt:0 "§RWill raise our financial debt!§!\n"
+ YEM_debt_down_tt:0 "§MLowers our financial debt.§!\n"
+ yem_mountaineers_tt:0 "§HSpawns mountaineer divisions in Sana'a and Taizz.§!\n"
+ yemen_financial_payments:0 "Financial Payments"
+ yemen_financial_payments_desc:0 "We want to industrialize, but unfortunately, our limited, agrarian economy holds us back. In order to do any real effect to change our economy, we have to take loans from foreign powers. However, this comes at a cost. We must repay these loans for a better Yemen, and an industrialized one at that.\n§RFailure to pay off loans will lead to crippling debt and destabilizing events!§!"
+ debt_payment_factory:0 "Sell Factory Output"
+ debt_payment_factory_desc:0 "In order to pay off our debt, we should sell the armanents that we make in what factories we have. Although this will cut production for our army, we need this to cut down on our payments."
+ debt_payment_consumer:0 "Sell Consumer Output"
+ debt_payment_consumer_desc:0 "In order to pay off our debt, we should export and sell the domestic products of our country. Although this will divert attention away from construction, we need the money to cut down on our payments."
+ debt_payment_budget_cuts:0 "Budget Cuts"
+ debt_payment_budget_cuts_desc:0 "We need to cut down on our budgetary expenses in order to pay off our debt. Unfortunately, this decision will not be popular and will cut down on army expenses, but in the long run, it is worth it."

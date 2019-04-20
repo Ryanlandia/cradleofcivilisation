@@ -47,4 +47,52 @@ spriteTypes = {
 	name = "GFX_idea_generic_school_shia_zaidi"
 	texturefile = "gfx/interface/ideas/idea_generic_school_shia_zaidi.dds"			
 	}	
+	spriteType = {
+	name = "GFX_idea_generic_family_struggle"
+	texturefile = "gfx/interface/ideas/idea_generic_family_struggle.dds"			
+	}
+	spriteType = {
+	name = "GFX_idea_generic_debt_1"
+	texturefile = "gfx/interface/ideas/idea_generic_debt_1.dds"			
+	}	
+	spriteType = {
+	name = "GFX_idea_generic_debt_2"
+	texturefile = "gfx/interface/ideas/idea_generic_debt_2.dds"			
+	}	
+	spriteType = {
+	name = "GFX_idea_generic_debt_3"
+	texturefile = "gfx/interface/ideas/idea_generic_debt_3.dds"			
+	}	
+	spriteType = {
+	name = "GFX_idea_generic_debt_4"
+	texturefile = "gfx/interface/ideas/idea_generic_debt_4.dds"			
+	}	
+	spriteType = {
+	name = "GFX_idea_generic_debt_5"
+	texturefile = "gfx/interface/ideas/idea_generic_debt_5.dds"			
+	}	
+	spriteType = {
+	name = "GFX_idea_generic_islamic_tolerance"
+	texturefile = "gfx/interface/ideas/idea_generic_islamic_tolerance.dds"			
+	}	
+	spriteType = {
+	name = "GFX_idea_generic_cavalry_improvement"
+	texturefile = "gfx/interface/ideas/idea_generic_cavalry_improvement.dds"			
+	}	
+	spriteType = {
+	name = "GFX_idea_generic_strengthened_kingdom"
+	texturefile = "gfx/interface/ideas/idea_generic_strengthened_kingdom.dds"			
+	}	
+	spriteType = {
+	name = "GFX_idea_yemen_deterrence"
+	texturefile = "gfx/interface/ideas/idea_yemen_deterrence.dds"			
+	}	
+	spriteType = {
+	name = "GFX_idea_yemen_cash_crops"
+	texturefile = "gfx/interface/ideas/idea_yemen_cash_crops.dds"			
+	}	
+	spriteType = {
+	name = "GFX_idea_yemen_rise_democracy"
+	texturefile = "gfx/interface/ideas/idea_yemen_rise_democracy.dds"			
+	}	
 }

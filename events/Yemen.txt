@@ -1,0 +1,189 @@
+﻿###########################
+# Yemeni Events
+###########################
+
+add_namespace = yemen
+
+# Ask Britain for support of civil war.
+country_event = {
+	id = yemen.1
+	title = yemen.1.t
+	desc = yemen.1.d
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.1.a
+		ai_chance = {
+			factor = 90
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -3000
+		}
+		YEM = {
+			country_event = {
+				id = yemen.101
+				days = 1
+			}
+		}
+	}
+
+	option = {
+		name = yemen.1.b
+		ai_chance = {
+			factor = 10
+		}
+		YEM = {
+			country_event = {
+				id = yemen.201
+				days = 1
+			}
+		}
+	}
+}
+
+# Recieves infantry equipment when civil war starts.
+country_event = {
+	id = yemen.101
+	title = yemen.101.t
+	desc = yemen.101.d
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.101.a
+		custom_effect_tooltip = YEM_arms_stockpile_tt
+		set_country_flag = YEM_arms_stockpile
+	}
+}
+
+# Doesn't get infantry equipment when civil war starts becuase Britain is a bastard.
+country_event = {
+	id = yemen.201
+	title = yemen.201.t
+	desc = yemen.201.d
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.201.a
+	}
+}
+
+# Declares a civil war!
+country_event = {
+	id = yemen.2
+	title = yemen.2.t
+	desc = yemen.2.d
+	picture = GFX_report_event_saf_civil_war
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.2.a
+		set_country_flag = YEM_civil_war
+		custom_effect_tooltip = YEM_civil_war_tt
+		hidden_effect = {
+			set_capital = 805
+			start_civil_war = {
+				ruling_party = democratic
+				ideology = neutrality
+				size = 0.5
+				only_own_territory = yes
+				capital = 293
+				states = { 
+					293 806
+				}
+			}
+			random_other_country = {
+				limit = {
+					original_tag = YEM
+					has_government = neutrality
+				}
+				load_oob = "YEM_civil_war_neutrality"
+			}
+			set_politics = {
+				ruling_party = democratic
+				elections_allowed = yes
+			}
+			load_oob = "YEM_civil_war_democratic"
+			if = {
+				limit = {
+					has_country_flag = YEM_arms_stockpile
+				}
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 3000
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						democratic > 0.05
+						democratic < 0.33
+					}
+				}
+				add_ideas = YEM_democraticboost
+			}
+			if = {
+				limit = {
+					AND = {
+						democratic > 0.33
+						democratic < 0.50
+					}
+				}
+				add_ideas = YEM_democraticboost2
+			}
+			if = {
+				limit = {
+					AND = {
+						democratic > 0.50
+					}
+				}
+				add_ideas = YEM_democraticboost3
+			}
+		}
+	}
+}
+
+# Constitution event chain
+country_event = {
+	id = yemen.3
+	title = yemen.3.t
+	desc = yemen.3.d
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.1.a
+		ai_chance = {
+			factor = 50
+		}
+		add_ideas = yem_freedom_liberty
+		YEM = {
+			country_event = {
+				id = yemen.101
+				days = 1
+			}
+		}
+	}
+
+	option = {
+		name = yemen.1.b
+		ai_chance = {
+			factor = 50
+		}
+		add_ideas = yem_freedom_security
+		YEM = {
+			country_event = {
+				id = yemen.201
+				days = 1
+			}
+		}
+	}
+}

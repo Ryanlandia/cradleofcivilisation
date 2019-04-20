@@ -1,3 +1,6 @@
 HAT	= "countries/Hatay.txt"
 BRI	= "countries/Bahrain.txt"
 JKS	= "countries/Kashmir.txt"
+BAL	= "countries/Balochistan.txt"
+SIN	= "countries/Sind.txt"
+PUN	= "countries/Punjab.txt"

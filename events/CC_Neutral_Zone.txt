@@ -82,6 +82,9 @@ country_event = {
 			802 = {
 				set_demilitarized_zone = no
 			}
+			812 = {
+				set_demilitarized_zone = no
+			}
 		}
 	}
 	option = {

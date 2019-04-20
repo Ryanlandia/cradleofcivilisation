@@ -4,7 +4,7 @@
 
 neutral_zone_management = {
 	
-	icon = generic
+	icon = power_struggle
 
 	allowed = {
 		OR = {

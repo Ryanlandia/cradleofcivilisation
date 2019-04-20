@@ -1,0 +1,16 @@
+opinion_modifiers = {
+	
+	YEM_friendship_opinion = {
+		value = 30
+	}
+	anti_colonialism_opinion = {
+		value = -50
+	}
+	trade_integrated = {
+		trade = yes
+		value = 25
+	}
+	deteriorating_relations = {
+		value = -50
+	}
+}

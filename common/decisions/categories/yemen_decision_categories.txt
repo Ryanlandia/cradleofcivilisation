@@ -1,0 +1,19 @@
+###########################
+###### NEUTRAL ZONE #######
+###########################
+
+yemen_financial_payments = {
+	
+	icon = generic_economy
+	picture = GFX_decision_cat_picture_generic_economic_reform
+
+	allowed = {
+		original_tag = YEM
+	}
+
+	visible = {
+		NOT = {
+			has_country_flag = YEM_debt_off
+		}
+	}
+}
