@@ -16,6 +16,7 @@ ideas = {
 			picture = generic_oil_concession
 
 			modifier = {
+			political_power_factor = -0.05
 			}
 		}
 		
