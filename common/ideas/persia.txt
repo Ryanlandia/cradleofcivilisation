@@ -99,7 +99,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = angery_mullahs
+			picture = generic_school_shia_jafari
 
 			modifier = {
 				political_power_factor = -0.05
