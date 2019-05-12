@@ -55,7 +55,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = poopoo_money
+			picture = raj_risk_of_famine
 
 			modifier = {
 				production_speed_buildings_factor = -0.10
