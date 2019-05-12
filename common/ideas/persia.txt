@@ -55,7 +55,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = PER_poopoo_money
+			picture = poopoo_money
 
 			modifier = {
 				production_speed_buildings_factor = -0.10
@@ -77,7 +77,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = PER_unruly_populace
+			picture = unruly_populace
 
 			modifier = {
 				stability_factor = -0.10
@@ -99,7 +99,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = PER_angery_mullahs
+			picture = angery_mullahs
 
 			modifier = {
 				political_power_gain = -0.05
