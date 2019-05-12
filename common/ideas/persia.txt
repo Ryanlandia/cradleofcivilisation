@@ -42,7 +42,7 @@ ideas = {
 			}
 		}
 		
-		PER_your_economy_sucks = {
+		PER_ploopy_economy = {
 			
 			allowed = {
 				original_tag = PER
