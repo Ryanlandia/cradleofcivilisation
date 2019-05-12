@@ -353,7 +353,7 @@
  incognito:0 "Incognito"
  nationalist_symbol:1 "Nationalist Symbol"
  generallissimo:0 "Generalissimo"
- strongman_shah:0 "Strongman Shah"
+ strongman_shah:1 "Strongman Shah"
  ENABLES_ABILITY:0 "Enables Ability: $NAME|H$"
  ABILITY_DESC:0 "$NAME|H$: $DETAILS$"
  TRAIT_NOT_ASSIGNABLE:1 "Earned traits can only be unlocked by gaining experience or by events.\n"
