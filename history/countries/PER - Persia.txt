@@ -49,7 +49,7 @@ add_ideas = {
 
 create_country_leader = {
 	name = "Reza Shah Pahlavi"
-	desc = ""
+	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
 	picture = "gfx/leaders/PER/Reza_Shah.tga"
 	expire = "1965.1.1"
 	ideology = despotism
@@ -82,7 +82,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Mohammed Mossadegh"
-	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
+	desc = ""
 	picture = "Mohammad_Mossadegh.tga"
 	expire = "1965.1.1"
 	ideology = socialism
