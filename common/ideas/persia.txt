@@ -77,7 +77,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = unruly_populace
+			picture = unruly_poopulace
 
 			modifier = {
 				stability_factor = -0.10
