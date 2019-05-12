@@ -33,7 +33,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = corrupt_iran
+			picture = generic_disjointed_gov
 
 			modifier = {
 				stability_factor = -0.10
@@ -55,7 +55,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = poopoo_money
+			picture = PER_poopoo_money
 
 			modifier = {
 				production_speed_buildings_factor = -0.10
@@ -77,7 +77,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = unruly_populace
+			picture = PER_unruly_populace
 
 			modifier = {
 				stability_factor = -0.10
@@ -99,7 +99,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = angery_mullahs
+			picture = PER_angery_mullahs
 
 			modifier = {
 				political_power_gain = -0.05
