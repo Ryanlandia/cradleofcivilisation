@@ -1,0 +1,171 @@
+﻿division_template = {
+	name = "Dasteband-e Piyade"
+	division_names_group = PER_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Dasteband-e Savareh" #Cavalry
+	division_names_group = PER_CAV_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Dasteband-e Qazzaq" #Special Cavalry
+	division_names_group = PER_CAV_02
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Zandarmiri-e Daulati" #Militiary Police used as Militias
+	division_names_group = PER_INF_02
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		military_police = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Machin-e Artesh" #American-Made armored cars
+	division_names_group = PER_ARM_01
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+
+units = {
+	######## LAND OOB ########
+	##### Royal Iranian Army #####
+	division = {
+		name = "Berigard-e Qazzaq"
+		location = 1896
+		division_template = "Dasteband-e Qazzaq"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Lashgar-e Sardar Pahlavi"
+		location = 10837
+		division_template = "Dasteband-e Piyade"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Lashgar-e Muzzafar ad-Din"
+		location = 10837
+		division_template = "Machin-e Artesh”		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Zandarmiri-e Pahlavi"
+		location = 2026
+		division_template = "Zandarmiri-e Daulati"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Nezam Savareh-ye Puladin"
+		location = 4580
+		division_template = "Dasteband-e Savareh"		
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+
+	}
+	division = {
+		name = "Nezam Savareh-ye Dezfuli"
+		location = 7953
+		division_template = "Dasteband-e Savareh"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Zandarmiri-e Keyhani"
+		location = 5029
+		division_template = "Zandarmiri-e Daulati"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Lashgar-e Zabuli"
+		location = 5029
+		division_template = "Dasteband-e Piyade"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Lashgar-e Rostam"
+		location = 8117
+		division_template = "Sarbaz-e-Piyade"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+
+	}
+
+	navy = {
+		name = "Imperial Iranian Navy"
+		base = 7982
+		location = 7982
+		ship = { name = "Babr" definition = destroyer equipment = { light_cruiser_1 = { amount = 1 owner = GER version_name = "Babr Class" } } }
+		ship = { name = "Palang" definition = destroyer equipment = { light_cruiser_1 = { amount = 1 owner = GER version_name = "Babr Class" } } }
+
+		ship = { name = "Shahrokh" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Castore Class" } } }
+		ship = { name = "Simorgh" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Castore Class" } } }
+		ship = { name = "Karkas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Castore Class" } } }
+		ship = { name = "Chahbaaz" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Castore Class" } } }
+	}
+}
+
+air_wings = {
+	### Royal Iranian Air Force ###
+	266 = {
+		# 1st Air Group -- Hawker Furys
+		fighter_equipment_0 =  {
+			owner = "PER" 
+			amount = 92
+		}
+		# 2nd, 3rd Air Groups -- Misc british bombers
+		CAS_equipment_1 =  {
+			owner = "PER" 
+			amount = 48
+		}
+	}
+}
