@@ -76,7 +76,15 @@ units = {
 	######## LAND OOB ########
 	##### Royal Iranian Army #####
 	division = {
-		name = "Berigard-e Qazzaq"
+		name = "Berigard-e Qazzaq I"
+		location = 1896
+		division_template = "Dasteband-e Qazzaq"		
+		start_experience_factor = 0.9
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Berigard-e Qazzaq II"
 		location = 1896
 		division_template = "Dasteband-e Qazzaq"		
 		start_experience_factor = 0.9
@@ -128,14 +136,6 @@ units = {
 		location = 5029
 		division_template = "Zandarmiri-e Daulati"		
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-
-	}
-	division = {
-		name = "Lashgar-e Zabuli"
-		location = 5029
-		division_template = "Dasteband-e Piyade"		
-		start_experience_factor = 0.6
 		start_equipment_factor = 0.7
 
 	}
