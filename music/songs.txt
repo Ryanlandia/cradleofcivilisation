@@ -1,0 +1,7 @@
+#########################
+### ahanghe irani #######
+#########################
+music_station = "iran_station" # include this, songs after are assigned to this station
+music = {
+	song = "vatanam"	
+}

@@ -1,0 +1,6 @@
+# iran music yay
+music = {
+	name = "vatanam"
+	file = "vatanam.ogg"
+	volume = 0.65
+}
