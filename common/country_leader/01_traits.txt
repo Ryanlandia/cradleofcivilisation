@@ -1,0 +1,7 @@
+leader_traits = {
+	strongman_shah = {
+		random = no
+		army_morale_factor = 0.05
+		stability_factor = 0.05	
+	}
+}

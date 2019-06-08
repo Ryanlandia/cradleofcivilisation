@@ -1,7 +1,7 @@
 spriteTypes = {	
 	spriteType = {
 	name = "GFX_idea_unruly_poopulace"
-	texturefile = "gfx/interface/ideas/idea_unruly_poopulace.dds"			
+	texturefile = "gfx/interface/ideas/idea_unruly_poopulace.tga"			
 	}	
 	spriteType = {
 	name = "GFX_idea_generic_oil_concession"
