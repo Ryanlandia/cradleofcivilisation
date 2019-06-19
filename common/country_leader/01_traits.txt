@@ -5,3 +5,13 @@ leader_traits = {
 		stability_factor = 0.05	
 	}
 }
+
+leader_traits = {
+	father_of_the_ppl = {
+		random = no
+		army_morale_factor = 0.04
+		stability_factor = 0.04	
+		war_suppot_factor = -0.05
+	}
+}
+
