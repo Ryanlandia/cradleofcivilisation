@@ -33,7 +33,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_disjointed_gov
+			picture = generic_army_problems
 
 			modifier = {
 				stability_factor = -0.10
@@ -77,7 +77,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = unruly_populace
+			picture = generic_disjointed_gov
 
 			modifier = {
 				stability_factor = -0.10
