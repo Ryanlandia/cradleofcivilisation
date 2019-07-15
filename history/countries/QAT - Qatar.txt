@@ -14,31 +14,18 @@ add_ideas = {
 	sunni_islam
 }
 
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 11
-		}
-
-		fascism = {
-			popularity = 1
-		}
-		
-		communism = {
-			popularity = 1
-			#banned = no #default is no
-		}
-		
-		neutrality = { 
-			popularity = 87
-		}
-	}
-	
+set_politics = {	
 	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
+}
+
+set_popularities = {
+    democratic = 11
+    fascism = 1
+    communism = 1
+    neutrality = 87
 }
 
 create_country_leader = {
