@@ -28,7 +28,7 @@ division_template = {
 
 division_template = {
 	name = "Dasteband-e Qazzaq" #Special Cavalry
-	division_names_group = PER_CAV_02
+	division_names_group = PER_CAV_01
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
@@ -44,7 +44,7 @@ division_template = {
 
 division_template = {
 	name = "Zandarmiri-e Daulati" #Militiary Police used as Militias
-	division_names_group = PER_INF_02
+	division_names_group = PER_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -102,7 +102,7 @@ units = {
 	division = {
 		name = "Lashgar-e Tahmasp"
 		location = 10837
-		division_template = "Machin-e Artesh”		
+		division_template = "Machin-e Artesh"		
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
 
@@ -142,25 +142,10 @@ units = {
 	division = {
 		name = "Lashgar-e Rostam"
 		location = 8117
-		division_template = "Sarbaz-e-Piyade"		
+		division_template = "Dasteband-e Piyade"		
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
 
-	}
-
-	######Iran had a small, mostly italian navy.
-	navy = {
-		name = "Imperial Iranian Navy"
-		base = 7982
-		location = 7982
-		ship = { name = "Babr" definition = destroyer equipment = { light_cruiser_1 = { amount = 1 owner = GER version_name = "Babr Class" } } }
-		ship = { name = "Palang" definition = destroyer equipment = { light_cruiser_1 = { amount = 1 owner = GER version_name = "Babr Class" } } }
-
-		ship = { name = "Shahrokh" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Castore Class" } } }
-		ship = { name = "Simorgh" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Castore Class" } } }
-		ship = { name = "Karkas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Castore Class" } } }
-		ship = { name = "Chahbaaz" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Castore Class" } } }
-		ship = { name = "Nahang" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA version_name = "Castore Class" } } }
 	}
 }
 

@@ -11,7 +11,7 @@ leader_traits = {
 		random = no
 		army_morale_factor = 0.04
 		stability_factor = 0.04	
-		war_suppot_factor = -0.05
+		war_support_factor = -0.05
 	}
 }
 

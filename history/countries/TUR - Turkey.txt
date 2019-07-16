@@ -159,7 +159,7 @@ set_stability = 0.55
         democratic = 10
         fascism = 0
         communism = 0
-        neutrality = 100
+        neutrality = 90
     }
 
 	create_country_leader = {

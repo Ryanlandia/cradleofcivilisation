@@ -169,6 +169,11 @@ if = {
 		autonomous_state = autonomy_protectorate
 		freedom_level = 0.3
 	}
+	set_autonomy = {
+		target = OMA
+		autonomous_state = autonomy_protectorate
+		freedom_level = 0.7
+	}
 	else = {
 		puppet = MAL
 		puppet = RAJ

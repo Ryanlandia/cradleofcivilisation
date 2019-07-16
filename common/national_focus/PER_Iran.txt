@@ -1,41 +1,43 @@
-﻿focus_tree = { 
-id = PER
-country = { 
-factor = 0 
-modifier = { 
-add = 10 
-tag = PER 
-} 
-} 
+focus_tree= { 
+	id = PER
+	country = { 
+		factor = 0 
+
+		modifier = { 
+			add = 10 
+			tag = PER 
+		} 
+	} 
+
+	continuous_focus_position = { x = 25 y = 1300 }
+
 #Focus for The Strongman King
 focus = { 
-id = PER_thestrongmanking
-icon = GFX_thestrongmanking
-x = 21
-y = 7
-cost = 10
-available_if_capitulated = yes 
-prerequisite = { focus = PER_closeparliament } 
-ai_will_do = { 
- factor = 1
- } 
-
- } 
+	id = PER_thestrongmanking
+	icon = GFX_thestrongmanking
+	x = 21
+	y = 7
+	cost = 10
+	available_if_capitulated = yes 
+	prerequisite = { focus = PER_closeparliament } 
+	ai_will_do = { 
+	 	factor = 1
+	} 
+} 
 
 #Focus for French Expertise
 focus = { 
-id = PER_frenchexpertise
-icon = GFX_frenchexpertise
-x = 19
-y = 5
-cost = 10
-available_if_capitulated = yes 
-prerequisite = { focus = PER_monarchistjudges } 
-ai_will_do = { 
- factor = 1
- } 
-
- } 
+	id = PER_frenchexpertise
+	icon = GFX_frenchexpertise
+	x = 19
+	y = 5
+	cost = 10
+	available_if_capitulated = yes 
+	prerequisite = { focus = PER_monarchistjudges } 
+	ai_will_do = { 
+		 factor = 1
+	} 
+} 
 
 #Focus for American Expertise
 focus = { 
@@ -150,6 +152,7 @@ x = 19
 y = 4
 cost = 10
 available_if_capitulated = yes 
+prerequisite = { focus = PER_wayofreza focus = PER_theliberalmonarchy } 
 ai_will_do = { 
  factor = 1
  } 
@@ -512,7 +515,8 @@ y = 4
 cost = 6
 available_if_capitulated = yes 
 prerequisite = { focus = PER_northernriots focus = PER_oilstrike } 
-mutually_exclusive = { focus = PER_martiallaw focus = PER_ }ai_will_do = { 
+mutually_exclusive = { focus = PER_martiallaw }
+ai_will_do = { 
  factor = 1
  } 
 
