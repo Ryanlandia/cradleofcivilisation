@@ -69,10 +69,10 @@ set_politics = {
 }
 
 set_popularities = {
-    democratic = 25
-    fascism = 20
-    communism = 5
-    neutrality = 50
+    democratic = 19
+    fascism = 8
+    communism = 2
+    neutrality = 71
 }
 
 create_country_leader = {
@@ -96,9 +96,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Farouk Muhammad Ali"
+	name = "Fuad I"
 	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_1.dds"
+	picture = "gfx/leaders/EGY/Fuad_I.dds"
 	ideology = despotism
 	traits = {
 		#

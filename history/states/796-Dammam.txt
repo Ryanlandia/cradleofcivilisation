@@ -5,7 +5,6 @@ state={
 		owner = SAU
 		buildings = {
 			infrastructure = 2
-			arms_factory = 1
 			12702 = {
 				naval_base = 6
 

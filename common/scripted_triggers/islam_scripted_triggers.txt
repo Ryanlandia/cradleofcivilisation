@@ -23,3 +23,10 @@ is_shia = {
 is_ibadi = {
 	has_idea = ibadi_islam
 }
+is_islamic = {
+	OR = {
+		has_idea = sunni_islam
+		has_idea = shia_islam
+		has_idea = ibadi_islam
+	}
+}

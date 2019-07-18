@@ -160,30 +160,24 @@ country_event = {
 	is_triggered_only = yes	
 
 	option = {
-		name = yemen.1.a
+		name = yemen.3.a
 		ai_chance = {
 			factor = 50
 		}
-		add_ideas = yem_freedom_liberty
-		YEM = {
-			country_event = {
-				id = yemen.101
-				days = 1
-			}
+		trigger = {
+			has_completed_focus = YEM_conservativepartywins
 		}
+		add_ideas = yem_constitution_conservative
 	}
 
 	option = {
-		name = yemen.1.b
+		name = yemen.3.a
 		ai_chance = {
 			factor = 50
 		}
-		add_ideas = yem_freedom_security
-		YEM = {
-			country_event = {
-				id = yemen.201
-				days = 1
-			}
+		trigger = {
+			has_completed_focus = YEM_liberalpartywins
 		}
+		add_ideas = yem_constitution_liberal
 	}
 }

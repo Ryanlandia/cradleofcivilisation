@@ -1,0 +1,20 @@
+scripted_gui = {
+	islam_top_bar = {
+	        context_type = player_context
+
+	        window_name = "islamic_gui_container"
+
+	        visible = {
+	            check_variable = { show = 1 }
+	        }
+
+	        effects = {
+	            islamic_gui_bg_click = {
+	            set_temp_variable = { show = 1 }
+	            subtract_from_temp_variable = { show = show_islam_overview }
+	            set_variable = { show_islam_overview = show }
+	        }
+	    }
+	}
+}
+

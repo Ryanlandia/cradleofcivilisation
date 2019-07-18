@@ -1,0 +1,7 @@
+﻿l_english:
+ ISLAM_TOOLTIP:0 "Islamic Religion Overview"
+ ISLAMIC_OVERVIEW_TOOLTIP:0 "Islamic Religion Overview"
+ ISLAM_PURITY_TOOLTIP:0 "We are §Y[?Root.islam_progress_bar]%§! towards §GReligious Purity.§! Due to our level of piety, we receive the following:\n+[?islam|%G] War Support\n-[?islam|%R] Research Speed\n+[?islam|%G] Recruitable Manpower Percentage\n+[?islam_effect_2|%G] Army Core Attack\n+[?islam_effect_2|%G] Army Core Defence\n-[?islam|R] Political Power Gain"
+ ISLAM_PURITY_TOOLTIP_DELAYED:0 "Piety is gained by conquering holy sites, enacting pro-Islamic decisions, and declaring war on infidel nations.\nPiety is lost by losing holy sites, enacting more liberal decisions, and declaring war on countries of the same sect."
+ islamic_dynamic_modifier:0 "Piety"
+ ISLAMIC_PIETY_HEADLINE_TOOLTIP:0 "Piety"

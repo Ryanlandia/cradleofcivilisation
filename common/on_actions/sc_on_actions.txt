@@ -1,0 +1,44 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+            every_country = {
+                limit = {
+                    is_islamic = yes
+                }
+            	set_variable = { show = 1 }
+                set_variable = { islam_progress_bar = 50 }
+                set_variable = { islam = islam_progress_bar }
+                divide_variable = { islam = 1000 }
+                clamp_variable = { var = islam min = 0 max = 100 }
+                add_dynamic_modifier = {
+                    modifier = islamic_dynamic_modifier
+                }
+                set_variable = { islam_effect_2 = islam }
+                multiply_variable = {
+                       var = islam_effect_2
+                        value = 2
+                }
+                set_variable = { islam_effect_3 = islam }
+                multiply_variable = {
+                       var = islam_effect_3
+                        value = -1.5
+                }
+            }
+		}
+	}
+    on_daily = {
+        effect = {
+            set_variable = { islam_effect_2 = islam }
+            multiply_variable = {
+                   var = islam_effect_2
+                    value = 2
+            }
+            set_variable = { islam_effect_3 = islam }
+            multiply_variable = {
+                   var = islam_effect_3
+                    value = -1
+            }
+        }
+    }
+}

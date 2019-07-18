@@ -1,7 +1,7 @@
 ideas = {
 	hidden_ideas = {
-		YEM_freedom_liberty = {
-			
+		yem_constitution_liberal = {
+
 			allowed = {
 				original_tag = YEM
 				always = no
@@ -14,12 +14,12 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				drift_defence_factor = -0.5 
+				drift_defence_factor = -0.5
 				stability_weekly = 0.0025
 			}
 		}
-		YEM_freedom_security = {
-			
+		yem_constitution_conservative = {
+
 			allowed = {
 				original_tag = YEM
 				always = no
@@ -32,14 +32,14 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				drift_defence_factor = 0.5 
+				drift_defence_factor = 0.5
 				war_support_weekly = 0.0025
 			}
 		}
 	}
 	country = {
 		YEM_propagate_zaydi = {
-			
+
 			allowed = {
 				original_tag = YEM
 				always = no
@@ -59,7 +59,7 @@ ideas = {
 			}
 		}
 		YEM_family_struggle = {
-			
+
 			allowed = {
 				original_tag = YEM
 				always = no
@@ -78,7 +78,7 @@ ideas = {
 			}
 		}
 		YEM_traditional_law = {
-			
+
 			allowed = {
 				original_tag = YEM
 				always = no
@@ -95,13 +95,13 @@ ideas = {
 			modifier = {
 				drift_defence_factor = 0.50
 				democratic_drift = 0.05
-				air_chief_cost_factor = -0.25 
-				army_chief_cost_factor = -0.25 
-				navy_chief_cost_factor = -0.25 
+				air_chief_cost_factor = -0.25
+				army_chief_cost_factor = -0.25
+				navy_chief_cost_factor = -0.25
 			}
 		}
 		YEM_new_laws = {
-			
+
 			allowed = {
 				original_tag = YEM
 				always = no
@@ -118,15 +118,15 @@ ideas = {
 			modifier = {
 				drift_defence_factor = -0.50
 				democratic_drift = 0.1
-				air_chief_cost_factor = 0.25 
-				army_chief_cost_factor = 0.25 
+				air_chief_cost_factor = 0.25
+				army_chief_cost_factor = 0.25
 				navy_chief_cost_factor = 0.25
-				political_power_gain = 0.5 
+				political_power_gain = 0.5
 				stability_factor = 0.1
 			}
 		}
 		YEM_intellectuals = {
-			
+
 			allowed = {
 				original_tag = YEM
 				always = no
@@ -141,11 +141,11 @@ ideas = {
 			picture = generic_research_bonus
 
 			modifier = {
-				research_speed_factor = 0.05 
+				research_speed_factor = 0.05
 			}
 		}
 		YEM_religious_tolerance = {
-			
+
 			allowed = {
 				original_tag = YEM
 				always = no
@@ -165,7 +165,7 @@ ideas = {
 			}
 		}
 		YEM_state_shiite = {
-			
+
 			allowed = {
 				original_tag = YEM
 				always = no
@@ -186,7 +186,7 @@ ideas = {
 			}
 		}
 		YEM_rise_democracy = {
-			
+
 			allowed = {
 				original_tag = YEM
 				always = no
@@ -205,7 +205,7 @@ ideas = {
 			}
 		}
 		generic_arabian_calvary = {
-			
+
 			allowed = {
 				original_tag = YEM
 				always = no
@@ -225,7 +225,7 @@ ideas = {
 			}
 		}
 		YEM_central_government = {
-			
+
 			allowed = {
 				original_tag = YEM
 				always = no
@@ -248,7 +248,7 @@ ideas = {
 			}
 		}
 		YEM_governor_sons = {
-			
+
 			allowed = {
 				original_tag = YEM
 				always = no
@@ -267,7 +267,7 @@ ideas = {
 			}
 		}
 		YEM_cash_crops = {
-			
+
 			allowed = {
 				original_tag = YEM
 				always = no
@@ -287,7 +287,7 @@ ideas = {
 			}
 		}
 		YEM_italian_mission = {
-			
+
 			allowed = {
 				original_tag = YEM
 				always = no
@@ -307,7 +307,7 @@ ideas = {
 			}
 		}
 		YEM_pastoralism = {
-			
+
 			allowed = {
 				original_tag = YEM
 				always = no
@@ -323,11 +323,11 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = 0.3
-				industrial_capacity_factory = -0.33 
+				industrial_capacity_factory = -0.33
 			}
 		}
 		YEM_pastoralism_2 = {
-			
+
 			allowed = {
 				original_tag = YEM
 				always = no
@@ -343,11 +343,11 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = 0.2
-				industrial_capacity_factory = -0.22 
+				industrial_capacity_factory = -0.22
 			}
 		}
 		YEM_pastoralism_3 = {
-			
+
 			allowed = {
 				original_tag = YEM
 				always = no
@@ -363,11 +363,11 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = 0.1
-				industrial_capacity_factory = -0.11 
+				industrial_capacity_factory = -0.11
 			}
 		}
 		YEM_army = {
-			
+
 			allowed = {
 				original_tag = YEM
 				always = no
@@ -384,12 +384,12 @@ ideas = {
 			modifier = {
 				conscription = -0.005
 				army_org_factor = -0.20
-				army_attack_factor = -0.15  				
-				army_defence_factor = -0.15  				
+				army_attack_factor = -0.15
+				army_defence_factor = -0.15
 			}
 		}
 		YEM_army_2 = {
-			
+
 			allowed = {
 				original_tag = YEM
 				always = no
@@ -406,12 +406,12 @@ ideas = {
 			modifier = {
 				conscription = 0.005
 				army_org_factor = -0.20
-				army_attack_factor = -0.15  				
-				army_defence_factor = -0.15  				
+				army_attack_factor = -0.15
+				army_defence_factor = -0.15
 			}
 		}
 		YEM_army_3 = {
-			
+
 			allowed = {
 				original_tag = YEM
 				always = no
@@ -428,12 +428,12 @@ ideas = {
 			modifier = {
 				conscription = 0.005
 				army_org_factor = 0.10
-				army_attack_factor = -0.10  				
-				army_defence_factor = -0.10  				
+				army_attack_factor = -0.10
+				army_defence_factor = -0.10
 			}
 		}
 		YEM_army_4 = {
-			
+
 			allowed = {
 				original_tag = YEM
 				always = no
@@ -450,12 +450,12 @@ ideas = {
 			modifier = {
 				conscription = 0.005
 				army_org_factor = 0.10
-				army_core_attack_factor = 0.05  				
-				army_core_defence_factor = 0.05 				
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
 			}
 		}
 		YEM_democraticboost = {
-			
+
 			allowed = {
 				original_tag = YEM
 				has_civil_war = yes
@@ -464,7 +464,7 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			
+
 			cancel = {
 				has_civil_war = no
 			}
@@ -475,12 +475,12 @@ ideas = {
 
 			modifier = {
 				conscription = 0.005
-				army_core_attack_factor = 0.1  				
-				army_core_defence_factor = 0.1 				
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
 			}
 		}
 		YEM_democraticboost2 = {
-			
+
 			allowed = {
 				original_tag = YEM
 				has_civil_war = yes
@@ -489,7 +489,7 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			
+
 			cancel = {
 				has_civil_war = no
 			}
@@ -500,12 +500,12 @@ ideas = {
 
 			modifier = {
 				conscription = 0.01
-				army_core_attack_factor = 0.2  				
-				army_core_defence_factor = 0.2 				
+				army_core_attack_factor = 0.2
+				army_core_defence_factor = 0.2
 			}
 		}
 		YEM_democraticboost3 = {
-			
+
 			allowed = {
 				original_tag = YEM
 				has_civil_war = yes
@@ -514,7 +514,7 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			
+
 			cancel = {
 				has_civil_war = no
 			}
@@ -525,12 +525,12 @@ ideas = {
 
 			modifier = {
 				conscription = 0.015
-				army_core_attack_factor = 0.3			
-				army_core_defence_factor = 0.3				
+				army_core_attack_factor = 0.3
+				army_core_defence_factor = 0.3
 			}
 		}
 		YEM_rebuild = {
-			
+
 			allowed = {
 				original_tag = YEM
 				always = no
@@ -551,7 +551,7 @@ ideas = {
 			}
 		}
 		YEM_deterrence = {
-			
+
 			allowed = {
 				original_tag = YEM
 				always = no
@@ -574,7 +574,7 @@ ideas = {
 			}
 		}
 		YEM_debt_0 = {
-			
+
 			allowed = {
 				original_tag = YEM
 				always = no
@@ -592,7 +592,7 @@ ideas = {
 			}
 		}
 		YEM_debt_1 = {
-			
+
 			allowed = {
 				original_tag = YEM
 				always = no
@@ -607,12 +607,12 @@ ideas = {
 			picture = generic_debt_1
 
 			modifier = {
-				consumer_goods_factor = 0.05 
-				industrial_capacity_factory = -0.1 
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = -0.1
 			}
 		}
 		YEM_debt_2 = {
-			
+
 			allowed = {
 				original_tag = YEM
 				always = no
@@ -627,12 +627,12 @@ ideas = {
 			picture = generic_debt_2
 
 			modifier = {
-				consumer_goods_factor = 0.1 
+				consumer_goods_factor = 0.1
 				industrial_capacity_factory = -0.2
 			}
 		}
 		YEM_debt_3 = {
-			
+
 			allowed = {
 				original_tag = YEM
 				always = no
@@ -647,12 +647,12 @@ ideas = {
 			picture = generic_debt_3
 
 			modifier = {
-				consumer_goods_factor = 0.15 
+				consumer_goods_factor = 0.15
 				industrial_capacity_factory = -0.3
 			}
 		}
 		YEM_debt_4 = {
-			
+
 			allowed = {
 				original_tag = YEM
 				always = no
@@ -667,13 +667,13 @@ ideas = {
 			picture = generic_debt_4
 
 			modifier = {
-				consumer_goods_factor = 0.2 
+				consumer_goods_factor = 0.2
 				industrial_capacity_factory = -0.4
 				stability_weekly = -0.01
 			}
 		}
 		YEM_debt_5 = {
-			
+
 			allowed = {
 				original_tag = YEM
 				always = no
@@ -688,7 +688,7 @@ ideas = {
 			picture = generic_debt_5
 
 			modifier = {
-				consumer_goods_factor = 0.25 
+				consumer_goods_factor = 0.25
 				industrial_capacity_factory = -0.5
 				stability_weekly = -0.01
 				war_support_weekly = -0.1
