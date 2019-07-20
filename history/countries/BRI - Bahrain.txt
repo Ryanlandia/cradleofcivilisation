@@ -74,7 +74,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Seyyed Mohsen al-Tajir"
-	picture = ""
+	picture = "Al_Commie.dds"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
