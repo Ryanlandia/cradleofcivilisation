@@ -152,15 +152,24 @@ units = {
 air_wings = {
 	### Royal Iranian Air Force ###
 	266 = {
-		# 1st Air Group -- Hawker Furys
+		#Hawker Furys
 		fighter_equipment_0 =  {
 			owner = "PER" 
 			amount = 92
 		}
-		# 2nd, 3rd Air Groups -- Misc british bombers
+		name = "Havaniruz Jangande"
+		ace={  
+			modifier="fighter_good"
+			name="Ozra"
+			surname="Asgar Gilani"
+			callsign="Khanoom"
+			portrait=GFX_PER_ace_Ozra_Asgar_Gilani
+		}
+		# Hinds, Soviet Bombers
 		CAS_equipment_1 =  {
 			owner = "PER" 
 			amount = 48
 		}
+		name = "Havaniruz Bombafkan"
 	}
 }
