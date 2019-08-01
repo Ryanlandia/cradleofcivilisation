@@ -218,32 +218,66 @@ country_event = {
 	}
 }
 
-# Renew friendship
+# Request Aden
 country_event = {
-	id = yemen.104
-	title = yemen.104.t
-	desc = yemen.104.d
-	picture = GFX_report_event_generic_sign_treaty2
+	id = yemen.5
+	title = yemen.5.t
+	desc = yemen.5.d
+	picture = GFX_report_event_generic_naval_treaty
 
 	is_triggered_only = yes	
 
 	option = {
-		name = yemen.104.a
+		name = yemen.5.a
+		ai_chance = {
+			factor = 90
+		}
+		YEM = {
+			country_event = {
+				id = yemen.105
+			}
+		}
+	}
+
+	option = {
+		name = yemen.5.a
+		ai_chance = {
+			factor = 10
+		}
+		YEM = {
+			country_event = {
+				id = yemen.205
+			}
+		}
+	}
+}
+
+# Renew friendship
+country_event = {
+	id = yemen.105
+	title = yemen.105.t
+	desc = yemen.105.d
+	picture = GFX_report_event_generic_naval_treaty
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.105.a
 		add_political_power = 75
 	}
 }
 
 # Treaty declined
 country_event = {
-	id = yemen.204
-	title = yemen.204.t
-	desc = yemen.204.d
-	picture = GFX_report_event_generic_sign_treaty2
+	id = yemen.205
+	title = yemen.205.t
+	desc = yemen.205.d
+	picture = GFX_report_event_generic_naval_treaty
 
 	is_triggered_only = yes	
 
 	option = {
-		name = yemen.204.a
+		name = yemen.205.a
 		remove_opinion_modifier = {
 		    target = ENG
 		    modifier = YEM_friendship_opinion
