@@ -39,6 +39,10 @@ SIN = {
     color = rgb { 135 104 85 }
     color_ui = rgb { 135 104 85 }
 }
+ZAN = {
+    color = rgb { 53 78 53 }
+    color_ui = rgb { 53 78 53 }
+}
 ### END
 GER = {
 	color = HSV { 0.1 0.15 0.4 }

@@ -163,7 +163,8 @@ air_wings = {
 			name="Ozra"
 			surname="Asgar Gilani"
 			callsign="Khanoom"
-			portrait=GFX_PER_ace_Ozra_Asgar_Gilani
+			is_female=yes
+			portrait = 1
 		}
 		# Hinds, Soviet Bombers
 		CAS_equipment_1 =  {

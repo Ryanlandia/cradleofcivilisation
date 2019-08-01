@@ -162,6 +162,7 @@ ideas = {
 			modifier = {
 				non_core_manpower = 0.08
 				enemy_partisan_effect = -0.25
+				drift_defence_factor = 0.2
 			}
 		}
 		YEM_state_shiite = {
@@ -180,9 +181,10 @@ ideas = {
 			picture = FRA_scw_intervention_nationalists_focus
 
 			modifier = {
+				stability_factor = 0.1
 				non_core_manpower = -0.02
+				drift_defence_factor = -0.2
 				enemy_partisan_effect = 0.33
-				stability_weekly = 0.0025
 			}
 		}
 		YEM_rise_democracy = {
