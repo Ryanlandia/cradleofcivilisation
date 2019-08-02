@@ -549,7 +549,7 @@ focus_tree = {
 			create_country_leader= {
 				name = "Ahmad bin Yahya"
 				desc = "POLITICS_PETER_II_DESC"
-				picture = "Portrait_Yugoslavia_Peter_II.dds"
+				picture = "YEM_Ahmad_bin_Yahya.dds"
 				expire = "1965.1.1"
 				ideology = despotism
 				traits = {
@@ -786,7 +786,7 @@ focus_tree = {
 		completion_reward = {
 			country_event= {
 				days = 1
-				id = yemen.14
+				id = yemen.13
 			}
 		}
 
@@ -953,7 +953,7 @@ focus_tree = {
 						}
 					}
 					country_event = {
-						id = yemen.13
+						id = yemen.12
 						days = 1
 					}
 				}
@@ -1232,7 +1232,7 @@ focus_tree = {
 		completion_reward = {
 			ITA = {country_event= {
 					days = 1
-					id = yemen.7
+					id = yemen.6
 				}
 			}
 		}
@@ -1318,9 +1318,10 @@ focus_tree = {
 			factor = 200
 		}
 		completion_reward = {
+			custom_effect_tooltip = YEM_request_aden_tt
 			ENG = {country_event= {
 					days = 1
-					id = yemen.6
+					id = yemen.5
 				}
 			}
 		}
@@ -1419,7 +1420,7 @@ focus_tree = {
 		completion_reward = {
 			ENG = {
 				country_event = {
-					id = yemen.12
+					id = yemen.11
 					days = 1
 				}
 			}
@@ -1546,7 +1547,7 @@ focus_tree = {
 		completion_reward = {
 			country_event= {
 				days = 1
-				id = yemen.11
+				id = yemen.10
 			}
 		}
 
@@ -1880,7 +1881,7 @@ focus_tree = {
 			factor = 30
 		}
 		completion_reward = {
-			SAU = { country_event = { days = 1 id = yemen.8 } }
+			SAU = { country_event = { days = 1 id = yemen.7 } }
 		}
 
 	}
@@ -1922,7 +1923,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			OMA = {
-				country_event = { days = 1 id = yemen.9 }
+				country_event = { days = 1 id = yemen.8 }
 			}
 		}
 
@@ -2405,7 +2406,7 @@ focus_tree = {
 		completion_reward = {
 			ITA = {country_event= {
 					days = 1
-					id = yemen.10
+					id = yemen.9
 				}
 			}
 		}

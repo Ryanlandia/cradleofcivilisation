@@ -6,6 +6,9 @@ set_technology = {
 	infantry_weapons = 1
 	gwtank = 1
 	basic_light_tank = 1
+	gw_artillery = 1
+	tech_support = 1		
+	tech_engineers = 1
 }
 
 add_ideas = {
@@ -103,13 +106,79 @@ create_country_leader = {
     }
 }
 
-create_corps_commander = {
-	name = "Sardar Shah Wali Khan"
+create_field_marshal = {
+	name = "Mohammed Alim Khan"
 	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
 	traits = { desert_fox }
 	skill = 4
 	attack_skill = 5
 	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Sardar Shah Wali Khan"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	traits = { desert_fox  politically_connected }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 5
 	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Shah Mahmud Khan"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	traits = { desert_fox politically_connected }
+	skill = 2	
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 4
 	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Mohammed Daoud Khan"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	traits = { desert_fox career_officer }
+	skill = 1	
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Ali Dost Khan"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	traits = { desert_fox }
+	skill = 3	
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Mirzali Khan"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	traits = { desert_fox trait_reckless }
+	skill = 3	
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Turabaz Khan"
+	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+	traits = { desert_fox harsh_leader }
+	skill = 3	
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
 }

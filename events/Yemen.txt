@@ -150,7 +150,7 @@ country_event = {
 	}
 }
 
-# Constitution event chain
+# Constitution Event
 country_event = {
 	id = yemen.3
 	title = yemen.3.t
@@ -167,6 +167,7 @@ country_event = {
 		trigger = {
 			has_completed_focus = YEM_conservativepartywins
 		}
+		add_war_support = 0.05
 		add_ideas = yem_constitution_conservative
 	}
 
@@ -178,6 +179,114 @@ country_event = {
 		trigger = {
 			has_completed_focus = YEM_liberalpartywins
 		}
+		add_stability = 0.05
 		add_ideas = yem_constitution_liberal
+	}
+}
+
+# Renew friendship
+country_event = {
+	id = yemen.4
+	title = yemen.4.t
+	desc = yemen.4.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.4.a
+		ai_chance = {
+			factor = 90
+		}
+		YEM = {
+			country_event = {
+				id = yemen.104
+			}
+		}
+	}
+
+	option = {
+		name = yemen.4.a
+		ai_chance = {
+			factor = 10
+		}
+		YEM = {
+			country_event = {
+				id = yemen.204
+			}
+		}
+	}
+}
+
+# Request Aden
+country_event = {
+	id = yemen.5
+	title = yemen.5.t
+	desc = yemen.5.d
+	picture = GFX_report_event_generic_naval_treaty
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.5.a
+		ai_chance = {
+			factor = 90
+		}
+		YEM = {
+			country_event = {
+				id = yemen.105
+			}
+		}
+	}
+
+	option = {
+		name = yemen.5.a
+		ai_chance = {
+			factor = 10
+		}
+		YEM = {
+			country_event = {
+				id = yemen.205
+			}
+		}
+	}
+}
+
+# Renew friendship
+country_event = {
+	id = yemen.105
+	title = yemen.105.t
+	desc = yemen.105.d
+	picture = GFX_report_event_generic_naval_treaty
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.105.a
+		add_political_power = 75
+	}
+}
+
+# Treaty declined
+country_event = {
+	id = yemen.205
+	title = yemen.205.t
+	desc = yemen.205.d
+	picture = GFX_report_event_generic_naval_treaty
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.205.a
+		remove_opinion_modifier = {
+		    target = ENG
+		    modifier = YEM_friendship_opinion
+		}
+		ENG = {
+			remove_opinion_modifier = {
+			    target = YEM
+			    modifier = YEM_friendship_opinion
+			}
+		}
 	}
 }
