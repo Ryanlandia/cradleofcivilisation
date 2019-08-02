@@ -1,0 +1,964 @@
+focus_tree = { 
+    id = EGY
+    country = { 
+        factor = 0 
+        modifier = { 
+        add = 10 
+        tag = EGY
+        } 
+    } 
+#Focus for March of the Green Shirts
+focus = { 
+    id = Egypt_marchofthegreenshirts
+    icon = GFX_goal_unknown
+    x = 23
+    y = 1
+    cost = 10
+    available_if_capitulated = yes 
+    ai_will_do = { 
+    factor = 1
+    }
+    completion_reward = {
+        #
+    } 
+
+ } 
+
+#Focus for Anglo-Egyptian Treaty of 1936
+focus = { 
+id = Egypt_angloegyptiantreatyof1936
+icon = GFX_goal_unknown
+x = 17
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Sudan For Our Loyalty
+focus = { 
+id = Egypt_sudanforourloyalty
+icon = GFX_goal_unknown
+x = 8
+y = 5
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Beloved King
+focus = { 
+id = Egypt_thebelovedking
+icon = GFX_goal_unknown
+x = 5
+y = 3
+cost = 10
+available_if_capitulated = yes 
+mutually_exclusive = { focus = Egypt_enrolfaroukinthearmy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Anglophilia
+focus = { 
+id = Egypt_anglophilia
+icon = GFX_goal_unknown
+x = 9
+y = 4
+cost = 10
+available_if_capitulated = yes 
+mutually_exclusive = { focus = Egypt_italianophilia } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Italianophilia
+focus = { 
+id = Egypt_italianophilia
+icon = GFX_goal_unknown
+x = 13
+y = 4
+cost = 10
+available_if_capitulated = yes 
+mutually_exclusive = { focus = Egypt_anglophilia } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Victory of the Wafd Party
+focus = { 
+id = Egypt_victoryofthewafdparty
+icon = GFX_goal_unknown
+x = 17
+y = 1
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Pro-Axis Foreign Policy
+focus = { 
+id = Egypt_proaxisforeignpolicy
+icon = GFX_goal_unknown
+x = 21
+y = 2
+cost = 10
+available_if_capitulated = yes 
+mutually_exclusive = { focus = Egypt_TrIaXGZw } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Pan-Arabism
+focus = { 
+id = Egypt_TrIaXGZw
+icon = GFX_goal_unknown
+x = 25
+y = 2
+cost = 10
+available_if_capitulated = yes 
+mutually_exclusive = { focus = Egypt_proaxisforeignpolicy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Empower the Muslim Brotherhood
+focus = { 
+id = Egypt_empowerthemuslimbrotherhood
+icon = GFX_goal_unknown
+x = 25
+y = 3
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Free Officer Coup
+focus = { 
+id = Egypt_thefreeofficercoup
+icon = GFX_goal_unknown
+x = 11
+y = 10
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Review the Military
+focus = { 
+id = Egypt_reviewthemilitary
+icon = GFX_goal_unknown
+x = 44
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The British Ultimatum
+focus = { 
+id = Egypt_thebritishultimatum
+icon = GFX_goal_unknown
+x = 5
+y = 5
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for German Military Advisors
+focus = { 
+id = Egypt_germanmilitaryadvisors
+icon = GFX_goal_unknown
+x = 39
+y = 3
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for British Military Advisors
+focus = { 
+id = Egypt_britishmilitaryadvisors
+icon = GFX_goal_unknown
+x = 37
+y = 3
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Expel the Corrupt Monarchists
+focus = { 
+id = Egypt_expelthecorruptmonarchists
+icon = GFX_goal_unknown
+x = 11
+y = 12
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Strengthen the Monarchy
+focus = { 
+id = Egypt_strengthenthemonarchy
+icon = GFX_goal_unknown
+x = 16
+y = 4
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Develop Submarines
+focus = { 
+id = Egypt_developsubmarines
+icon = GFX_goal_unknown
+x = 49
+y = 5
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Escort Ships
+focus = { 
+id = Egypt_escortships
+icon = GFX_goal_unknown
+x = 49
+y = 4
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Power Projection
+focus = { 
+id = Egypt_powerprojection
+icon = GFX_goal_unknown
+x = 51
+y = 2
+cost = 10
+available_if_capitulated = yes 
+mutually_exclusive = { focus = Egypt_coastaldefenceships } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Coastal Defence Ships
+focus = { 
+id = Egypt_coastaldefenceships
+icon = GFX_goal_unknown
+x = 49
+y = 2
+cost = 10
+available_if_capitulated = yes 
+mutually_exclusive = { focus = Egypt_powerprojection } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Expand the Merchant Navy
+focus = { 
+id = Egypt_expandthemerchantnavy
+icon = GFX_goal_unknown
+x = 49
+y = 3
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Airfields in the Canal Zone
+focus = { 
+id = Egypt_airfieldsinthecanalzone
+icon = GFX_goal_unknown
+x = 45
+y = 2
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Airfields in the Western Desert
+focus = { 
+id = Egypt_airfieldsinthewesterndesert
+icon = GFX_goal_unknown
+x = 43
+y = 2
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Gloster Gladiator Purchase
+focus = { 
+id = Egypt_glostergladiatorpurchase
+icon = GFX_goal_unknown
+x = 44
+y = 3
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Wartime Airfield Expansion
+focus = { 
+id = Egypt_wartimeairfieldexpansion
+icon = GFX_goal_unknown
+x = 44
+y = 4
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Modern Fighter Development
+focus = { 
+id = Egypt_modernfighterdevelopment
+icon = GFX_goal_unknown
+x = 44
+y = 5
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Mine For Steel
+focus = { 
+id = Egypt_mineforsteel
+icon = GFX_goal_unknown
+x = 30
+y = 4
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Oil Extraction
+focus = { 
+id = Egypt_oilextraction
+icon = GFX_goal_unknown
+x = 32
+y = 4
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Capitalize on Oil Exports
+focus = { 
+id = Egypt_capitalizeonoilexports
+icon = GFX_goal_unknown
+x = 31
+y = 5
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for English Royal Armour
+focus = { 
+id = Egypt_englishroyalarmour
+icon = GFX_goal_unknown
+x = 37
+y = 5
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Equip the Army With German Guns
+focus = { 
+id = Egypt_equipthearmywithgermanguns
+icon = GFX_goal_unknown
+x = 39
+y = 4
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Equip the Army With English Guns
+focus = { 
+id = Egypt_equipthearmywithenglishguns
+icon = GFX_goal_unknown
+x = 37
+y = 4
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Desert Warfare Specialization
+focus = { 
+id = Egypt_desertwarfarespecialization
+icon = GFX_goal_unknown
+x = 36
+y = 2
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Formation of SS-Ägypten
+focus = { 
+id = Egypt_formationofssgypten
+icon = GFX_goal_unknown
+x = 22
+y = 4
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Sell the Kings Treasures
+focus = { 
+id = Egypt_sellthekingstreasures
+icon = GFX_goal_unknown
+x = 12
+y = 11
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Student Investments
+focus = { 
+id = Egypt_studentinvestments
+icon = GFX_goal_unknown
+x = 31
+y = 3
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Expansionism
+focus = { 
+id = Egypt_expansionism
+icon = GFX_goal_unknown
+x = 10
+y = 11
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Replace Nahas
+focus = { 
+id = Egypt_replacenahas
+icon = GFX_goal_unknown
+x = 5
+y = 7
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Expand the Cotton Trade
+focus = { 
+id = Egypt_expandthecottontrade
+icon = GFX_goal_unknown
+x = 31
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for War Logistics
+focus = { 
+id = Egypt_warlogistics
+icon = GFX_goal_unknown
+x = 10
+y = 5
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Rise Against the British
+focus = { 
+id = Egypt_riseagainstthebritish
+icon = GFX_goal_unknown
+x = 4
+y = 6
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for A Change in Policy
+focus = { 
+id = Egypt_achangeinpolicy
+icon = GFX_goal_unknown
+x = 6
+y = 6
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Westernization of Cairo
+focus = { 
+id = Egypt_thewesternizationofcairo
+icon = GFX_goal_unknown
+x = 30
+y = 1
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Egyptian Railroads
+focus = { 
+id = Egypt_egyptianrailroads
+icon = GFX_goal_unknown
+x = 32
+y = 1
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Erode the Elites Influence
+focus = { 
+id = Egypt_erodetheelitesinfluence
+icon = GFX_goal_unknown
+x = 31
+y = 2
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Dissolve the Regency Council
+focus = { 
+id = Egypt_dissolvetheregencycouncil
+icon = GFX_goal_unknown
+x = 5
+y = 2
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Ties With Iran
+focus = { 
+id = Egypt_tieswithiran
+icon = GFX_goal_unknown
+x = 2
+y = 5
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Reign of Tewfik II
+focus = { 
+id = Egypt_thereignoftewfikii
+icon = GFX_goal_unknown
+x = 16
+y = 3
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Egyptian Royal Military Academy
+focus = { 
+id = Egypt_theegyptianroyalmilitaryacademy
+icon = GFX_goal_unknown
+x = 38
+y = 2
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Enrol Farouk in the Army
+focus = { 
+id = Egypt_enrolfaroukinthearmy
+icon = GFX_goal_unknown
+x = 16
+y = 2
+cost = 10
+available_if_capitulated = yes 
+mutually_exclusive = { focus = Egypt_thebelovedking } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Subvert the Wafd's Power
+focus = { 
+id = Egypt_subvertthewafdspower
+icon = GFX_goal_unknown
+x = 5
+y = 4
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Maintain Neutrality
+focus = { 
+id = Egypt_maintainneutrality
+icon = GFX_goal_unknown
+x = 11
+y = 13
+cost = 10
+available_if_capitulated = yes 
+mutually_exclusive = { focus = Egypt_procominternforeignpolicy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Reclamation of the Suez
+focus = { 
+id = Egypt_reclamationofthesuez
+icon = GFX_goal_unknown
+x = 11
+y = 14
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Claim Arab Leadership
+focus = { 
+id = Egypt_claimarableadership
+icon = GFX_goal_unknown
+x = 11
+y = 15
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Soviet Weapon Purchases
+focus = { 
+id = Egypt_sovietweaponpurchases
+icon = GFX_goal_unknown
+x = 15
+y = 14
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Reform the Army
+focus = { 
+id = Egypt_reformthearmy
+icon = GFX_goal_unknown
+x = 38
+y = 1
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Create An Air Force
+focus = { 
+id = Egypt_createanairforce
+icon = GFX_goal_unknown
+x = 44
+y = 1
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Expand the Navy
+focus = { 
+id = Egypt_expandthenavy
+icon = GFX_goal_unknown
+x = 50
+y = 1
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Aswan Dam Construction
+focus = { 
+id = Egypt_aswandamconstruction
+icon = GFX_goal_unknown
+x = 6
+y = 14
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Pro-Allied Foreign Policy
+focus = { 
+id = Egypt_proalliedforeignpolicy
+icon = GFX_goal_unknown
+x = 4
+y = 13
+cost = 10
+available_if_capitulated = yes 
+mutually_exclusive = { focus = Egypt_maintainneutrality } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Pro-Comintern Foreign Policy
+focus = { 
+id = Egypt_procominternforeignpolicy
+icon = GFX_goal_unknown
+x = 18
+y = 13
+cost = 10
+available_if_capitulated = yes 
+mutually_exclusive = { focus = Egypt_procominternforeignpolicy } 
+mutually_exclusive = { focus = Egypt_maintainneutrality } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Formation of the United Arab Republic
+focus = { 
+id = Egypt_formationoftheunitedarabrepublic
+icon = GFX_goal_unknown
+x = 11
+y = 16
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Expel British Investors
+focus = { 
+id = Egypt_expelbritishinvestors
+icon = GFX_goal_unknown
+x = 12
+y = 5
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Replace British Advisors
+focus = { 
+id = Egypt_replacebritishadvisors
+icon = GFX_goal_unknown
+x = 14
+y = 5
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Decide On An Heir
+focus = { 
+id = Egypt_decideonanheir
+icon = GFX_goal_unknown
+x = 10
+y = 1
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for German Panzers
+focus = { 
+id = Egypt_germanpanzers
+icon = GFX_goal_unknown
+x = 39
+y = 5
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#End of focuses 
+ }
