@@ -1071,7 +1071,7 @@ focus_tree = {
 		icon = GFX_goal_generic_improve_relations
 		x = 26
 		y = 5
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_panarabism }
 		ai_will_do = {
@@ -1105,7 +1105,7 @@ focus_tree = {
 		icon = GFX_antiimperialism
 		x = 28
 		y = 5
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_panarabism }
 		ai_will_do = {
@@ -1150,6 +1150,11 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_italianbasingrights focus = YEM_unwaveringbastion }
 		mutually_exclusive = { focus = YEM_greateryemenproject }
+		bypass = {
+	        NOT = {
+	        	has_global_flag = pan_arab_alliance_flag
+	        }
+	    }
 		ai_will_do = {
 			factor = 50
 		}
@@ -2294,7 +2299,7 @@ focus_tree = {
 		icon = GFX_focus_generic_industry_3
 		x = 44
 		y = 4
-		cost = 10
+		cost = 15
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_industrialcapacityii }
 		ai_will_do = {
@@ -2404,7 +2409,8 @@ focus_tree = {
 			factor = 33
 		}
 		completion_reward = {
-			ITA = {country_event= {
+			ITA = {
+				country_event= {
 					days = 1
 					id = yemen.9
 				}

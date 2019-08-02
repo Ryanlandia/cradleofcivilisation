@@ -1,17 +1,28 @@
+
 state={
 	id=815
 	name="STATE_815"
-	history = {
+
+	history={
 		owner = PER
 		add_core_of = PER
+		victory_points = {
+			7982 3 
+		}
 		buildings = {
 			infrastructure = 1
+			7982 = {
+				naval_base = 4
+
+			}
 		}
+
 	}
+
 	provinces={
-		13236 
+		1889 2039 7982 12863 13236 
 	}
 	manpower=8210
-	state_category=wasteland
 	buildings_max_level_factor=1.000
+	state_category=town
 }

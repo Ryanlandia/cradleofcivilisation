@@ -5,6 +5,8 @@
  YEM_civilwarhelp_tt:0 "§MHaving a greater democratic popularity will give you stronger buffs!§!\n"
  YEM_pride_fleet_tt:0 "Constructs one §YCruiser§! ship.\n"
  YEM_request_aden_tt:0 "§YBeing a protectorate will increase the chances of success.§!\n"
+ pan_arab_alliance_flag:0 "Pan-Arab alliance already exists"
+ YEM_pan_arab_alliance:0 "Pan-Arab Alliance"
  YEM_traditionallaw:0 "Traditional Law"
  YEM_traditionallaw_desc:0 "The best way for Yemen is to stick to it's roots. We must keep some of the old ways to keep Yemen rooted and stable."
  YEM_strengthenthemilitary:0 "Strengthen the Military"

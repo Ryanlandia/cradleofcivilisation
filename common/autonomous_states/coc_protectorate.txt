@@ -9,6 +9,7 @@ autonomy_state = {
 			tag = QAT
 			tag = OMA
 			tag = YEM
+			tag = EGY
 		}
 	}
 	

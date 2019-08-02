@@ -230,7 +230,13 @@ country_event = {
 	option = {
 		name = yemen.5.a
 		ai_chance = {
-			factor = 90
+			factor = 30
+			modifier = {
+				factor = 10
+				YEM = {
+					is_puppet_of = ENG
+				}
+			}
 		}
 		YEM = {
 			country_event = {
@@ -242,7 +248,7 @@ country_event = {
 	option = {
 		name = yemen.5.a
 		ai_chance = {
-			factor = 10
+			factor = 20
 		}
 		YEM = {
 			country_event = {
@@ -252,7 +258,7 @@ country_event = {
 	}
 }
 
-# Renew friendship
+# Get Aden
 country_event = {
 	id = yemen.105
 	title = yemen.105.t
@@ -263,11 +269,14 @@ country_event = {
 
 	option = {
 		name = yemen.105.a
-		add_political_power = 75
+		add_political_power = 200
+		transfer_state = 569
+		transfer_state = 803
+		transfer_state = 804
 	}
 }
 
-# Treaty declined
+# Not getting Aden
 country_event = {
 	id = yemen.205
 	title = yemen.205.t
@@ -278,15 +287,285 @@ country_event = {
 
 	option = {
 		name = yemen.205.a
-		remove_opinion_modifier = {
+		add_opinion_modifier = {
 		    target = ENG
-		    modifier = YEM_friendship_opinion
+		    modifier = YEM_denied_aden
 		}
-		ENG = {
-			remove_opinion_modifier = {
-			    target = YEM
-			    modifier = YEM_friendship_opinion
+	}
+}
+
+# Dockyard rights for factories
+country_event = {
+	id = yemen.6
+	title = yemen.6.t
+	desc = yemen.6.d
+	picture = GFX_report_event_ast_navy
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.6.a
+		ai_chance = {
+			factor = 100
+		}
+		add_offsite_building = { 
+			type = civilian_factory 
+			level = -1 
+		}
+		YEM = {
+			country_event = {
+				id = yemen.106
+			}
+		}
+	}
+
+	option = {
+		name = yemen.6.a
+		ai_chance = {
+			factor = 5
+		}
+		YEM = {
+			country_event = {
+				id = yemen.206
 			}
 		}
 	}
 }
+
+# Get factories
+country_event = {
+	id = yemen.106
+	title = yemen.106.t
+	desc = yemen.106.d
+	picture = GFX_report_event_ast_navy
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.106.a
+		add_offsite_building = { 
+			type = civilian_factory 
+			level = 1 
+		}
+		ITA = {
+			diplomatic_relation = {
+			    country = YEM
+			    relation = docking_rights
+			    active = yes
+			}
+		}
+	}
+}
+
+# Not getting dockyard rights
+country_event = {
+	id = yemen.206
+	title = yemen.206.t
+	desc = yemen.206.d
+	picture = GFX_report_event_ast_navy
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.206.a
+	}
+}
+
+# Saudi Alliance
+country_event = {
+	id = yemen.7
+	title = yemen.7.t
+	desc = yemen.7.d
+	picture = GFX_report_event_saudi_meet
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.7.a
+		ai_chance = {
+			factor = 100
+		}
+		YEM = {
+			country_event = {
+				id = yemen.107
+			}
+		}
+	}
+
+	option = {
+		name = yemen.7.a
+		ai_chance = {
+			factor = 1
+		}
+		YEM = {
+			country_event = {
+				id = yemen.207
+			}
+		}
+	}
+}
+
+# Saudis Accept
+country_event = {
+	id = yemen.107
+	title = yemen.107.t
+	desc = yemen.107.d
+	picture = GFX_report_event_saudi_meet
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.107.a
+		create_faction = YEM_pan_arab_alliance
+		YEM = { 
+			add_to_faction = SAU 
+		}
+	}
+}
+
+# Saudis Decline
+country_event = {
+	id = yemen.207
+	title = yemen.207.t
+	desc = yemen.207.d
+	picture = GFX_report_event_saudi_meet
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.207.a
+		create_faction = YEM_pan_arab_alliance
+	}
+}
+
+# Demand Dhofar
+country_event = {
+	id = yemen.8
+	title = yemen.8.t
+	desc = yemen.8.d
+	picture = GFX_report_event_soldiers_marching
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.8.a
+		ai_chance = {
+			factor = 100
+		}
+		YEM = {
+			country_event = {
+				id = yemen.108
+			}
+		}
+	}
+
+	option = {
+		name = yemen.8.a
+		ai_chance = {
+			factor = 1
+		}
+		YEM = {
+			country_event = {
+				id = yemen.208
+			}
+		}
+	}
+}
+
+# Oman Accepts
+country_event = {
+	id = yemen.108
+	title = yemen.108.t
+	desc = yemen.108.d
+	picture = GFX_report_event_soldiers_marching
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.108.a
+		transfer_state = 789
+	}
+}
+
+# Oman Declines
+country_event = {
+	id = yemen.208
+	title = yemen.208.t
+	desc = yemen.208.d
+	picture = GFX_report_event_soldiers_marching
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.208.a
+		create_wargoal = {
+		    type = annex_everything
+		    target = OMA
+		}
+	}
+}
+
+
+
+# Italy Foreign Aid
+country_event = {
+	id = yemen.9
+	title = yemen.9.t
+	desc = yemen.9.d
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.9.a
+		ai_chance = {
+			factor = 50
+		}
+		YEM = {
+			country_event = {
+				id = yemen.109
+			}
+		}
+	}
+
+	option = {
+		name = yemen.9.a
+		ai_chance = {
+			factor = 50
+		}
+		YEM = {
+			country_event = {
+				id = yemen.209
+			}
+		}
+	}
+}
+
+# Italy Accepts
+country_event = {
+	id = yemen.109
+	title = yemen.109.t
+	desc = yemen.109.d
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.109.a
+	}
+}
+
+# Italy Declines
+country_event = {
+	id = yemen.209
+	title = yemen.209.t
+	desc = yemen.209.d
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.208.a
+	}
+}
+
