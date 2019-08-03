@@ -172,7 +172,7 @@ country_event = {
 	}
 
 	option = {
-		name = yemen.3.a
+		name = yemen.3.b
 		ai_chance = {
 			factor = 50
 		}
@@ -206,7 +206,7 @@ country_event = {
 	}
 
 	option = {
-		name = yemen.4.a
+		name = yemen.4.b
 		ai_chance = {
 			factor = 10
 		}
@@ -246,7 +246,7 @@ country_event = {
 	}
 
 	option = {
-		name = yemen.5.a
+		name = yemen.5.b
 		ai_chance = {
 			factor = 20
 		}
@@ -320,7 +320,7 @@ country_event = {
 	}
 
 	option = {
-		name = yemen.6.a
+		name = yemen.6.b
 		ai_chance = {
 			factor = 5
 		}
@@ -393,7 +393,7 @@ country_event = {
 	}
 
 	option = {
-		name = yemen.7.a
+		name = yemen.7.b
 		ai_chance = {
 			factor = 1
 		}
@@ -460,7 +460,7 @@ country_event = {
 	}
 
 	option = {
-		name = yemen.8.a
+		name = yemen.8.b
 		ai_chance = {
 			factor = 1
 		}
@@ -505,8 +505,6 @@ country_event = {
 	}
 }
 
-
-
 # Italy Foreign Aid
 country_event = {
 	id = yemen.9
@@ -521,15 +519,18 @@ country_event = {
 		ai_chance = {
 			factor = 50
 		}
+		add_offsite_building = { type = civilian_factory level = -2 }
+		add_offsite_building = { type = arms_factory level = -1 }
 		YEM = {
 			country_event = {
 				id = yemen.109
+				days = 1
 			}
 		}
 	}
 
 	option = {
-		name = yemen.9.a
+		name = yemen.9.b
 		ai_chance = {
 			factor = 50
 		}
@@ -552,6 +553,8 @@ country_event = {
 
 	option = {
 		name = yemen.109.a
+		add_offsite_building = { type = civilian_factory level = 2 }
+		add_offsite_building = { type = arms_factory level = 1 }
 	}
 }
 
@@ -565,7 +568,276 @@ country_event = {
 	is_triggered_only = yes	
 
 	option = {
-		name = yemen.208.a
+		name = yemen.209.a
+	}
+}
+
+# Expand Military Control
+country_event = {
+	id = yemen.10
+	title = yemen.10.t
+	desc = yemen.10.d
+	picture = GFX_report_event_generic_army
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.10.a
+		ai_chance = {
+			factor = 50
+		}
+		add_equipment_to_stockpile = {
+		    type = infantry_equipment
+		    amount = -250
+		}
+		random_list = {
+		    50 = {
+		        country_event = {
+		        	id = yemen.110
+		        	days = 3
+		        }
+		    }
+		    50 = {
+		        country_event = {
+		        	id = yemen.210
+		        	days = 3
+		        }
+		    }
+		}
+	}
+
+	option = {
+		name = yemen.10.b
+		ai_chance = {
+			factor = 50
+		}
+		add_equipment_to_stockpile = {
+		    type = infantry_equipment
+		    amount = -500
+		}
+		random_list = {
+		    20 = {
+		        country_event = {
+		        	id = yemen.110
+		        	days = 3
+		        }
+		    }
+		    80 = {
+		        country_event = {
+		        	id = yemen.210
+		        	days = 3
+		        }
+		    }
+		}
+	}
+}
+
+# Success
+country_event = {
+	id = yemen.110
+	title = yemen.110.t
+	desc = yemen.110.d
+	picture = GFX_report_event_generic_army
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.110.a
+		add_stability = 0.05
+		add_popularity = {
+		    ideology = neutrality
+		    popularity = 0.075
+		}
+	}
+}
+
+# Failure
+country_event = {
+	id = yemen.210
+	title = yemen.210.t
+	desc = yemen.210.d
+	picture = GFX_report_event_generic_army
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.210.a
+		add_stability = -0.1
+		add_popularity = {
+		    ideology = democratic
+		    popularity = 0.1
+		}
+	}
+}
+
+# British Training Initiative
+country_event = {
+	id = yemen.11
+	title = yemen.11.t
+	desc = yemen.11.d
+	picture = GFX_report_event_ast_army
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.11.a
+		ai_chance = {
+			factor = 80
+		}
+		YEM = {
+			country_event = {
+				id = yemen.111
+				days = 1
+			}
+		}
+	}
+
+	option = {
+		name = yemen.11.b
+		ai_chance = {
+			factor = 20
+		}
+		YEM = {
+			country_event = {
+				id = yemen.211
+			}
+		}
+	}
+}
+
+# Brittania Accepts
+country_event = {
+	id = yemen.111
+	title = yemen.111.t
+	desc = yemen.111.d
+	picture = GFX_report_event_ast_army
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.111.a
+		add_timed_idea = {
+		    idea = YEM_army_training
+		    days = 180
+		}
+	}
+}
+
+# Brittania Declines
+country_event = {
+	id = yemen.211
+	title = yemen.211.t
+	desc = yemen.211.d
+	picture = GFX_report_event_ast_army
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.211.a
+	}
+}
+
+# Coerce Independent Nations
+country_event = {
+	id = yemen.12
+	title = yemen.12.t
+	desc = yemen.12.d
+	picture = GFX_report_event_carol_meeting
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.12.a
+		ai_chance = {
+			factor = 66
+		}
+		custom_effect_tooltip = arab_faction_join_tt
+		YEM = {
+			country_event = {
+				id = yemen.112
+				days = 1
+			}
+		}
+	}
+
+	option = {
+		name = yemen.12.b
+		ai_chance = {
+			factor = 33
+		}
+		YEM = {
+			country_event = {
+				id = yemen.212
+			}
+		}
+	}
+}
+
+# Brittania Accepts
+country_event = {
+	id = yemen.112
+	title = yemen.112.t
+	desc = yemen.112.d
+	picture = GFX_report_event_carol_meeting
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.112.a
+		add_to_faction = FROM
+	}
+}
+
+# Brittania Declines
+country_event = {
+	id = yemen.212
+	title = yemen.212.t
+	desc = yemen.212.d
+	picture = GFX_report_event_election_vote
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.212.a
+	}
+}
+
+# Coerce Independent Nations
+country_event = {
+	id = yemen.13
+	title = yemen.13.t
+	desc = yemen.13.d
+	picture = GFX_report_event_election_vote
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.13.a
+		ai_chance = {
+			factor = 50
+		}
+		custom_effect_tooltip = YEM_conservative_win_tt
+		set_country_flag = YEM_conservativepartywins
+		complete_national_focus = YEM_conservativepartywins
+		create_country_leader = {
+			name = "Ali Nasser Al-Qardai"
+			desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+			picture = "Portrait_YEM_Ali_Nasser_Al-Qardai.tga"
+			expire = "1965.1.1"
+			ideology = conservatism
+			traits = {
+			}
+		}
+	}
+
+	option = {
+		name = yemen.13.b
+		ai_chance = {
+			factor = 50
+		}
+		custom_effect_tooltip = YEM_liberals_stay_tt
+		set_country_flag = YEM_liberalpartywins
+		complete_national_focus = YEM_liberalpartywins
 	}
 }
 

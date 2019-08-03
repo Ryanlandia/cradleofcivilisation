@@ -87,15 +87,28 @@ create_country_leader = {
 create_country_leader = {
 	name = "Ahmad Muhammad Numan"
 	desc = "POLITICS_SHABAB_AL-AMR_DESC"
-	picture = ""
+	picture = "Portrait_YEM_Ahmad_Muhammad_Numan.tga"
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {}
 }
 
+create_field_marshal = {
+	name = "Yahya Muhammad Hamid ed-Din"
+	picture = "portrait_yem_imam_yaha.dds"
+	traits = {
+		offensive_doctrine
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
 create_corps_commander = {
 	name = "Abdullah as-Sallal"
-	picture = ""
+	picture = "Portrait_YEM_Abdullah_as_Sallal.tga"
 	traits = {
 		commando
 	}
@@ -104,6 +117,19 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 1
 	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Ahmad bin Yahya"
+	picture = "YEM_Ahmad_bin_Yahya.tga"
+	traits = {
+		harsh_leader
+	}
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
 }
 
 1939.1.1 = {

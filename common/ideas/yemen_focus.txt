@@ -575,6 +575,28 @@ ideas = {
 				army_core_defence_factor = 0.2
 			}
 		}
+		YEM_army_training = {
+
+			allowed = {
+				original_tag = YEM
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = ast_volunteer_defence_corps
+
+			modifier = {
+				experience_gain_army = 0.1 
+				industrial_capacity_factory = 0.25
+				army_attack_factor = 0.15
+				army_defence_factor = 0.15
+			}
+		}
 		YEM_debt_0 = {
 
 			allowed = {

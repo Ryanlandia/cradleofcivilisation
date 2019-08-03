@@ -967,7 +967,7 @@ focus_tree = {
 						}
 					}
 					country_event = {
-						id = yemen.13
+						id = yemen.12
 						days = 1
 					}
 				}
@@ -981,7 +981,7 @@ focus_tree = {
 						}
 					}
 					country_event = {
-						id = yemen.13
+						id = yemen.12
 						days = 1
 					}
 				}
@@ -995,7 +995,7 @@ focus_tree = {
 						}
 					}
 					country_event = {
-						id = yemen.13
+						id = yemen.12
 						days = 1
 					}
 				}
@@ -1009,7 +1009,7 @@ focus_tree = {
 						}
 					}
 					country_event = {
-						id = yemen.13
+						id = yemen.12
 						days = 1
 					}
 				}
@@ -1023,7 +1023,7 @@ focus_tree = {
 						}
 					}
 					country_event = {
-						id = yemen.13
+						id = yemen.12
 						days = 1
 					}
 				}
@@ -1037,7 +1037,7 @@ focus_tree = {
 						}
 					}
 					country_event = {
-						id = yemen.13
+						id = yemen.12
 						days = 1
 					}
 				}
@@ -2668,22 +2668,13 @@ focus_tree = {
 		}
 		completion_reward = {
 			YEM_debt_level_up = yes
-			custom_effect_tooltip = YEM_pride_fleet_tt
-			hidden_effect = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					load_oob = YEM_cruiser_mtg
-				}
-				if = {
-					limit = {
-						NOT = {
-							has_dlc = "Man the Guns"
-						}
-					}
-					load_oob = YEM_cruiser_legacy
-				}
+			add_tech_bonus = {
+				name = capital_ships_bonus
+				bonus = 1
+				uses = 2
+				category = bc_tech
+				category = bb_tech
+				category = cv_tech
 			}
 		}
 	}
