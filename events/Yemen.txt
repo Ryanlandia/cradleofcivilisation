@@ -20,7 +20,7 @@ country_event = {
 		}
 		add_equipment_to_stockpile = {
 			type = infantry_equipment
-			amount = -3000
+			amount = -2000
 		}
 		YEM = {
 			country_event = {
@@ -87,6 +87,15 @@ country_event = {
 		name = yemen.2.a
 		set_country_flag = YEM_civil_war
 		custom_effect_tooltip = YEM_civil_war_tt
+		if = {
+			limit = {
+				has_country_flag = YEM_arms_stockpile
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 2000
+			}
+		}
 		hidden_effect = {
 			set_capital = 805
 			start_civil_war = {
@@ -111,15 +120,6 @@ country_event = {
 				elections_allowed = yes
 			}
 			load_oob = "YEM_civil_war_democratic"
-			if = {
-				limit = {
-					has_country_flag = YEM_arms_stockpile
-				}
-				add_equipment_to_stockpile = {
-					type = infantry_equipment
-					amount = 3000
-				}
-			}
 			if = {
 				limit = {
 					AND = {
@@ -182,6 +182,21 @@ country_event = {
 		add_stability = 0.05
 		add_ideas = yem_constitution_liberal
 	}
+
+	option = {
+		name = yemen.3.c
+		ai_chance = {
+			factor = 100
+		}
+		trigger = {
+			NOT = {
+				has_completed_focus = YEM_liberalpartywins
+				has_completed_focus = YEM_conservativepartywins
+			}
+		}
+		add_stability = 0.05
+		add_ideas = yem_constitution_neutral
+	}
 }
 
 # Renew friendship
@@ -208,7 +223,7 @@ country_event = {
 	option = {
 		name = yemen.4.b
 		ai_chance = {
-			factor = 10
+			factor = 0
 		}
 		YEM = {
 			country_event = {
