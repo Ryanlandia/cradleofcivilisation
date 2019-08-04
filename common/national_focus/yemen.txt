@@ -1806,6 +1806,11 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_unwaveringbastion focus = YEM_italianbasingrights }
 		mutually_exclusive = { focus = YEM_panarabism }
+		available = {
+			NOT = {
+				has_government = democratic
+			}
+		}
 		ai_will_do = {
 			factor = 75
 		}
