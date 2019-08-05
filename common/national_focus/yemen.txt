@@ -512,7 +512,7 @@ focus_tree = {
 		icon = GFX_focus_generic_little_entente
 		x = 6
 		y = 2
-		cost = 10
+		cost = 8
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_expandmilitarycontrol }
 		ai_will_do = {
@@ -566,7 +566,7 @@ focus_tree = {
 		icon = GFX_goal_generic_radar
 		x = 4
 		y = 3
-		cost = 10
+		cost = 8
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_strengthenthegendarmerie }
 		ai_will_do = {
@@ -1397,7 +1397,7 @@ focus_tree = {
 		icon = GFX_strengthenthegendarmerie
 		x = 4
 		y = 2
-		cost = 10
+		cost = 8
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_expandmilitarycontrol }
 		ai_will_do = {
@@ -1543,7 +1543,7 @@ focus_tree = {
 		icon = GFX_goal_generic_small_arms
 		x = 5
 		y = 1
-		cost = 10
+		cost = 8
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_consolidateimamauthority }
 		ai_will_do = {
@@ -1564,7 +1564,7 @@ focus_tree = {
 		icon = GFX_focus_mex_triumph_over_the_cristeros
 		x = 2
 		y = 3
-		cost = 10
+		cost = 8
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_centralrule }
 		ai_will_do = {
@@ -1582,7 +1582,7 @@ focus_tree = {
 		icon = GFX_goal_demand_sudetenland
 		x = 2
 		y = 2
-		cost = 10
+		cost = 8
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_thenewcentralgovernment }
 		ai_will_do = {
@@ -1600,7 +1600,7 @@ focus_tree = {
 		icon = GFX_efficientrule
 		x = 0
 		y = 2
-		cost = 10
+		cost = 8
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_thenewcentralgovernment }
 		ai_will_do = {
@@ -1645,7 +1645,7 @@ focus_tree = {
 		icon = GFX_goal_generic_national_unity
 		x = 6
 		y = 3
-		cost = 10
+		cost = 8
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_expandmilitarysupport }
 		ai_will_do = {
@@ -1663,7 +1663,7 @@ focus_tree = {
 		icon = GFX_focus_generic_support_the_left_right
 		x = 1
 		y = 1
-		cost = 10
+		cost = 8
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_consolidateimamauthority }
 		ai_will_do = {
@@ -1681,7 +1681,7 @@ focus_tree = {
 		icon = GFX_focus_rom_royal_dictatorship
 		x = 3
 		y = 0
-		cost = 10
+		cost = 8
 		available_if_capitulated = yes
 		mutually_exclusive = { focus = YEM_riseofdemocracy }
 		ai_will_do = {
@@ -1699,7 +1699,7 @@ focus_tree = {
 		icon = GFX_focus_generic_treaty
 		x = 0
 		y = 3
-		cost = 10
+		cost = 8
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_efficientrule }
 		ai_will_do = {
