@@ -614,6 +614,7 @@ ideas = {
 				industrial_capacity_factory = 0.25
 				army_attack_factor = 0.15
 				army_defence_factor = 0.15
+				training_time_factor = -0.1
 			}
 		}
 		YEM_debt_0 = {
