@@ -14,11 +14,11 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "islamic_overview_headline"
-			position = {x=-123 y=3}
+			position = {x=12 y=3}
 			font = "hoi_18mbs"
 			text = "[?Root.islam_progress_bar]%"
-			maxWidth = 340
-			maxHeight = 23
+			maxWidth = 70
+			maxHeight = 20
 			format = center
 			pdx_tooltip = "ISLAM_TOOLTIP"
 			pdx_tooltip_delayed = "ISLAM_PURITY_TOOLTIP_DELAYED"
