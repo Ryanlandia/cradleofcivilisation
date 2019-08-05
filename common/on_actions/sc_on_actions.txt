@@ -6,7 +6,6 @@ on_actions = {
                 limit = {
                     is_islamic = yes
                 }
-            	set_variable = { show = 1 }
                 set_variable = { islam_progress_bar = 50 }
                 set_variable = { islam = islam_progress_bar }
                 divide_variable = { islam = 1000 }
