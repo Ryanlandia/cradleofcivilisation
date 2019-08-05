@@ -524,42 +524,6 @@ focus_tree = {
 
 	}
 
-	#Focus for Reign of Ahmad bin Yahya
-	focus = {
-		id = YEM_reignofahmadbinyahya
-		icon = GFX_reignofahmadbinyahya
-		x = 3
-		y = 4
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = YEM_establishanheir }
-		prerequisite = { focus = YEM_sonsasgovernors }
-		prerequisite = { focus = YEM_expandislamicinfluence }
-		prerequisite = { focus = YEM_advancedcommunications }
-		available = {
-			has_country_leader = {
-				name = "Interregnum"
-				ruling_only = yes
-			}
-		}
-		ai_will_do = {
-			factor = 1000
-		}
-		completion_reward = {
-			create_country_leader= {
-				name = "Ahmad bin Yahya"
-				desc = "POLITICS_PETER_II_DESC"
-				picture = "YEM_Ahmad_bin_Yahya.dds"
-				expire = "1965.1.1"
-				ideology = despotism
-				traits = {
-				}
-
-			}
-		}
-
-	}
-
 	#Focus for Advanced Communications
 	focus = {
 		id = YEM_advancedcommunications
