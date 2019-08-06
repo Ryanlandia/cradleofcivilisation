@@ -1,4 +1,9 @@
 ﻿l_english:
+  ### Oman
+ OMA_imam_rivalry:0 "Sultan-Imam Rivalry"
+ OMA_imam_rivalry_desc:0 "Since the creation of the Sultanate of Oman and Muscat, there has always been an agreement. The coastal areas would be led by a more secular Sultan, while the interior would be led by the more religious Imam. However, tensions have been at a breaking point. The discovery of oil and general resentment threatens civil war on our country. Can anything be done to diffuse the situation?"
+ OMA_undecided_army:0 "Undecided Army"
+ OMA_undecided_army_desc:0 "There is not a main force for Oman. We rely on the support of tribes and nomads for major conflicts. Many people are divided on the issue. Some of our officers demand a professional army, while many other officers want the status quo. We must choose sides if we want to have a real army."
   ### Iran
  PER_oil_concessions:0 "The 1933 Oil Concession"
  PER_oil_concessions_desc:0 "Although we have lots of oil reserves in theory, in reality we get little of our petroleum. In 1933, Reza Shah signed an oil concession granting the British Anglo-Iranian Oil Company a stranglehold on our oil, taking much for themselves at the cost of our nation. It must take drastic action to kill off British drilling and nationalize the oil reserves."

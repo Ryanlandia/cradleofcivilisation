@@ -1,0 +1,10 @@
+spriteTypes = {	
+	spriteType = {
+	name = "GFX_idea_oman_rivalry"
+	texturefile = "gfx/interface/ideas/idea_oman_rivalry.dds"			
+	}
+	spriteType = {
+	name = "GFX_idea_oman_undecided_military"
+	texturefile = "gfx/interface/ideas/idea_oman_undecided_military.dds"			
+	}
+}

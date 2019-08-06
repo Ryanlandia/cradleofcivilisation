@@ -75,7 +75,8 @@ bookmarks = {
 			history = "OMA_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
-				### Needs work
+				OMA_imam_rivalry
+				OMA_undecided_army
 			}
 			focuses = {
 				### Needs work

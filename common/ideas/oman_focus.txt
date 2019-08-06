@@ -1,0 +1,45 @@
+ideas = {
+	country = {
+		OMA_imam_rivalry = {
+			allowed = {
+				original_tag = OMA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = oman_rivalry
+
+			modifier = {
+				stability_factor = -0.2
+				war_support_factor = -0.2
+				stability_weekly = -0.0025
+				war_support_weekly = -0.0025
+			}
+		}
+		OMA_undecided_army = {
+			allowed = {
+				original_tag = OMA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = oman_undecided_military
+
+			modifier = {
+				army_org_factor = -0.15 
+				army_attack_factor = -0.1
+				army_defence_factor = -0.1
+			}
+		}
+	}
+}

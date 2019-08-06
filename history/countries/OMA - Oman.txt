@@ -9,12 +9,14 @@ set_technology = {
 
 add_ideas = {
 	ibadi_islam
+	OMA_imam_rivalry
+	OMA_undecided_army
 }
 
 
 set_convoys = 10
-set_war_support = 0.1
-set_stability = 0.8
+set_war_support = 0.3
+set_stability = 0.7
 1939.1.1 = {
 
 	add_political_power = 1198
@@ -78,6 +80,21 @@ create_country_leader = {
 	traits = {
 		#
 	}
+}
+
+
+create_corps_commander = {
+	name = "Said bin Taimur"
+	picture = "GFX_portrait_oman_said_bin_taimur"
+	traits = {
+		desert_fox
+	}
+	id = 9001
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
 
 1939.1.1 = {
