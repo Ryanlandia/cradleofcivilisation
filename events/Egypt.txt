@@ -1,0 +1,36 @@
+﻿#EVENTS FOR EGYPT
+
+add_namespace = egypt
+
+
+country_event = {
+    id = egypt.1
+    title = egypt.1.t
+    desc = egypt.1.
+
+    fire_only_once = yes
+
+    trigger = {
+        tag = EGY
+        date < 1936.2.1
+        date > 1936.1.1
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        kill_country_leader = yes	
+        create_country_leader = {
+            name = "Farouk Ist" 
+            desc = "POLITICS_Farouk_DESC"
+            picture = "Portrait_AFG_Mohammed_Zahir_Shah.dds" 
+            expire = "1965.1.1" 
+            ideology = despotism
+            traits = {
+            }
+        }
+        set_country_flag = fuad_death
+    }
+}
