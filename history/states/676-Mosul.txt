@@ -11,16 +11,17 @@ state={
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
+
 		}
 		victory_points = {
-			10106 3
+			10106 3 
 		}
 		add_core_of = IRQ
 
 	}
 
 	provinces={
-		1600 1938 3795 3916 8123 10106 10804 12372 12413 
+		1600 1938 3795 3916 8123 10106 10804 12372 12413 13260 
 	}
 	manpower=770741
 	buildings_max_level_factor=1.000
