@@ -23,7 +23,7 @@ units = {
 				name_order = 1
 		}
 		location = 7011  # Cairo
-		division_template = "Division d'Infanterie"
+		division_template = "Meleshya"
 		start_experience_factor = 0
 		start_equipment_factor = 0.5
 
@@ -34,7 +34,7 @@ units = {
 				name_order = 2
 		}
 		location = 7011  # Cairo
-		division_template = "Division d'Infanterie"
+		division_template = "Meleshya"
 		start_experience_factor = 0
 		start_equipment_factor = 0.5
 
@@ -45,7 +45,7 @@ units = {
 				name_order = 3
 		}
 		location = 7011  # Cairo
-		division_template = "Division d'Infanterie"
+		division_template = "Meleshya"
 		start_experience_factor = 0
 		start_equipment_factor = 0.5
 
@@ -56,7 +56,7 @@ units = {
 				name_order = 4
 		}
 		location = 7011  # Cairo
-		division_template = "Division d'Infanterie"
+		division_template = "Meleshya"
 		start_experience_factor = 0
 		start_equipment_factor = 0.5
 
@@ -67,7 +67,7 @@ units = {
 				name_order = 5
 		}
 		location = 13253  # Alexandria
-		division_template = "Division d'Infanterie"
+		division_template = "Meleshya"
 		start_experience_factor = 0
 		start_equipment_factor = 0.5
 
@@ -78,7 +78,7 @@ units = {
 				name_order = 6
 		}
 		location = 13253  # Alexandria
-		division_template = "Division d'Infanterie"
+		division_template = "Meleshya"
 		start_experience_factor = 0
 		start_equipment_factor = 0.5
 
@@ -89,7 +89,7 @@ units = {
 				name_order = 7
 		}
 		location = 13253  # Alexandria
-		division_template = "Division d'Infanterie"
+		division_template = "Meleshya"
 		start_experience_factor = 0
 		start_equipment_factor = 0.5
 
@@ -100,7 +100,7 @@ units = {
 				name_order = 8
 		}
 		location = 1071  # El-Alamein
-		division_template = "Division d'Infanterie"
+		division_template = "Meleshya"
 		start_experience_factor = 0
 		start_equipment_factor = 0.5
 
@@ -111,7 +111,7 @@ units = {
 				name_order = 9
 		}
 		location = 7079  # Italian Border
-		division_template = "Division d'Infanterie"
+		division_template = "Meleshya"
 		start_experience_factor = 0
 		start_equipment_factor = 0.5
 
@@ -122,7 +122,7 @@ units = {
 				name_order = 10
 		}
 		location = 7079  # Italian Border
-		division_template = "Division d'Infanterie"
+		division_template = "Meleshya"
 		start_experience_factor = 0
 		start_equipment_factor = 0.5
 
@@ -133,7 +133,7 @@ units = {
 				name_order = 11
 		}
 		location = 5078  # Italian Border
-		division_template = "Division d'Infanterie"
+		division_template = "Meleshya"
 		start_experience_factor = 0
 		start_equipment_factor = 0.5
 
@@ -144,7 +144,7 @@ units = {
 				name_order = 12
 		}
 		location = 5078  # Italian Border
-		division_template = "Division d'Infanterie"
+		division_template = "Meleshya"
 		start_experience_factor = 0
 		start_equipment_factor = 0.5
 
@@ -155,7 +155,7 @@ units = {
 				name_order = 13
 		}
 		location = 3996  # Giza
-		division_template = "Division d'Infanterie"
+		division_template = "Meleshya"
 		start_experience_factor = 0
 		start_equipment_factor = 0.5
 
@@ -166,7 +166,7 @@ units = {
 				name_order = 14
 		}
 		location = 3996  # Giza
-		division_template = "Division d'Infanterie"
+		division_template = "Meleshya"
 		start_experience_factor = 0
 		start_equipment_factor = 0.5
 
@@ -177,7 +177,7 @@ units = {
 				name_order = 15
 		}
 		location = 3996  # Giza
-		division_template = "Division d'Infanterie"
+		division_template = "Meleshya"
 		start_experience_factor = 0
 		start_equipment_factor = 0.5
 
@@ -188,7 +188,7 @@ units = {
 				name_order = 16
 		}
 		location = 12049  # Port Said
-		division_template = "Division d'Infanterie"
+		division_template = "Meleshya"
 		start_experience_factor = 0
 		start_equipment_factor = 0.5
 
@@ -199,7 +199,7 @@ units = {
 				name_order = 17
 		}
 		location = 4073  # Suez
-		division_template = "Division d'Infanterie"
+		division_template = "Meleshya"
 		start_experience_factor = 0
 		start_equipment_factor = 0.5
 
@@ -210,7 +210,7 @@ units = {
 				name_order = 18
 		}
 		location = 12004  # Nile River
-		division_template = "Division d'Infanterie"
+		division_template = "Meleshya"
 		start_experience_factor = 0
 		start_equipment_factor = 0.5
 
@@ -221,7 +221,7 @@ units = {
 				name_order = 19
 		}
 		location = 1068  # Nile River
-		division_template = "Division d'Infanterie"
+		division_template = "Meleshya"
 		start_experience_factor = 0
 		start_equipment_factor = 0.5
 
@@ -232,7 +232,7 @@ units = {
 				name_order = 20
 		}
 		location = 7188  # Nile River
-		division_template = "Division d'Infanterie"
+		division_template = "Meleshya"
 		start_experience_factor = 0
 		start_equipment_factor = 0.5
 
@@ -243,7 +243,7 @@ units = {
 				name_order = 21
 		}
 		location = 7144  # Nile River
-		division_template = "Division d'Infanterie"
+		division_template = "Meleshya"
 		start_experience_factor = 0
 		start_equipment_factor = 0.5
 
@@ -254,7 +254,7 @@ units = {
 				name_order = 22
 		}
 		location = 7030  # Nile River
-		division_template = "Division d'Infanterie"
+		division_template = "Meleshya"
 		start_experience_factor = 0
 		start_equipment_factor = 0.5
 
@@ -265,7 +265,7 @@ units = {
 				name_order = 23
 		}
 		location = 11974  # Nile River
-		division_template = "Division d'Infanterie"
+		division_template = "Meleshya"
 		start_experience_factor = 0
 		start_equipment_factor = 0.5
 
@@ -276,7 +276,7 @@ units = {
 				name_order = 24
 		}
 		location = 10028  # Nile River
-		division_template = "Division d'Infanterie"
+		division_template = "Meleshya"
 		start_experience_factor = 0
 		start_equipment_factor = 0.5
 
@@ -287,7 +287,7 @@ units = {
 				name_order = 25
 		}
 		location = 12044  # Nile River
-		division_template = "Division d'Infanterie"
+		division_template = "Meleshya"
 		start_experience_factor = 0
 		start_equipment_factor = 0.5
 
@@ -298,7 +298,7 @@ units = {
 				name_order = 26
 		}
 		location = 11999  # Nile River
-		division_template = "Division d'Infanterie"
+		division_template = "Meleshya"
 		start_experience_factor = 0
 		start_equipment_factor = 0.5
 
@@ -309,7 +309,7 @@ units = {
 				name_order = 27
 		}
 		location = 11999  # Nile River
-		division_template = "Division d'Infanterie"
+		division_template = "Meleshya"
 		start_experience_factor = 0
 		start_equipment_factor = 0.5
 
@@ -320,7 +320,7 @@ units = {
 				name_order = 28
 		}
 		location = 11999  # Marsa Matruh
-		division_template = "Division d'Infanterie"
+		division_template = "Meleshya"
 		start_experience_factor = 0
 		start_equipment_factor = 0.5
 
@@ -331,7 +331,7 @@ units = {
 				name_order = 29
 		}
 		location = 7091  # Nile Delta
-		division_template = "Division d'Infanterie"
+		division_template = "Meleshya"
 		start_experience_factor = 0
 		start_equipment_factor = 0.5
 
@@ -342,7 +342,7 @@ units = {
 				name_order = 30
 		}
 		location = 11964  # Nile Delta
-		division_template = "Division d'Infanterie"
+		division_template = "Meleshya"
 		start_experience_factor = 0
 		start_equipment_factor = 0.5
 
