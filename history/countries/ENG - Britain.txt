@@ -175,6 +175,16 @@ if = {
 		freedom_level = 0.3
 	}
 	set_autonomy = {
+		target = ISR
+		autonomous_state = autonomy_protectorate
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = JOR
+		autonomous_state = autonomy_protectorate
+		freedom_level = 0.2
+	}
+	set_autonomy = {
 		target = OMA
 		autonomous_state = autonomy_protectorate
 		freedom_level = 0.7
@@ -196,6 +206,12 @@ QAT = {
 }
 KUW = {
 	set_cosmetic_tag = KUW_UK
+}
+ISR = {
+	set_cosmetic_tag = ISR_UK
+}
+JOR = {
+	set_cosmetic_tag = JOR_UK
 }
 
 

@@ -10,6 +10,8 @@ autonomy_state = {
 			tag = OMA
 			tag = YEM
 			tag = EGY
+			tag = ISR
+			tag = JOR
 		}
 	}
 	

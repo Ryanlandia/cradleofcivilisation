@@ -8,6 +8,7 @@ on_actions = {
 						TAG = BRI
 						TAG = QAT
 						TAG = KUW
+						TAG = ISR
 					}
 				} 
 				drop_cosmetic_tag = yes

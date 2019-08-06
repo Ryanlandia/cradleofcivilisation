@@ -17,7 +17,7 @@ focus_tree = {
         y = 0
         cost = 0
         available_if_capitulated = yes
-        avilable = {
+        available = {
             has_country_flag = fuad_death
         }
         completion_reward = {
@@ -35,7 +35,9 @@ focus_tree = {
         }
         available_if_capitulated = yes
         completion_reward = {
-			autonomy_gain = 1
+			add_autonomy_ratio = {
+                value = 10
+            }
         }
     }
     focus = {
@@ -48,7 +50,9 @@ focus_tree = {
         }
         available_if_capitulated = yes
         completion_reward = {
-            autonomy_gain = -1
+            add_autonomy_ratio = {
+                value = -10
+            }
         }
     }
 

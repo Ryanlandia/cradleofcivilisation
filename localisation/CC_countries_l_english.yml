@@ -81,6 +81,14 @@
   ### UAE
  UAE_UK_autonomy_protectorate:0 "Trucial States"
  UAE_UK_autonomy_protectorate_DEF:0 "the Trucial States" 
+  ### Israel
+ ISR_UK_autonomy_protectorate:0 "Mandatory Palestine"
+ ISR_UK_autonomy_protectorate_DEF:0 "Mandatory Palestine" 
+ ISR_UK_autonomy_protectorate_ADJ:0 "Palestinian" 
+  ### Jordan
+ JOR_UK_autonomy_protectorate:0 "Transjordan"
+ JOR_UK_autonomy_protectorate_DEF:0 "Emirate of Transjordan" 
+ JOR_UK_autonomy_protectorate_ADJ:0 "Jodanian" 
   ### Egypt
  EGY_democratic:0 "Egypt"
  EGY_democratic_DEF:0 "Egypt"

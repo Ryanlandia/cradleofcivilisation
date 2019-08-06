@@ -1,16 +1,13 @@
-﻿capital = 455
+﻿capital = 819
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 	gwtank = 1
+	fuel_silos = 1
 }
 
 set_convoys = 5
-
-add_ideas = {
-	sunni_islam
-}
 
 1939.1.1 = {
 
@@ -52,6 +49,7 @@ add_ideas = {
 		basic_machine_tools = 1
 		improved_machine_tools = 1
 		advanced_machine_tools = 1
+		fuel_refining = 1
 		construction1 = 1
 		construction2 = 1
 		dispersed_industry = 1
@@ -60,32 +58,31 @@ add_ideas = {
 }
 
 
-set_politics = {	
+set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
-
 set_popularities = {
-    democratic = 8
-    neutrality = 92
+	neutrality = 79
+	democratic = 21
 }
 
 create_country_leader = {
-	name = "Hashim Kheir"
+	name = "David Ben-Gurion"
 	desc = ""
-	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_2.dds"
-	ideology = conservatism
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	ideology = liberalism
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Saeed Ahmadi"
+	name = "Itzhak Gaster"
 	desc = ""
-	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_fascism1.dds"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	ideology = fascism_ideology
 	traits = {
 		#
@@ -93,19 +90,19 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Abdullah I"
+	name = "Arthur Grenfell Wauchope"
 	desc = ""
-	picture = "JOR_Abdullah_I.dds"
-	ideology = despotism
+	picture = "ISR_Arthur_Wauchope.dds"
+	ideology = moderatism
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Fu'ad Nassar"
+	name = "Shmuel Mikunis"
 	desc = ""
-	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_navy_2.dds"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	ideology = leninism
 	traits = {
 		#

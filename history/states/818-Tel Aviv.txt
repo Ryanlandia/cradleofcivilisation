@@ -2,7 +2,7 @@ state={
 	id=818
 	name="STATE_818"
 	history={
-		owner = ENG
+		owner = ISR
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -16,7 +16,7 @@ state={
 		victory_points = {
 			4206 1 
 		}
-		add_claim_by = PAL
+		add_core_of = PAL
 		add_core_of = ISR
 
 	}
