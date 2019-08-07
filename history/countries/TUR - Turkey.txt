@@ -55,81 +55,6 @@ if = {
 	}
 }
 
-
-1939.1.1 = {
-
-	add_political_power = 1198
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	oob = "TUR_1939"
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "TUR_1939_naval_mtg"
-		else = {
-			set_naval_oob = "TUR_1939_naval_legacy"
-		}
-	}
-
-	set_technology = {
-		fighter1 = 1
-		early_bomber = 1
-		tactical_bomber1 = 1
-		interwar_artillery = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
-
-		#doctrines
-		air_superiority = 1
-
-		mass_assault = 1
-		pocket_defence = 1
-		defence_in_depth = 1
-		
-		fleet_in_being = 1
-		convoy_sailing = 1
-		submarine_operations = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-		computing_machine = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		synth_oil_experiments = 1
-		fuel_silos = 1
-		oil_processing = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-	}
-	if = {
-		limit = { not = { has_dlc = "Man the Guns" } }
-		set_technology = {
-			basic_submarine = 1
-		}
-	}
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-		set_technology = {
-		}
-	}
-}
-
 set_politics = {	
 	ruling_party = neutrality
 	last_election = "1935.2.8"
@@ -139,41 +64,13 @@ set_politics = {
 
 set_popularities = {
     democratic = 25
-    fascism = 0
+    fascism = 25
     communism = 0
-    neutrality = 75
+    neutrality = 50
 }
 
 set_convoys = 20
-set_stability = 0.55
-
-1939.1.1 = {
-	set_politics = {	
-	ruling_party = neutrality
-		last_election = "1939.2.8"
-		election_frequency = 48
-		elections_allowed = yes
-}
-
-    set_popularities = {
-        democratic = 10
-        fascism = 0
-        communism = 0
-        neutrality = 90
-    }
-
-	create_country_leader = {
-		name = "Ismet Inönü"
-		desc = "POLITICS_ISMET_INÖNÜ_DESC"
-		picture = "Portrait_Turkey_Ismet_Inonu.dds"
-		expire = "1965.1.1"
-		ideology = despotism
-		traits = {
-			#
-		}
-	}
-
-}
+set_stability = 0.60
 
 # Atatürk still alive in '36, however, Inönü was already Prime Minister (but not President)
 create_country_leader = {
@@ -228,52 +125,42 @@ create_country_leader = {
 	traits = {
 		#
 	}
-}create_field_marshal = {
-    name = "Mustafa Kemal Atatürk"
-    picture = "TUR_Ataturk_Military.dds"
-    traits = { brilliant_strategist war_hero infantry_officer trickster desert_fox hill_fighter }
-    skill = 4
-    id = 10001
-    attack_skill = 4
-    defense_skill = 3
-    planning_skill = 4
-    logistics_skill = 2
 }
 
 create_corps_commander = {
-    name = "Cemil Cahit Toydemir"
-    portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
-    traits = { desert_fox }
-    skill = 3
+	name = "Cemil Cahit Toydemir"
+	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+	traits = { desert_fox }
+	skill = 3
 
-    attack_skill = 3
-    defense_skill = 2
-    planning_skill = 3
-    logistics_skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
 }
 
 create_corps_commander = {
-    name = "Nazmi Solok"
-    portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
-    traits = { trickster }
-    skill = 2
+	name = "Nazmi Solok"
+	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
+	traits = { trickster }
+	skill = 2
 
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = {
-    name = "Salih Omurtak"
-    portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
-    traits = {  hill_fighter }
-    skill = 2
+	name = "Salih Omurtak"
+	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
+	traits = {  hill_fighter }
+	skill = 2
 
-    attack_skill = 2
-    defense_skill = 1
-    planning_skill = 2
-    logistics_skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
 }
 
 create_navy_leader = {
