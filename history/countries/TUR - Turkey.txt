@@ -96,7 +96,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Sefik Hüsnü"
+	name = "Nazım Hikmet"
 	desc = "POLITICS_SEFIK_HUSNU_DESC"
 	picture = "gfx/leaders/TUR/Portrait_Turkey_Sefik_Husnu.dds"
 	expire = "1965.1.1"
@@ -117,7 +117,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Fevzi Çakmak"
+	name = "Hüseyin Nihal Atsız"
 	desc = "POLITICS_OGUZ_REMZI_ARIK_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
 	expire = "1965.1.1"
@@ -149,6 +149,18 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 1
+}
+
+create_field_marshal = {
+	name = "Mustafa Kemal Paşa"
+	portrait_path = "gfx/leaders/TUR/TUR_Ataturk_Military.dds"
+	traits = { defensive_doctrine }
+	skill = 3
+
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 2
 }
 
 create_corps_commander = {
