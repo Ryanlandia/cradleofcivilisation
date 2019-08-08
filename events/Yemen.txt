@@ -291,9 +291,30 @@ country_event = {
 	option = {
 		name = yemen.105.a
 		add_political_power = 200
-		transfer_state = 569
-		transfer_state = 803
-		transfer_state = 804
+		if = {
+			limit = {
+				any_country = {
+					has_full_control_of_state = 569
+				}
+			}
+			transfer_state = 569
+		}
+		if = {
+			limit = {
+				any_country = {
+					has_full_control_of_state = 803
+				}
+			}
+			transfer_state = 803
+		}
+		if = {
+			limit = {
+				any_country = {
+					has_full_control_of_state = 804
+				}
+			}
+			transfer_state = 804
+		}
 	}
 }
 

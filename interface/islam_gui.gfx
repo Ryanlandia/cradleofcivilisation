@@ -11,4 +11,9 @@ spriteTypes = {
 		name = "GFX_progress_bar_frame"
 		texturefile = "gfx/interface/progress_bar_frame.dds"
 	}
+	spriteType = {
+		name = "GFX_islam_texticon"
+		texturefile = "gfx/texticons/islam_texticon.dds"
+		legacy_lazy_load = no
+	}
 }
