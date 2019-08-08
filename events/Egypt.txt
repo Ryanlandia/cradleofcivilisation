@@ -16,8 +16,6 @@ country_event = {
         date > 1936.3.1
     }
 
-    date = { day = 27 month = april year = 1936 }
-
     option = { ####Regency
     name = egypt.1.a
         kill_country_leader = yes	

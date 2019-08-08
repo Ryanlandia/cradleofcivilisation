@@ -37,7 +37,7 @@ focus_tree = {
         prerequisite = { focus = fuad_death }
         completion_reward = {
             add_political_power = 20
-            add_idea = 
+            #add_idea = egy_fawzia_regency
         }
     }
 
