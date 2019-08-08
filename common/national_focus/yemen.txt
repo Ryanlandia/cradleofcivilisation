@@ -891,6 +891,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = YEM_religious_tolerance
+			subtract_5_islam = yes
 		}
 
 	}
@@ -903,7 +904,7 @@ focus_tree = {
 		y = 8
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = YEM_saudialliance }
+		prerequisite = { focus = YEM_unityamongislam }
 		ai_will_do = {
 			factor = 30
 		}
@@ -1535,7 +1536,8 @@ focus_tree = {
 			factor = 15
 		}
 		completion_reward = {
-			add_ideas= YEM_state_shiite
+			add_ideas = YEM_state_shiite
+			add_10_islam = yes
 		}
 
 	}

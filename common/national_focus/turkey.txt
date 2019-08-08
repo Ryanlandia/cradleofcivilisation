@@ -186,10 +186,14 @@ focus_tree = {
 			factor = 1
 		}
 		available = {
-			is_demilitarized_zone= yes
+			341 = {
+				is_demilitarized_zone = yes
+			}
 		}
 		completion_reward = {
-			is_demilitarized_zone= no
+			341 = {
+				set_demilitarized_zone = no
+			}
 		}
 
 	}
