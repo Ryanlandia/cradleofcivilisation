@@ -17,19 +17,36 @@ focus_tree = {
         y = 0
         cost = 0
         available_if_capitulated = yes
-        available = {
+        bypass = {
             has_country_flag = fuad_death
         }
+        available = {
+			always = no
+		}
         completion_reward = {
             #
         }
     }
 
     focus = {
+        id = fawzia_regency
+        x = 10
+        y = 1
+        cost = 1
+        available_if_capitulated = yes
+        prerequisite = { focus = fuad_death }
+        completion_reward = {
+            add_political_power = 20
+            add_idea = 
+        }
+    }
+
+    focus = {
         id = severe_ties_uk
         x = 15
-        y = 1
+        y = 3
         cost = 10
+        prerequisite = { focus = snap_elections }
         mutually_exclusive = {
             focus = severe_ties_uk
         }
@@ -43,8 +60,9 @@ focus_tree = {
     focus = {
         id = stay_uk
         x = 5
-        y = 1
+        y = 3
         cost = 10
+        prerequisite = { focus = snap_elections }
         mutually_exclusive = {
             focus = severe_ties_uk
         }
@@ -57,4 +75,16 @@ focus_tree = {
     }
 
 
+    ######LEAVE UK PATH
+
+    focus = {
+        id = snap_elections
+        x = 10
+        y = 2
+        prerequisite = { focus = fawzia_regency }
+        cost = 1
+        completion_reward = {
+            country_event = egypt.2
+        }
+    }
 }

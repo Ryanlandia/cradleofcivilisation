@@ -6,26 +6,25 @@ add_namespace = egypt
 country_event = {
     id = egypt.1
     title = egypt.1.t
-    desc = egypt.1.
+    desc = egypt.1.d
 
     fire_only_once = yes
 
     trigger = {
         tag = EGY
-        date < 1936.2.1
-        date > 1936.1.1
+        date < 1936.4.1
+        date > 1936.3.1
     }
 
-    mean_time_to_happen = {
-        days = 1
-    }
+    date = { day = 27 month = april year = 1936 }
 
-    option = {
+    option = { ####Regency
+    name = egypt.1.a
         kill_country_leader = yes	
         create_country_leader = {
-            name = "Farouk Ist" 
-            desc = "POLITICS_Farouk_DESC"
-            picture = "Portrait_AFG_Mohammed_Zahir_Shah.dds" 
+            name = "Fawzia Fuad" 
+            desc = "POLITICS_Fawzia_Fuad_DESC"
+            picture = "Portrait_EGY_Fawzia_Fuad.dds" 
             expire = "1965.1.1" 
             ideology = despotism
             traits = {
@@ -33,4 +32,19 @@ country_event = {
         }
         set_country_flag = fuad_death
     }
+}
+
+country_event = {
+    id = egypt.2
+    title = egypt.2.t
+    desc = egypt.2.d
+    fire_only_once = yes
+
+
+
+    option = {
+
+    }
+
+
 }
