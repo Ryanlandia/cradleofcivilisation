@@ -1,0 +1,12 @@
+ideas = {
+    country = {
+        EGY_faruk_1 = {
+            allowed = {
+                original_tag = EGY
+            }
+            modifier = {
+                stability_factor = 0.1
+            }
+        }
+    }
+}
