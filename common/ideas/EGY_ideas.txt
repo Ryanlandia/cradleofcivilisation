@@ -17,7 +17,7 @@ ideas = {
 
 
     political_advisor = {
-        ahmad_hussein = {
+        EGY_ahmad_hussein = {
 
             allowed = {
                 original_tag = EGY
@@ -30,7 +30,7 @@ ideas = {
             }	
         }
 
-        gamal_abdel_nasser = {
+        EGY_gamal_abdel_nasser = {
 
             allowed = {
                 original_tag = EGY
@@ -43,7 +43,7 @@ ideas = {
             }	
         }
 
-        safiya_zaghloul = {
+        EGY_safiya_zaghloul = {
 
             allowed = {
                 original_tag = EGY
@@ -56,7 +56,7 @@ ideas = {
             }
         }
 
-        aly_mahir_pasha = {
+        EGY_aly_mahir_pasha = {
 
             allowed = {
                 original_tag = EGY
