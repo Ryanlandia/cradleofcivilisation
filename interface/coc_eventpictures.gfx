@@ -5,4 +5,9 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/GFX_report_event_saudi_meet.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_report_event_said_bin_taimur"
+		texturefile = "gfx/event_pictures/GFX_report_event_said_bin_taimur.dds"
+	}
+	
 }
