@@ -102,6 +102,7 @@ country_event = {
 				amount = 2000
 			}
 		}
+		subtract_20_islam = yes
 		hidden_effect = {
 			set_capital = 805
 			start_civil_war = {
@@ -112,7 +113,10 @@ country_event = {
 				capital = 293
 				states = { 
 					293 806
-				}
+				}	
+			    keep_unit_leaders = {
+			    	8003
+			    }
 			}
 			random_other_country = {
 				limit = {

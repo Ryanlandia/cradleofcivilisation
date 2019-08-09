@@ -25,7 +25,12 @@
 #	will only updated daily, unless forced by force_update_dynamic_modifier effect
 
 islamic_dynamic_modifier = {
-	enable = { is_islamic = yes } 
+	enable = { 
+		is_islamic = yes
+		NOT = {
+			has_government = communism
+		} 
+	} 
 
 	# list of modifiers	
 	war_support_factor = islam

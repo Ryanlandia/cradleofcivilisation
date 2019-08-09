@@ -185,16 +185,6 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-		available = {
-			341 = {
-				is_demilitarized_zone = yes
-			}
-		}
-		completion_reward = {
-			341 = {
-				set_demilitarized_zone = no
-			}
-		}
 
 	}
 
