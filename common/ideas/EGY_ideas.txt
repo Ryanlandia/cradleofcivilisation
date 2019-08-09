@@ -9,4 +9,194 @@ ideas = {
             }
         }
     }
+
+
+
+
+######POLITICAL PEOPLE
+
+
+    political_advisor = {
+        ahmad_hussein = {
+
+            allowed = {
+                original_tag = EGY
+            }
+
+            traits = { fascist_demagogue }
+
+            ai_will_do = {
+				factor = 0
+            }	
+        }
+
+        gamal_abdel_nasser = {
+
+            allowed = {
+                original_tag = EGY
+            }
+
+            traits = { communist_revolutionary }
+
+            ai_will_do = {
+				factor = 0
+            }	
+        }
+
+        safiya_zaghloul = {
+
+            allowed = {
+                original_tag = EGY
+            }
+
+            traits = { democratic_reformer }
+
+            ai_will_do = {
+				factor = 0
+            }
+        }
+
+        aly_mahir_pasha = {
+
+            allowed = {
+                original_tag = EGY
+            }
+
+            traits = { armaments_organizer }
+
+            ai_will_do = {
+				factor = 0
+            }   
+        }
+
+        EGY_fawzia_fuad = {
+
+            allowed = {
+                original_tag = EGY
+            }
+
+            traits = { backroom_backstabber }
+
+            ai_will_do = {
+				factor = 0
+            }
+        }
+
+        EGY_talaat_harb = {
+
+            allowed = {
+                original_tag = EGY
+            }
+
+            traits = { captain_of_industry }
+
+            ai_will_do = {
+				factor = 0
+            }
+        }
+
+        EGY_ismal_chrine = {
+
+            allowed = {
+                original_tag = EGY
+            }
+
+            traits = { compassionate_gentleman }
+        
+            ai_will_do = {
+				factor = 0
+            }
+        }
+
+        EGY_huda_shaarawi = {
+
+            allowed = {
+                original_tag = EGY
+            }
+
+            traits = { ideological_crusader }
+        
+            ai_will_do = {
+				factor = 0
+            }
+        }
+
+        EGY_Farouk_1 = {
+
+            allowed = {
+                original_tag = EGY
+            }
+
+            traits = { popular_figurehead }
+
+            ai_will_do = {
+				factor = 0
+            }
+        }
+
+        EGY_zakaria_mohieddin = {
+
+            allowed = {
+                original_tag = EGY
+            }
+
+            traits = { prince_of_terror }
+
+            ai_will_do = {
+			    factor = 0
+            }
+        }
+
+        EGY_mohammed_naguib = {
+
+            allowed = {
+                original_tag = EGY
+            }
+
+            traits = { quartermaster_general }
+
+            ai_will_do = {
+			    factor = 0
+            }
+        }
+
+        EGY_Mohamed_Mahmoud_Pasha = {
+
+            allowed = {
+                original_tag = EGY
+            }
+
+            traits = { silent_workhorse }
+
+            ai_will_do = {
+			    factor = 0
+            }
+        }
+
+        EGY_Mustafa_el_Nahhas_Pasha = {
+
+            allowed = {
+                original_tag = EGY
+            }
+
+            traits = { smooth_talking_charmer }
+
+            ai_will_do = {
+			    factor = 0
+            }
+        }
+
+        EGY_Agha_Khan_III = {
+
+            allowed = {
+                original_tag = EGY
+            }
+
+            traits = { war_industrialist }
+
+            ai_will_do = {
+			    factor = 0
+            }
+        }
+    }
 }
