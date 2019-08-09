@@ -41,7 +41,24 @@ country_event = {
 
 
     option = {
+        name = egypt.2.a
+        set_politics = {
+            ruling_party = neutrality
+        }
+    }
 
+    option = {
+        name = egypt.2.b
+        set_politics = {
+            ruling_party = democratic
+        }
+    }
+
+    option = {
+        name = egypt.2.c
+        set_politics = {
+            ruling_party = fascism
+        }
     }
 
 
