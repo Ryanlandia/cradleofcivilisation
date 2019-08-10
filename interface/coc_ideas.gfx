@@ -99,16 +99,4 @@ spriteTypes = {
 	name = "GFX_idea_yemen_rise_democracy"
 	texturefile = "gfx/interface/ideas/idea_yemen_rise_democracy.dds"			
 	}	
-	spriteType = {
-	name = "GFX_idea_TUR_religious_extremists"
-	texturefile = "gfx/interface/ideas/idea_raj_marginalized_muslim_community_angry.dds"			
-	}	
-	spriteType = {
-	name = "GFX_idea_TUR_century_of_wars"
-	texturefile = "gfx/interface/ideas/idea_prc_low_popular_support.dds"			
-	}	
-	spriteType = {
-	name = "GFX_idea_TUR_weak_government"
-	texturefile = "gfx/interface/ideas/generic_disjointed_gov.dds"			
-	}	
 }

@@ -14,9 +14,6 @@ set_research_slots = 3
 add_ideas = {
 	limited_conscription
 	sunni_islam
-        TUR_weak_government
-        TUR_century_of_wars
-        TUR_religious_extremists
 }
 
 set_technology = {
