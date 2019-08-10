@@ -69,7 +69,6 @@ set_popularities = {
 
 add_ideas = {
 	YEM_family_struggle
-	YEM_debt_1
 	YEM_pastoralism
 	YEM_army
 }	
