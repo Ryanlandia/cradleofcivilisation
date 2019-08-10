@@ -21,6 +21,15 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+	EGY_faruk_1
+	EGY_political_instability
+	EGY_women_marches
+	EGY_corrupt_bureaucracy
+	EGY_world_breadbasket
+	EGY_rural_urban_split
+}
+
 set_popularities = {
     democratic = 19
     fascism = 8

@@ -1,11 +1,77 @@
 ideas = {
     country = {
         EGY_faruk_1 = {
+            
             allowed = {
                 original_tag = EGY
             }
+            
             modifier = {
                 stability_factor = 0.1
+            }
+        }
+
+        EGY_political_instability = {
+            
+            allowed = {
+                original_tag = EGY
+            }
+
+            modifier = {
+                political_power_gain = -0.1
+                stability_factor = -0.1
+            }
+        }
+
+        EGY_women_marches = {
+            
+            allowed = {
+                original_tag = EGY
+            }
+
+            modifier = {
+                political_power_gain = -0.2
+                stability_factor = -0.1
+            }
+        }
+
+        EGY_corrupt_bureaucracy = {
+            
+            allowed = {
+                original_tag = EGY
+            }
+
+            modifier = {
+                political_power_gain = -0.3
+                consumer_goods_factor = 0.2
+                industrial_capacity_factory = -0.2
+            }
+
+        }
+
+        EGY_world_breadbasket = {
+
+            allowed = {
+                original_tag = EGY
+            }
+
+            modifier = {
+                conscription = 0.05
+                consumer_goods_factor = -0.05
+            }
+        }
+
+        EGY_rural_urban_split = {
+
+            allowed = {
+                original_tag = EGY
+            }
+
+            modifier = {
+                production_speed_buildings_factor = -0.2
+                land_reinforce_rate = -0.05
+                army_speed_factor = -0.1
+
             }
         }
     }

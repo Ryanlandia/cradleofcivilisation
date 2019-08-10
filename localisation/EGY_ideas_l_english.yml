@@ -1,4 +1,6 @@
 ﻿l_english:
+
+###POLITICAL ADVSORS
  EGY_ahmad_hussein:0 "Ahmed Hussein"
  EGY_gamal_abdel_nasser:0 "Gamal Abdel Nasser"
  EGY_safiya_zaghloul:0 "Safiya Zaghloul"
@@ -13,5 +15,13 @@
  EGY_Mohamed_Mahmoud_Pasha:0 "Mohamed Mahmoud Pasha"
  EGY_Mustafa_el_Nahhas_Pasha:0 "Mustafa el-Nahhas Pasha"
  EGY_Agha_Khan_III:0 "Aga Khan III"
+ 
+###NATIONAL SPIRITS
 
+EGY_faruk_1:0 "Faruk Ist"
+EGY_political_instability:0 "Political Instability"
+EGY_women_marches:0 "Women's Marches"
+EGY_corrupt_bureaucracy:0 "Corrupt Bureaucracy"
+EGY_world_breadbasket:0 "World's Breadbasket"
+EGY_rural_urban_split:0 "Rural-Urban Split"
  
