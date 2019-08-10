@@ -118,6 +118,11 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = OMA_vanquishtheimamate }
+		available = {
+			NOT = {
+				has_civil_war = yes
+			}
+		}
 		ai_will_do = {
 			factor = 50
 		}
@@ -208,6 +213,11 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = OMA_vanquishtheimamate }
+		available = {
+			NOT = {
+				has_civil_war = yes
+			}
+		}
 		ai_will_do = {
 			factor = 50
 		}
@@ -485,7 +495,7 @@ focus_tree = {
 			factor = 25
 		}
 		completion_reward = {
-			add_political_power= 150
+			add_political_power= -50
 			country_event= {
 				days = 1
 				id = oman.1

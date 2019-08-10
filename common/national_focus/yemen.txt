@@ -161,7 +161,6 @@ focus_tree = {
 			factor = 33
 		}
 		completion_reward = {
-			YEM_debt_level_up = yes
 			805={
 				if = {
 					limit = {
@@ -200,7 +199,6 @@ focus_tree = {
 			factor = 33
 		}
 		completion_reward = {
-			YEM_debt_level_up = yes
 			293={
 				if = {
 					limit = {
@@ -325,7 +323,6 @@ focus_tree = {
 			factor = 33
 		}
 		completion_reward = {
-			YEM_debt_level_up = yes
 			805={
 				if = {
 					limit = {
@@ -1023,7 +1020,6 @@ focus_tree = {
 			factor = 30
 		}
 		completion_reward = {
-			YEM_debt_level_up = yes
 			ENG = { set_country_flag = colonial_sabotage }
 			FRA = { set_country_flag = colonial_sabotage }
 		}
@@ -1411,7 +1407,6 @@ focus_tree = {
 			factor = 20
 		}
 		completion_reward = {
-			YEM_debt_level_up = yes
 		}
 
 	}
@@ -1959,7 +1954,6 @@ focus_tree = {
 			factor = 33
 		}
 		completion_reward = {
-			YEM_debt_level_up = yes
 			random_owned_controlled_state={
 				limit = {
 					free_building_slots = {
@@ -2012,7 +2006,6 @@ focus_tree = {
 			factor = 33
 		}
 		completion_reward = {
-			YEM_debt_level_up = yes
 			random_owned_controlled_state={
 				limit = {
 					free_building_slots = {
@@ -2107,7 +2100,6 @@ focus_tree = {
 			factor = 33
 		}
 		completion_reward = {
-			YEM_debt_level_up = yes
 			remove_ideas = YEM_pastoralism_3
 		}
 	}
@@ -2125,7 +2117,6 @@ focus_tree = {
 			factor = 33
 		}
 		completion_reward = {
-			YEM_debt_level_up = yes
 			random_owned_controlled_state = { add_building_construction = {	type = infrastructure	level = 2 instant_build = yes	} }
 		}
 
@@ -2144,7 +2135,6 @@ focus_tree = {
 			factor = 33
 		}
 		completion_reward = {
-			YEM_debt_level_up = yes
 			random_owned_controlled_state = { add_building_construction = {	type = infrastructure	level = 2 instant_build = yes	} }
 
 			random_owned_controlled_state = { add_building_construction = {	type = infrastructure	level = 1 instant_build = yes	} }
@@ -2165,7 +2155,6 @@ focus_tree = {
 			factor = 33
 		}
 		completion_reward = {
-			YEM_debt_level_up = yes
 			swap_ideas = { remove_idea = YEM_pastoralism add_idea = YEM_pastoralism_2 }
 		}
 
@@ -2184,7 +2173,6 @@ focus_tree = {
 			factor = 33
 		}
 		completion_reward = {
-			YEM_debt_level_up = yes
 			random_owned_controlled_state = { add_building_construction = {	type = infrastructure	level = 1 instant_build = yes	} }
 		}
 
@@ -2203,7 +2191,6 @@ focus_tree = {
 			factor = 33
 		}
 		completion_reward = {
-			YEM_debt_level_up = yes
 		}
 
 	}
@@ -2221,7 +2208,6 @@ focus_tree = {
 			factor = 33
 		}
 		completion_reward = {
-			YEM_debt_level_up = yes
 			806={
 				if = {
 					limit = {
@@ -2258,7 +2244,6 @@ focus_tree = {
 			factor = 33
 		}
 		completion_reward = {
-			YEM_debt_level_up = yes
 			swap_ideas = { remove_idea = YEM_pastoralism_2 add_idea = YEM_pastoralism_3 }
 		}
 
@@ -2277,7 +2262,6 @@ focus_tree = {
 			factor = 33
 		}
 		completion_reward = {
-			YEM_debt_level_up = yes
 			random_owned_controlled_state={
 				limit = {
 					free_building_slots = {
@@ -2352,7 +2336,6 @@ focus_tree = {
 			factor = 33
 		}
 		completion_reward = {
-			YEM_debt_level_up = yes
 			293 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
@@ -2591,7 +2574,6 @@ focus_tree = {
 			factor = 75
 		}
 		completion_reward = {
-			YEM_debt_level_up = yes
 			add_equipment_to_stockpile = {
 				type = convoy
 				amount = 20
@@ -2638,7 +2620,6 @@ focus_tree = {
 			factor = 75
 		}
 		completion_reward = {
-			YEM_debt_level_up = yes
 			add_tech_bonus = {
 				name = capital_ships_bonus
 				bonus = 1
