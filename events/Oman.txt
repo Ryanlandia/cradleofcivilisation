@@ -1,5 +1,5 @@
 ﻿###########################
-############## Omani Events
+####### Oman Events #######
 ###########################
 
 add_namespace = oman
@@ -23,6 +23,7 @@ country_event = {
 		add_stability = -0.1
 		add_war_support = -0.1
 		subtract_5_islam = yes
+		set_country_flag = OMA_weakened_imam
 	}
 
 	option = {
@@ -35,6 +36,7 @@ country_event = {
 		add_stability = -0.2
 		add_war_support = -0.25
 		subtract_10_islam = yes
+		set_country_flag = OMA_severe_weakened_imam
 	}
 
 	option = {
@@ -44,6 +46,95 @@ country_event = {
 			factor = 50
 		}
 		custom_effect_tooltip = OMA_no_restriction_tt
+	}
+}
+
+### Vanquish the Imamate, civil war occurs
+country_event = {
+	id = oman.2
+	title = oman.2.t
+	desc = oman.2.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	is_triggered_only = yes	
+
+	option = {
+		# Civil War
+		name = oman.2.a
+		custom_effect_tooltip = OMA_civil_war_tt
+		subtract_5_islam = yes
+		hidden_effect = {	
+
+			add_stability = -0.1
+			add_war_support = -0.1
+			set_country_flag = OMA_sultan_backed
+
+			start_civil_war = {
+				ruling_party = neutrality
+				ideology = neutrality
+				size = 0.5
+				only_own_territory = yes
+				capital = 293
+				states = { 
+					807 789
+				}	
+			    keep_unit_leaders = {
+			    	9001
+			    }
+			}
+
+			set_politics = {
+				ruling_party = neutrality
+				elections_allowed = no
+			}
+
+			load_oob = "OMA_civil_war_sultan"
+
+			random_country = {
+				limit = {
+					original_tag = OMA
+					NOT = {
+						has_country_flag = OMA_sultan_backed
+					}
+				}
+				load_oob = "OMA_civil_war_imam"
+				add_offsite_building = { type = arms_factory level = 1 }
+			}
+
+			if = {
+				limit = {
+					AND = {
+						has_country_flag = OMA_weakened_imam
+					}
+				}
+				random_country = {
+					limit = {
+						original_tag = OMA
+						NOT = {
+							has_country_flag = OMA_sultan_backed
+						}
+					}
+					add_ideas = OMA_imam_weakened
+				}
+			}
+
+			if = {
+				limit = {
+					AND = {
+						has_country_flag = OMA_severe_weakened_imam
+					}
+				}
+				random_country = {
+					limit = {
+						original_tag = OMA
+						NOT = {
+							has_country_flag = OMA_sultan_backed
+						}
+					}
+					add_ideas = OMA_imam_severely_weakened
+				}
+			}
+		}
 	}
 }
 
