@@ -25,5 +25,20 @@ ideas = {
                 political_power_gain = -0.05
             }
         }
+        TUR_straits_tax = {
+
+            allowed = {
+                original_tag = TUR
+            }
+
+            removal_cost = -1
+
+            picture = generic_economic_revenue
+
+            modifier = {
+                consumer_goods_factor = -0.1 
+            }
+            
+        }
     }
 }

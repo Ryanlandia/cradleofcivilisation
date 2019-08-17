@@ -10,4 +10,24 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/GFX_report_event_said_bin_taimur.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_report_event_montreux_convention"
+		texturefile = "gfx/event_pictures/GFX_report_event_montreux_convention.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_montreux"
+		texturefile = "gfx/event_pictures/GFX_news_event_montreux.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_edward_with_ataturk"
+		texturefile = "gfx/event_pictures/GFX_report_event_edward_with_ataturk.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_montreux_meeting_failed"
+		texturefile = "gfx/event_pictures/GFX_report_event_montreux_meeting_failed.dds"
+	}
+	
 }
