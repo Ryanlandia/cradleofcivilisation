@@ -156,6 +156,7 @@ country_event = {
 				}
 				add_ideas = YEM_democraticboost3
 			}
+			remove_ideas = YEM_family_struggle
 		}
 	}
 }
@@ -298,10 +299,10 @@ country_event = {
 		if = {
 			limit = {
 				any_country = {
-					has_full_control_of_state = 569
+					has_full_control_of_state = 659
 				}
 			}
-			transfer_state = 569
+			transfer_state = 659
 		}
 		if = {
 			limit = {
@@ -888,6 +889,104 @@ country_event = {
 		custom_effect_tooltip = YEM_liberals_stay_tt
 		set_country_flag = YEM_liberalpartywins
 		complete_national_focus = YEM_liberalpartywins
+	}
+}
+
+# Alwaziri Coup
+country_event = {
+	id = yemen.14
+	title = yemen.14.t
+	desc = yemen.14.d
+	picture = GFX_report_event_saf_soldiers_2
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.14.a
+		kill_country_leader = yes
+		create_country_leader = {
+			name = "Abdullah bin Ahmad al-Wazir"
+			desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+			picture = "YEM_al-Wazir.dds"
+			expire = "1965.1.1"
+			ideology = despotism
+			traits = {
+			}
+		}
+		swap_ideas = {
+			remove_idea = YEM_family_struggle
+			add_idea = YEM_resistance
+		}
+	}
+}
+
+# Anti-Zionist Offer
+country_event = {
+	id = yemen.15
+	title = yemen.15.t
+	desc = yemen.15.d
+	picture = GFX_report_event_indonesia_handover
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.15.a
+		ai_chance = {
+			factor = 80
+		}
+		YEM = {
+			country_event = {
+				id = yemen.115
+				days = 1
+			}
+		}
+	}
+
+	option = {
+		name = yemen.15.b
+		ai_chance = {
+			factor = 20
+		}
+		YEM = {
+			country_event = {
+				id = yemen.215
+				days = 1
+			}
+		}
+	}
+}
+
+# FROM accepts
+country_event = {
+	id = yemen.115
+	title = yemen.115.t
+	desc = yemen.115.d
+	picture = GFX_report_event_yugoslavian_cavalry
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.115.a
+		FROM = {
+			add_opinion_modifier = {
+			    target = ISR
+			    modifier = anti_zionism
+			}
+		}
+	}
+}
+
+# FROM declines
+country_event = {
+	id = yemen.215
+	title = yemen.215.t
+	desc = yemen.215.d
+	picture = GFX_report_event_yugoslavian_cavalry
+
+	is_triggered_only = yes	
+
+	option = {
+		name = yemen.215.a
 	}
 }
 

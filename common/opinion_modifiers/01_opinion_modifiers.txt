@@ -16,4 +16,7 @@ opinion_modifiers = {
 	YEM_denied_aden = {
 		value = -50
 	}
+	anti_zionism = {
+		value = -33
+	}
 }

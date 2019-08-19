@@ -87,6 +87,12 @@
  YEM_deterrence_desc:0 "We are the only Yemeni country in existence. If we get destroyed, our people get destroyed also. It is, therefore, beneficial that we defend our country and fortify it to the last man alive."
  YEM_army_training:0 "British Army Training"
  YEM_army_training_desc:0 "Officers and generals from Britain have came to us to teach us the British way of warfare. This has given us significant army boosts that we can use to our advantage."
+ YEM_resitance:0 "Mutawakkilite Resistance" 
+ YEM_resitance_desc:0 "Even after the coup and the death of the Imam, several prominent family members continue to oppose our government. Combined with skepticism by the civilian populace, that means that our country is destabilized until we can get a government put in place." 
+ YEM_resitance_2:0 "Mutawakkilite Resistance" 
+ YEM_resitance_2_desc:0 "Even after the coup and the death of the Imam, several prominent family members continue to oppose our government. Combined with skepticism by the civilian populace, that means that our country is destabilized until we can get a government put in place. However, with reforms put in place, we are nowhwere near as destabilized." 
+ SAU_hasa_riots:0 "Riots in Hasa"
+ SAU_hasa_riots_desc:0 "Recently, the Shia people of Hasa have been in revolt! An unknown supplier has sent them cash and weapons with the intent to destabilize our country! This will subside soon, but for now, it causes problems."
   ### Zanzibar
  ZAN_revolt:0 "Zanzibar Revolt"
  ZAN_revolt_desc:0 "With the help of our friends at Muscat, we have sucesfully ovethrown the English government in Zanzibar and restored the Sultanate! However, that is only half the battle. The filthy English are on to us, and every man must know that we will not go down like this. Long live the islands of Zanzibar!"

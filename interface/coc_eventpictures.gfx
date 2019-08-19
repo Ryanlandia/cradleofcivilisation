@@ -26,8 +26,12 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_report_event_montreux_meeting_failed"
-		texturefile = "gfx/event_pictures/GFX_report_event_montreux_meeting_failed.dds"
+		name = "GFX_report_event_sword_of_islam"
+		texturefile = "gfx/event_pictures/GFX_report_event_sword_of_islam.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_sword_of_islam_2"
+		texturefile = "gfx/event_pictures/GFX_report_event_sword_of_islam_2.dds"
 	}
 	
 }

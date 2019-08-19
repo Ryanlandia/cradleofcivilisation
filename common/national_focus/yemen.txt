@@ -13,10 +13,10 @@ focus_tree = {
 		id = YEM_traditionallaw
 		icon = GFX_focus_hol_the_foundations_of_defense
 		x = 6
-		y = 6
+		y = 5
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = YEM_legislatepresidentialpowers }
+		prerequisite = { focus = YEM_conservativepartywins }
 		ai_will_do = {
 			factor = 15
 		}
@@ -364,30 +364,12 @@ focus_tree = {
 
 	}
 
-	#Focus for Legislate Presidential Powers
-	focus = {
-		id = YEM_legislatepresidentialpowers
-		icon = GFX_goal_generic_demand_territory
-		x = 6
-		y = 5
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = YEM_conservativepartywins }
-		ai_will_do = {
-			factor = 15
-		}
-		completion_reward = {
-			add_stability= 0.05
-		}
-
-	}
-
 	#Focus for The New Yemen
 	focus = {
 		id = YEM_thenewyemen
 		icon = GFX_focus_generic_industry_3
 		x = 15
-		y = 7
+		y = 6
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_beginelectrification }
@@ -444,25 +426,6 @@ focus_tree = {
 
 	}
 
-	#Focus for Decentralization
-	focus = {
-		id = YEM_decentralization
-		icon = GFX_focus_generic_support_the_left_right
-		x = 16
-		y = 5
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = YEM_liberalpartywins }
-		ai_will_do = {
-			factor = 15
-		}
-		completion_reward = {
-			add_stability= 0.05
-			add_war_support= -0.05
-		}
-
-	}
-
 	#Focus for Gain British Support
 	focus = {
 		id = YEM_gainbritishsupport
@@ -503,41 +466,22 @@ focus_tree = {
 
 	}
 
-	#Focus for Expand Military Support
+	#Focus for Crush Bait al-Nidal
 	focus = {
-		id = YEM_expandmilitarysupport
-		icon = GFX_focus_generic_little_entente
-		x = 6
-		y = 2
+		id = YEM_crush_bait_al-nidal
+		icon = GFX_focus_generic_anti_fascist_diplomacy
+		x = 2
+		y = 3
 		cost = 8
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_expandmilitarycontrol }
 		ai_will_do = {
-			factor = 20
-		}
-		completion_reward = {
-			add_war_support= 0.1
-		}
-
-	}
-
-	#Focus for Advanced Communications
-	focus = {
-		id = YEM_advancedcommunications
-		icon = GFX_goal_generic_radar
-		x = 4
-		y = 3
-		cost = 8
-		available_if_capitulated = yes
-		prerequisite = { focus = YEM_strengthenthegendarmerie }
-		ai_will_do = {
 			factor = 15
 		}
 		completion_reward = {
-			add_tech_bonus= {
-				bonus = 1.0
-				uses = 2
-				category = electronics
+			add_popularity = {
+			    ideology = fascism
+			    popularity = -0.1
 			}
 		}
 
@@ -655,6 +599,13 @@ focus_tree = {
 		y = 0
 		cost = 10
 		available_if_capitulated = yes
+		available = {
+			OR = {
+				has_completed_focus = YEM_thenewcentralgovernment
+				has_completed_focus = YEM_alwaziri_coup
+				has_completed_focus = YEM_holdelections
+			}
+		}
 		ai_will_do = {
 			factor = 9
 		}
@@ -667,12 +618,13 @@ focus_tree = {
 	#Focus for Nahda
 	focus = {
 		id = YEM_nahda
-		icon = GFX_goal_tfv_generic_tech_sharing
-		x = 12
+		icon = GFX_generic_islamic_research
+		x = 11
 		y = 9
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_civilliberties }
+		prerequisite = { focus = YEM_inviteintellectuals }
 		ai_will_do = {
 			factor = 25
 		}
@@ -687,10 +639,10 @@ focus_tree = {
 		id = YEM_beginelectrification
 		icon = GFX_goal_generic_production2
 		x = 16
-		y = 6
+		y = 5
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = YEM_decentralization }
+		prerequisite = { focus = YEM_liberalpartywins }
 		ai_will_do = {
 			factor = 15
 		}
@@ -741,6 +693,9 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_startthecivilwar }
+		available = {
+			has_civil_war = no
+		}
 		ai_will_do = {
 			factor = 25
 		}
@@ -1352,25 +1307,6 @@ focus_tree = {
 
 	}
 
-	#Focus for Strengthen the Gendarmerie
-	focus = {
-		id = YEM_strengthenthegendarmerie
-		icon = GFX_strengthenthegendarmerie
-		x = 4
-		y = 2
-		cost = 8
-		available_if_capitulated = yes
-		prerequisite = { focus = YEM_expandmilitarycontrol }
-		ai_will_do = {
-			factor = 20
-		}
-		completion_reward = {
-			add_stability= 0.1
-			add_war_support = -0.1
-		}
-
-	}
-
 	#Focus for Army Training Initiative
 	focus = {
 		id = YEM_armytraininginitiative
@@ -1501,11 +1437,11 @@ focus_tree = {
 	focus = {
 		id = YEM_expandmilitarycontrol
 		icon = GFX_goal_generic_small_arms
-		x = 5
-		y = 1
+		x = 2
+		y = 2
 		cost = 8
 		available_if_capitulated = yes
-		prerequisite = { focus = YEM_consolidateimamauthority }
+		prerequisite = { focus = YEM_thenewcentralgovernment }
 		ai_will_do = {
 			factor = 20
 		}
@@ -1518,47 +1454,10 @@ focus_tree = {
 
 	}
 
-	#Focus for Expand Islamic Influence
+	#Focus for Anti-Zionism
 	focus = {
-		id = YEM_expandislamicinfluence
-		icon = GFX_focus_mex_triumph_over_the_cristeros
-		x = 2
-		y = 3
-		cost = 8
-		available_if_capitulated = yes
-		prerequisite = { focus = YEM_centralrule }
-		ai_will_do = {
-			factor = 15
-		}
-		completion_reward = {
-			add_ideas = YEM_state_shiite
-			add_10_islam = yes
-		}
-
-	}
-
-	#Focus for Central Rule
-	focus = {
-		id = YEM_centralrule
-		icon = GFX_goal_demand_sudetenland
-		x = 2
-		y = 2
-		cost = 8
-		available_if_capitulated = yes
-		prerequisite = { focus = YEM_thenewcentralgovernment }
-		ai_will_do = {
-			factor = 20
-		}
-		completion_reward = {
-			add_ideas= YEM_central_government
-		}
-
-	}
-
-	#Focus for Efficient Rule
-	focus = {
-		id = YEM_efficientrule
-		icon = GFX_efficientrule
+		id = YEM_anti_zionism
+		icon = GFX_generic_anti_zionism
 		x = 0
 		y = 2
 		cost = 8
@@ -1568,11 +1467,23 @@ focus_tree = {
 			factor = 20
 		}
 		completion_reward = {
-			add_popularity = {
-				ideology = neutrality
-				popularity = 0.1
+			add_political_power = 50
+			add_opinion_modifier = {
+			    target = ISR
+			    modifier = anti_zionism
 			}
-			add_stability= 0.05
+			SAU = {
+				country_event = {
+					id = yemen.15
+					days = 1
+				}
+			}
+			IRQ = {
+				country_event = {
+					id = yemen.15
+					days = 1
+				}
+			}
 		}
 
 	}
@@ -1600,33 +1511,16 @@ focus_tree = {
 
 	}
 
-	#Focus for Sons as Governors
-	focus = {
-		id = YEM_sonsasgovernors
-		icon = GFX_goal_generic_national_unity
-		x = 6
-		y = 3
-		cost = 8
-		available_if_capitulated = yes
-		prerequisite = { focus = YEM_expandmilitarysupport }
-		ai_will_do = {
-			factor = 15
-		}
-		completion_reward = {
-			add_ideas= YEM_governor_sons
-		}
-
-	}
-
-	#Focus for The New Central Government
+	#Focus for Consolidate Imam Authority
 	focus = {
 		id = YEM_thenewcentralgovernment
-		icon = GFX_focus_generic_support_the_left_right
+		icon = GFX_focus_rom_royal_dictatorship
 		x = 1
 		y = 1
 		cost = 8
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_consolidateimamauthority }
+		mutually_exclusive = { focus = YEM_alwaziri_coup }
 		ai_will_do = {
 			factor = 20
 		}
@@ -1636,10 +1530,10 @@ focus_tree = {
 
 	}
 
-	#Focus for Consolidate Imam Authority
+	#Focus for Anti-Democratic Stance
 	focus = {
 		id = YEM_consolidateimamauthority
-		icon = GFX_focus_rom_royal_dictatorship
+		icon = GFX_YEM_anti_democracy
 		x = 3
 		y = 0
 		cost = 8
@@ -1654,6 +1548,114 @@ focus_tree = {
 
 	}
 
+	#Focus for Alwaziri Coup
+	focus = {
+		id = YEM_alwaziri_coup
+		icon = GFX_YEM_kill_imam_yahya
+		relative_position_id = YEM_consolidateimamauthority
+        x = 2
+        y = 1
+		cost = 5
+		available_if_capitulated = yes
+		mutually_exclusive = { focus = YEM_thenewcentralgovernment }
+		prerequisite = { focus = YEM_consolidateimamauthority }
+		ai_will_do = {
+			factor = 20
+		}
+		completion_reward = {
+			country_event = {
+				id = yemen.14
+			}
+		}
+
+	}
+
+	#Focus for Shura Council
+	focus = {
+		id = YEM_shura_council
+		icon = GFX_generic_shia_focus
+		relative_position_id = YEM_alwaziri_coup
+        x = -1
+        y = 1
+		cost = 8
+		available_if_capitulated = yes
+		prerequisite = { focus = YEM_alwaziri_coup }
+		ai_will_do = {
+			factor = 40
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = YEM_resistance
+				add_idea = YEM_resistance_2
+			}
+		}
+
+	}
+
+	#Focus for Faith in the Supreme Guide
+	focus = {
+		id = YEM_supreme_guide
+		icon = GFX_focus_generic_support_the_left_right
+		relative_position_id = YEM_shura_council
+        x = 0
+        y = 1
+		cost = 8
+		available_if_capitulated = yes
+		prerequisite = { focus = YEM_shura_council }
+		ai_will_do = {
+			factor = 40
+		}
+		completion_reward = {
+			remove_ideas = YEM_resistance_2
+			add_15_islam = yes
+		}
+
+	}
+
+	#Focus for Anti-Sunni Sentiment
+	focus = {
+		id = YEM_anti_sunni
+		icon = GFX_YEM_anti_saudi_sentiment
+		relative_position_id = YEM_alwaziri_coup
+        x = 1
+        y = 1
+		cost = 8
+		available_if_capitulated = yes
+		prerequisite = { focus = YEM_alwaziri_coup }
+		ai_will_do = {
+			factor = 40
+		}
+		completion_reward = {
+			add_political_power = 50
+			add_5_islam = yes
+		}
+
+	}
+
+	#Focus for Incite Hasa Riots
+	focus = {
+		id = YEM_incite_saudi_riots
+		icon = GFX_YEM_wargoal_focus
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YEM_anti_sunni }
+		relative_position_id = YEM_anti_sunni
+        x = 0
+        y = 1
+		ai_will_do = {
+			factor = 40
+		}
+		completion_reward = {
+			SAU = {
+				add_timed_idea = { 
+					idea = SAU_hasa_riots
+					days = 200 
+				}
+			}
+		}
+
+	}
+
 	#Focus for Establish an Heir
 	focus = {
 		id = YEM_establishanheir
@@ -1662,7 +1664,7 @@ focus_tree = {
 		y = 3
 		cost = 8
 		available_if_capitulated = yes
-		prerequisite = { focus = YEM_efficientrule }
+		prerequisite = { focus = YEM_anti_zionism }
 		ai_will_do = {
 			factor = 15
 		}
@@ -1686,33 +1688,6 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas= YEM_rise_democracy
-		}
-
-	}
-
-	#Focus for Pan-Arab Beliefs
-	focus = {
-		id = YEM_panarabbeliefs
-		icon = GFX_panarabbeliefs
-		x = 10
-		y = 9
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = YEM_inviteintellectuals }
-		ai_will_do = {
-			factor = 25
-		}
-		completion_reward = {
-			add_popularity = {
-				ideology = democratic
-				popularity = 0.2
-			}
-			SAU = {
-				add_popularity = {
-					ideology = democratic
-					popularity = 0.05
-				}
-			}
 		}
 
 	}
@@ -1823,7 +1798,7 @@ focus_tree = {
 		id = YEM_enacttariffs
 		icon = GFX_enacttariffs
 		x = 7
-		y = 7
+		y = 6
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_exportcrops }
@@ -2073,11 +2048,11 @@ focus_tree = {
 		id = YEM_extraresearchslot
 		icon = GFX_focus_research2
 		x = 41
-		y = 5
-		cost = 15
+		y = 4
+		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = YEM_infrastructurerenovationiii }
-		prerequisite = { focus = YEM_manufacturingimprovementiii }
+		prerequisite = { focus = YEM_infrastructurerenovationii }
+		prerequisite = { focus = YEM_manufacturingimprovementii }
 		ai_will_do = {
 			factor = 80
 		}
@@ -2087,30 +2062,13 @@ focus_tree = {
 
 	}
 
-	#Focus for Manufacturing Improvement III
-	focus = {
-		id = YEM_manufacturingimprovementiii
-		icon = GFX_goal_generic_production2
-		x = 42
-		y = 4
-		cost = 15
-		available_if_capitulated = yes
-		prerequisite = { focus = YEM_manufacturingimprovementii }
-		ai_will_do = {
-			factor = 33
-		}
-		completion_reward = {
-			remove_ideas = YEM_pastoralism_3
-		}
-	}
-
 	#Focus for Infrastructure Renovation II
 	focus = {
 		id = YEM_infrastructurerenovationii
 		icon = GFX_goal_generic_construct_infrastructure
 		x = 40
 		y = 3
-		cost = 15
+		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_infrastructurerenovationi }
 		ai_will_do = {
@@ -2122,33 +2080,13 @@ focus_tree = {
 
 	}
 
-	#Focus for Infrastructure Renovation III
-	focus = {
-		id = YEM_infrastructurerenovationiii
-		icon = GFX_goal_generic_construct_infrastructure
-		x = 40
-		y = 4
-		cost = 15
-		available_if_capitulated = yes
-		prerequisite = { focus = YEM_infrastructurerenovationii }
-		ai_will_do = {
-			factor = 33
-		}
-		completion_reward = {
-			random_owned_controlled_state = { add_building_construction = {	type = infrastructure	level = 2 instant_build = yes	} }
-
-			random_owned_controlled_state = { add_building_construction = {	type = infrastructure	level = 1 instant_build = yes	} }
-		}
-
-	}
-
 	#Focus for Manufacturing Improvement I
 	focus = {
 		id = YEM_manufacturingimprovementi
 		icon = GFX_goal_generic_production2
 		x = 42
 		y = 2
-		cost = 15
+		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_electronicsresearch focus = YEM_industrialresearch }
 		ai_will_do = {
@@ -2166,7 +2104,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_infrastructure
 		x = 40
 		y = 2
-		cost = 15
+		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_industrialresearch focus = YEM_electronicsresearch }
 		ai_will_do = {
@@ -2237,14 +2175,14 @@ focus_tree = {
 		icon = GFX_goal_generic_production2
 		x = 42
 		y = 3
-		cost = 15
+		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_manufacturingimprovementi }
 		ai_will_do = {
 			factor = 33
 		}
 		completion_reward = {
-			swap_ideas = { remove_idea = YEM_pastoralism_2 add_idea = YEM_pastoralism_3 }
+			remove_ideas = YEM_pastoralism_2
 		}
 
 	}
