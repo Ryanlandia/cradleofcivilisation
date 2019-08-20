@@ -13265,3 +13265,8 @@
 13264;111;134;172;land;true;plains;7
 13265;177;51;51;land;true;mountain;7
 13266;135;84;4;land;true;mountain;7
+13267;45;56;43;land;false;desert;7
+13268;80;9;117;land;false;desert;7
+13269;181;183;9;land;false;desert;6
+13270;154;146;108;land;false;mountain;6
+13271;57;78;77;land;false;mountain;6

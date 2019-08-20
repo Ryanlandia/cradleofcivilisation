@@ -95,7 +95,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civilian
 		x = 40
 		y = 1
-		cost = 15
+		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_beginthesixyearplan }
 		mutually_exclusive = { focus = YEM_electronicsresearch }
@@ -154,7 +154,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_mil_factory
 		x = 37
 		y = 3
-		cost = 15
+		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_industryintaizz }
 		ai_will_do = {
@@ -191,7 +191,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civ_factory
 		x = 38
 		y = 2
-		cost = 15
+		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_britishindustrialdeals }
 		mutually_exclusive = { focus = YEM_industryintaizz }
@@ -315,7 +315,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civ_factory
 		x = 36
 		y = 2
-		cost = 15
+		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_britishindustrialdeals }
 		mutually_exclusive = { focus = YEM_industryinsanaa }
@@ -349,7 +349,7 @@ focus_tree = {
 	#Focus for Export Crops
 	focus = {
 		id = YEM_exportcrops
-		icon = GFX_exportcrops
+		icon = GFX_generic_opium_growth
 		x = 8
 		y = 5
 		cost = 10
@@ -714,7 +714,7 @@ focus_tree = {
 		icon = GFX_goal_generic_radar
 		x = 42
 		y = 1
-		cost = 15
+		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_beginthesixyearplan }
 		mutually_exclusive = { focus = YEM_industrialresearch }
@@ -1922,7 +1922,7 @@ focus_tree = {
 		icon = GFX_focus_generic_industry_2
 		x = 44
 		y = 3
-		cost = 15
+		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_industrialcapacityi }
 		ai_will_do = {
@@ -1974,7 +1974,7 @@ focus_tree = {
 		icon = GFX_focus_generic_industry_1
 		x = 44
 		y = 2
-		cost = 15
+		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_italianindustrialdeals }
 		ai_will_do = {
@@ -2122,7 +2122,7 @@ focus_tree = {
 		icon = GFX_goal_generic_oil_refinery
 		x = 37
 		y = 5
-		cost = 15
+		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_industryintheeast }
 		ai_will_do = {
@@ -2193,7 +2193,7 @@ focus_tree = {
 		icon = GFX_focus_generic_industry_3
 		x = 44
 		y = 4
-		cost = 15
+		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_industrialcapacityii }
 		ai_will_do = {
@@ -2245,7 +2245,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construction2
 		x = 46
 		y = 2
-		cost = 15
+		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_italianindustrialdeals }
 		ai_will_do = {
@@ -2267,7 +2267,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_naval_dockyard
 		x = 46
 		y = 3
-		cost = 15
+		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_importindustrialmachines }
 		ai_will_do = {
