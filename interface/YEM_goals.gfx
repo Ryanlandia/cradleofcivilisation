@@ -57,7 +57,7 @@ spriteTypes={
 	}
 	SpriteType={
 		name="GFX_riseofdemocracy"
-		texturefile="gfx/interface/goals/GFX_riseofdemocracy.tga"
+		texturefile="gfx/interface/goals/GFX_riseofdemocracy.dds"
 	}
 	SpriteType={
 		name="GFX_panarabbeliefs"
@@ -130,5 +130,9 @@ spriteTypes={
 	SpriteType={
 		name="GFX_YEM_sword_of_islam"
 		texturefile="gfx/interface/goals/YEM_sword_of_islam.dds"
+	}
+	SpriteType={
+		name="GFX_generic_opium_growth"
+		texturefile="gfx/interface/goals/generic_opium_growth.dds"
 	}
 }
