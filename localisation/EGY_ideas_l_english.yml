@@ -18,10 +18,28 @@
  
 ###NATIONAL SPIRITS
 
-EGY_faruk_1:0 "Faruk Ist"
+EGY_faruk_1:0 "Faruk I"
 EGY_political_instability:0 "Political Instability"
 EGY_women_marches:0 "Women's Marches"
 EGY_corrupt_bureaucracy:0 "Corrupt Bureaucracy"
 EGY_world_breadbasket:0 "World's Breadbasket"
 EGY_rural_urban_split:0 "Rural-Urban Split"
- 
+
+###DESIGNERS
+
+EGY_Helwan_Vehicle_Sector:0 "Helwan Vehicle Sector"
+EGY_Vauxhall_Egypt:0 "Vauxhall Egypt"
+EGY_Mercedes_Benz_Egypt:0 "Mercedes-Benz Egypt"
+EGY_Alexandria_Dockyard_Union:0 "Alexandria Dockyard Union"
+EGY_Cairo_Nile_Docks:0 "Cairo Nile Docks"
+EGY_Port_Said_Dockyard_Union:0 "Port Sa'id Dockyard Union"
+EGY_Egypt_Air:0 "EgyptAir"
+EGY_Messerschmitt_Egypt:0 "Messerschmitt Egypt"
+EGY_Supermarine_Cairo:0 "Supermarine Cairo"
+EGY_National_Armed_Forces_Manufacturing_Company:0 "National Armed Forces Manufacturing Company"
+EGY_Maadi_Firearms:0 "Mahdi Firearms"
+EGY_Cohen_Munitions:0 "Cohen Munitions"
+EGY_Telecom_Egypt:0 "Telecom Egypt"
+EGY_Helwan_Industrial_City:0 "Helwan Industrial City"
+EGY_Sameera_Moussa:0 "Sameera Moussa"
+EGY_Ali_Moustafa_Mousharafa:0 "Ali Moustafa Mousharafa"
