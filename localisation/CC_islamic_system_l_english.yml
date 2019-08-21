@@ -7,7 +7,6 @@
  sunni_available_tt:0 "Follows the Sunni sect"
  infidel:0 "Infidel Religion"
  infidel_desc:0 "This nation believes in a religion other than Islam."
- sunni_islam:0 "Sunni Islam"
  sunni_islam_desc:0 "Sunni Muslims believe that the father in law of Muhammad, Abu Bakr as-Saddiq, is the rightful successor to Muhammad. They are usually hostile to Shiite Muslims"
  shia_islam:0 "Shia Islam"
  shia_islam_desc:0 "Shiite Muslims believe that the son in law and cousin of Muhammad, Ali ibn Abi Talib, is the rightful successor to Muhammad. They are usually hostile to Sunni Muslims."

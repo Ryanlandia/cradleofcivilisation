@@ -5,7 +5,7 @@ oob = "INS_1936"
 set_research_slots = 2
 
 add_ideas = {
-	sunni_islam
+	
 }
 
 # Starting tech

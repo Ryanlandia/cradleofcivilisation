@@ -6,7 +6,7 @@ set_technology = {
 }
 
 add_ideas = {
-	sunni_islam
+	
 }
 
 set_convoys = 10

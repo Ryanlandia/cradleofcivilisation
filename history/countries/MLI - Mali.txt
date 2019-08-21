@@ -8,7 +8,7 @@ set_technology = {
 set_convoys = 0
 
 add_ideas = {
-	sunni_islam
+	
 }
 
 1939.1.1 = {

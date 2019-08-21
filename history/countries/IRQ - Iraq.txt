@@ -16,7 +16,7 @@ set_technology = {
 set_convoys = 5
 
 add_ideas = {
-	shia_islam
+	
 }
 
 1939.1.1 = {

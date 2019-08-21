@@ -131,6 +131,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 2196;13244;sea;5394;-1;-1;-1;-1;;Tanganikya-Mafia
 2196;13246;sea;5394;-1;-1;-1;-1;;Tanganikya-Zanzibar
 13262;849;sea;7678;-1;-1;-1;-1;;Dardanelles
+7982;13236;sea;2919;-1;-1;-1;-1;;Strait of Hormuz
 5407;5382;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar North
 5407;2400;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar South
 2455;2506;;-1;-1;-1;-1;-1;DANISH_BELTS_STRAIT;Øresund
@@ -151,6 +152,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 3989;1961;impassable;-1;-1;-1;-1;-1;;Himalayas
 1129;1961;impassable;-1;-1;-1;-1;-1;;Himalayas
 4558;10826;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+4558;13270;impassable;-1;-1;-1;-1;-1;;peshawar mountains
 4558;12653;impassable;-1;-1;-1;-1;-1;;peshawar mountains
 4558;7519;impassable;-1;-1;-1;-1;-1;;peshawar mountains
 12763;10826;impassable;-1;-1;-1;-1;-1;;peshawar mountains

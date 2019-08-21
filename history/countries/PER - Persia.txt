@@ -71,7 +71,7 @@ set_popularities = {
 
 add_ideas = {
 	PER_oil_concessions
-	shia_islam
+	
 	PER_you_are_corrupt_congrats
 	PER_ploopy_economy
 	PER_you_are_unpopular

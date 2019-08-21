@@ -12,7 +12,7 @@ set_technology = {
 }
 
 add_ideas = {
-	sunni_islam
+	
 }
 
 1939.1.1 = {

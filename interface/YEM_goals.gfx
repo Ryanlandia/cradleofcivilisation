@@ -135,4 +135,20 @@ spriteTypes={
 		name="GFX_generic_opium_growth"
 		texturefile="gfx/interface/goals/generic_opium_growth.dds"
 	}
+	SpriteType={
+		name="GFX_generic_democratic_propaganda"
+		texturefile="gfx/interface/goals/generic_democratic_propaganda.dds"
+	}
+	SpriteType={
+		name="GFX_YEM_elections"
+		texturefile="gfx/interface/goals/YEM_elections.dds"
+	}
+	SpriteType={
+		name="GFX_generic_wehrmacht_partnership"
+		texturefile="gfx/interface/goals/generic_wehrmacht_partnership.dds"
+	}
+	SpriteType={
+		name="GFX_generic_iraqi_officers"
+		texturefile="gfx/interface/goals/generic_iraqi_officers.dds"
+	}
 }

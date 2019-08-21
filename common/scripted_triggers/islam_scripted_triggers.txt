@@ -13,20 +13,8 @@
 #	}
 # 
 #	THIS FILE IS FOR TRIGGERS SPECIFICALLY FOR THE GER TAG
-
-is_sunni = {
-	has_idea = sunni_islam
-}
-is_shia = {
-	has_idea = shia_islam
-}
-is_ibadi = {
-	has_idea = ibadi_islam
-}
 is_islamic = {
 	OR = {
-		has_idea = sunni_islam
-		has_idea = shia_islam
-		has_idea = ibadi_islam
+		has_idea = muslim_nation
 	}
 }

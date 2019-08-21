@@ -8,7 +8,7 @@ set_technology = {
 }
 
 add_ideas = {
-	ibadi_islam
+	
 	OMA_imam_rivalry
 	OMA_undecided_army
 }

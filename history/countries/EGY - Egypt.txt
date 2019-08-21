@@ -11,7 +11,7 @@ set_convoys = 20
 oob = "EGY_1936"
 
 add_ideas = {
-	sunni_islam
+	
 }
 
 set_politics = {	

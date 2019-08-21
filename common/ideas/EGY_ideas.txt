@@ -264,9 +264,13 @@ ideas = {
 			    factor = 0
             }
         }
+    }
 ###DESIGNERS####
 	
-	designer = {
+	tank_manufacturer = {
+
+		designer = yes
+
 		EGY_Helwan_Vehicle_Sector = {
 		
 			allowed = {
@@ -278,7 +282,7 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 			}
-			
+		}
 		EGY_Vauxhall_Egypt = {
 		
 			allowed = {
@@ -290,7 +294,7 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 			}
-		
+		}
 		EGY_Mercedes_Benz_Egypt = {
 		
 			allowed = {
@@ -302,6 +306,12 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 			}
+		}
+	}
+
+	naval_manufacturer = {
+
+		designer = yes
 		
 		EGY_Alexandria_Dockyard_Union = {
 		
@@ -314,6 +324,7 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 			}
+		}
 		
 		EGY_Cairo_Nile_Docks = {
 			
@@ -321,11 +332,12 @@ ideas = {
 				original_tag = EGY
 			}
 			
-			traits = { coastal_fleet_naval_manufacturer }
+			traits = { coastal_defence_naval_manufacturer }
 			
 			ai_will_do = {
 				factor = 0
 			}
+		}
 		
 		EGY_Port_Said_Dockyard_Union = {
 			
@@ -338,6 +350,12 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 			}
+		}
+	}
+
+	aircraft_manufacturer = {
+
+		designer = yes
 		
 		EGY_Egypt_Air = {
 		
@@ -347,9 +365,7 @@ ideas = {
 			
 			traits = { medium_aircraft_manufacturer }
 			
-			ai_will_do = {
-				original_tag = EGY
-			}
+		}
 		
 		EGY_Messerschmitt_Egypt = {
 			
@@ -362,6 +378,7 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 			}
+		}
 			
 		EGY_Supermarine_Cairo = {
 			
@@ -374,6 +391,12 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 			}
+		}
+	}
+
+	materiel_manufacturer = {
+
+		designer = yes
 		
 		EGY_National_Armed_Forces_Manufacturing_Company = {
 		
@@ -386,6 +409,7 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 			}
+		}
 		
 		EGY_Maadi_Firearms = {
 			
@@ -398,6 +422,7 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 			}
+		}
 			
 		EGY_Cohen_Munitions = {
 		
@@ -410,6 +435,10 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 			}
+		}
+	}
+
+	industrial_concern = {
 		
 		EGY_Telecom_Egypt = {
 			
@@ -422,8 +451,9 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 			}
+		}
 		
-		EGY_Helwan_Industrial_City
+		EGY_Helwan_Industrial_City = {
 		
 			allowed = {
 				original_tag = EGY
@@ -434,8 +464,12 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 			}
+		}
+	}
+
+	theorist = {
 		
-		EGY_Sameera_Moussa
+		EGY_Sameera_Moussa = {
 		
 			allowed = {
 				original_tag = EGY
@@ -446,8 +480,9 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 			}
+		}
 		
-		EGY_Ali_Moustafa_Mousharafa
+		EGY_Ali_Moustafa_Mousharafa = {
 			
 			allowed = {
 				original_tag = EGY
@@ -458,7 +493,6 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 			}
-		
-
+		}
     }
 }

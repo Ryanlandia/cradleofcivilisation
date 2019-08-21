@@ -27,16 +27,33 @@ focus_tree = {
 
 	}
 
-	#Focus for Strengthen the Military
+	#Focus for German Military Mission
 	focus = {
-		id = YEM_strengthenthemilitary
-		icon = GFX_goal_rhineland
+		id = YEM_wehrmacht_partnership
+		icon = GFX_generic_wehrmacht_partnership
+		x = 50
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 45
+		}
+		completion_reward = {
+			army_experience= 10
+		}
+
+	}
+
+	#Focus for Cadets to Iraq
+	focus = {
+		id = YEM_iraqi_officers
+		icon = GFX_generic_iraqi_officers
 		x = 52
 		y = 0
 		cost = 10
 		available_if_capitulated = yes
 		ai_will_do = {
-			factor = 60
+			factor = 45
 		}
 		completion_reward = {
 			army_experience= 10
@@ -230,7 +247,7 @@ focus_tree = {
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = YEM_strengthenthemilitary }
+		prerequisite = {  }
 		ai_will_do = {
 			factor = 50
 		}
@@ -451,7 +468,7 @@ focus_tree = {
 	#Focus for Hire Democratic Supporters
 	focus = {
 		id = YEM_hiredemocraticsupporters
-		icon = GFX_goal_generic_propaganda
+		icon = GFX_generic_democratic_propaganda
 		x = 10
 		y = 1
 		cost = 10
@@ -687,7 +704,7 @@ focus_tree = {
 	#Focus for Hold Elections
 	focus = {
 		id = YEM_holdelections
-		icon = GFX_holdelections
+		icon = GFX_YEM_elections
 		x = 11
 		y = 3
 		cost = 10
@@ -2319,7 +2336,7 @@ focus_tree = {
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = YEM_strengthenthemilitary }
+		prerequisite = {  }
 		ai_will_do = {
 			factor = 33
 		}
@@ -2403,7 +2420,7 @@ focus_tree = {
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = YEM_strengthenthemilitary }
+		prerequisite = {  }
 		ai_will_do = {
 			factor = 75
 		}
@@ -2480,11 +2497,11 @@ focus_tree = {
 	focus = {
 		id = YEM_navaldoctrineresearch
 		icon = GFX_goal_generic_navy_doctrines_tactics
-		x = 55
-		y = 3
+		x = 58
+		y = 1
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = YEM_destroyerproject }
+		prerequisite = { focus = YEM_createamerchantmarine }
 		ai_will_do = {
 			factor = 75
 		}
@@ -2503,11 +2520,10 @@ focus_tree = {
 	focus = {
 		id = YEM_createamerchantmarine
 		icon = GFX_goal_generic_construct_naval_dockyard
-		x = 55
-		y = 1
+		x = 57
+		y = 0
 		cost = 15
 		available_if_capitulated = yes
-		prerequisite = { focus = YEM_strengthenthemilitary }
 		ai_will_do = {
 			factor = 75
 		}
@@ -2525,8 +2541,8 @@ focus_tree = {
 	focus = {
 		id = YEM_destroyerproject
 		icon = GFX_goal_generic_navy_cruiser
-		x = 55
-		y = 2
+		x = 56
+		y = 1
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_createamerchantmarine }
@@ -2549,11 +2565,12 @@ focus_tree = {
 	focus = {
 		id = YEM_prideofthefleet
 		icon = GFX_goal_generic_navy_battleship
-		x = 55
-		y = 4
-		cost = 15
+		x = 57
+		y = 2
+		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_navaldoctrineresearch }
+		prerequisite = { focus = YEM_destroyerproject }
 		ai_will_do = {
 			factor = 75
 		}

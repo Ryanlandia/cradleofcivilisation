@@ -3,7 +3,7 @@
 set_research_slots = 3
 
 add_ideas = {
-	sunni_islam
+	
 }
 
 # Starting tech

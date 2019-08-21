@@ -50,12 +50,4 @@ idea_categories = {
 		cost = 150
 		removal_cost = 0
 	}
-	
-	islamic_sects = {
-		slot = islamic_religions
-		slot = islamic_schools
-		
-		cost = 150
-		removal_cost = 0
-	}
 }
