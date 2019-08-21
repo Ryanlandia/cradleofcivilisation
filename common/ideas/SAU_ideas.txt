@@ -1,0 +1,36 @@
+ideas = {
+    country = {
+        SAU_treaty_of_taif = {
+            allowed = {
+                original_tag = SAU
+            }
+            modifier = {
+                justify_war_goal_time = 0.40
+            }
+        }
+	}
+	country = {
+        SAU_inexperienced_army = {
+            allowed = {
+                original_tag = SAU
+            }
+            modifier = {
+                land_reinforce_rate = -0.20
+				planning_speed = -0.20 
+				max_planning = -0.15
+				army_org_factor = -0.10
+				training_time_army_factor = 0.20
+            }
+        }
+	}
+	country = {
+        SAU_large_rural_population = {
+            allowed = {
+                original_tag = SAU
+            }
+            modifier = {
+				conscription_factor = -0.25
+            }
+        }
+	}
+}

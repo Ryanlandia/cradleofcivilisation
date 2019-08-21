@@ -105,3 +105,10 @@
  TUR_century_of_wars_desc:0 "Casualties in WW1 and the War for Independence was very costly to our nation. Millions of Turkish people died in those wars. Both soldiers and civilians."
  TUR_weak_government:0 "Weakening Government"
  TUR_weak_government_desc:0 "Different voices from Turkish Parliament increases every other day. The strength of ruling part CHP has started to crumble." 
+ ### Saudi Arabia
+ SAU_treaty_of_taif:0 "Treaty of Ta'if"
+ SAU_treaty_of_taif_desc:0 "In 1934, after the short Saudi-Yemeni war, the Treaty of Ta'if was signed between King Abdulaziz Ibn Saud and Imam Yahya Hamididdin. This imposed a 20-year truce between Saudi Arabia and Yemen. It was published in cities all around the Arab world, which will make it harder to justify war on our neighbors."
+ SAU_inexperienced_army:0 "Inexperienced Army"
+ SAU_inexperienced_army_desc:0 "The minimal army that is in conscription by the Kingdom of Saudi Arabia is deeply inexperienced. It requires reform and higher quality equipment to be able to function as a standing army."
+ SAU_large_rural_population:0 "Large Rural Population"
+ SAU_large_rural_population_desc:0 "Large portions of our populace live in very rural areas, where few people fit to serve in the army live.
