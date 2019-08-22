@@ -110,5 +110,45 @@ spriteTypes = {
 	spriteType = {
 	name = "GFX_idea_TUR_weak_government"
 	texturefile = "gfx/interface/ideas/generic_disjointed_gov.dds"			
-	}	
+	}		
+	spriteType = {
+	name = "GFX_idea_generic_anti_zionist_pact"
+	texturefile = "gfx/interface/ideas/idea_generic_anti_zionist_pact.dds"			
+	}		
+	spriteType = {
+	name = "GFX_idea_EGY_Alexandria_Dockyard_Union"
+	texturefile = "gfx/interface/ideas/idea_EGY_Alexandria_Dockyard_Union.dds"			
+	}
+	spriteType = {
+	name = "GFX_idea_EGY_Helwan_Vehicle_Sector"
+	texturefile = "gfx/interface/ideas/idea_EGY_Helwan_Vehicle_Sector.dds"			
+	}
+	spriteType = {
+	name = "GFX_idea_EGY_Cairo_Nile_Docks"
+	texturefile = "gfx/interface/ideas/idea_EGY_Cairo_Nile_Docks.dds"			
+	}
+	spriteType = {
+	name = "GFX_idea_EGY_Egypt_Air"
+	texturefile = "gfx/interface/ideas/idea_EGY_Egypt_Air.dds"			
+	}
+	spriteType = {
+	name = "GFX_idea_EGY_Mercedes_Benz_Egypt"
+	texturefile = "gfx/interface/ideas/idea_EGY_Mercedes_Benz_Egypt.dds"
+	}
+	spriteType = {
+	name = "GFX_idea_EGY_National_Armed_Forces_Manufacturing_Company"
+	texturefile = "gfx/interface/ideas/idea_EGY_National_Armed_Forces_Manufacturing_Company.dds"
+	}
+	spriteType = {
+	name = "GFX_idea_EGY_Port_Said_Dockyard_Union"
+	texturefile = "gfx/interface/ideas/idea_EGY_Port_Said_Dockyard_Union.dds"
+	}
+	spriteType = {
+	name = "GFX_idea_EGY_Telecom_Egypt"
+	texturefile = "gfx/interface/ideas/idea_EGY_Telecom_Egypt.dds"
+	}
+	spriteType = {
+	name = "GFX_idea_EGY_Supermarine_Cairo"
+	texturefile = "gfx/interface/ideas/idea_EGY_Supermarine_Cairo.dds"
+	}
 }
