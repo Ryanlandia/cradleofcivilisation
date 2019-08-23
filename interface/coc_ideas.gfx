@@ -151,4 +151,60 @@ spriteTypes = {
 	name = "GFX_idea_EGY_Supermarine_Cairo"
 	texturefile = "gfx/interface/ideas/idea_EGY_Supermarine_Cairo.dds"
 	}
+	spriteType = {
+	name = "GFX_idea_EGY_gamal_abdel_nasser"
+	texturefile = "gfx/interface/ideas/idea_EGY_gamal_abdel_nasser.dds"
+	}
+	spriteType = {
+	name = "GFX_idea_EGY_safiya_zaghloul"
+	texturefile = "gfx/interface/ideas/idea_EGY_safiya_zaghloul.dds"
+	}
+	spriteType = {
+	name = "GFX_idea_EGY_aly_mahir_pasha"
+	texturefile = "gfx/interface/ideas/idea_EGY_aly_mahir_pasha.dds"
+	}
+	spriteType = {
+	name = "GFX_idea_EGY_fawzia_fuad"
+	texturefile = "gfx/interface/ideas/idea_EGY_fawzia_fuad.dds"
+	}
+	spriteType = {
+	name = "GFX_idea_EGY_talaat_harb"
+	texturefile = "gfx/interface/ideas/idea_EGY_talaat_harb.dds"
+	}
+	spriteType = {
+	name = "GFX_idea_EGY_ismal_chrine"
+	texturefile = "gfx/interface/ideas/idea_EGY_ismal_chrine.dds"
+	}
+	spriteType = {
+	name = "GFX_idea_EGY_huda_shaarawi"
+	texturefile = "gfx/interface/ideas/idea_EGY_huda_shaarawi.dds"
+	}
+	spriteType = {
+	name = "GFX_idea_EGY_Farouk_1"
+	texturefile = "gfx/interface/ideas/idea_EGY_Farouk_1.dds"
+	}
+	spriteType = {
+	name = "GFX_idea_EGY_zakaria_mohieddin"
+	texturefile = "gfx/interface/ideas/idea_EGY_zakaria_mohieddin.dds"
+	}
+	spriteType = {
+	name = "GFX_idea_EGY_ahmad_hussein"
+	texturefile = "gfx/interface/ideas/idea_EGY_ahmad_hussein.dds"
+	}
+	spriteType = {
+	name = "GFX_idea_EGY_mohammed_naguib"
+	texturefile = "gfx/interface/ideas/idea_EGY_mohammed_naguib.dds"
+	}
+	spriteType = {
+	name = "GFX_idea_EGY_Mohamed_Mahmoud_Pasha"
+	texturefile = "gfx/interface/ideas/idea_EGY_Mohamed_Mahmoud_Pasha.dds"
+	}
+	spriteType = {
+	name = "GFX_idea_EGY_Mustafa_el_Nahhas_Pasha"
+	texturefile = "gfx/interface/ideas/idea_EGY_Mustafa_el_Nahhas_Pasha.dds"
+	}
+	spriteType = {
+	name = "GFX_idea_EGY_Agha_Khan_III"
+	texturefile = "gfx/interface/ideas/idea_EGY_Agha_Khan_III.dds"
+	}
 }
