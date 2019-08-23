@@ -495,4 +495,200 @@ ideas = {
 			}
 		}
     }
+	
+	#ARMY BOIS
+	
+	army_chief = {
+	
+		EGY_farouk_i = {
+		
+			allowed = {
+			original_tag = EGY
+			}
+			
+			traits = { army_chief_old_guard }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		EGY_hussein_rekfi_pasha = {
+			
+			allowed = {
+			original_tag = EGY
+			}
+			
+			traits = { army_chief_organisational_1 }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		EGY_mohamed_naguib_army_chief = {
+			
+			allowed = {
+			original_tag = EGY
+			}
+			
+			traits = { army_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	
+	navy_chief = {
+	
+		EGY_hussein_rekfi_pasha_boats = {
+		
+			allowed = {
+			original_tag = EGY
+			}
+			
+			traits = { navy_chief_commerce_raiding_2 }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		EGY_ismail_chirine_boats = {
+		
+			allowed = {
+			original_tag = EGY
+			}
+			
+			traits = { navy_chief_old_guard }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	
+	air_chief = {
+	
+		EGY_adel_amin_hafez = {
+		
+			allowed = {
+			original_tag = EGY
+			}
+			
+			traits = { air_chief_logistics_2 }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		EGY_hassan_ibrahim = {
+		
+			allowed = {
+			original_tag = EGY
+			}
+			
+			traits = { air_chief_safety_2 }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		EGY_mohamed_sedky_mahmoud = {
+		
+			allowed = {
+			original_tag = EGY
+			}
+			
+			traits = { air_chief_reform_3 }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	
+	high_command = {
+	
+		EGY_nasser_high_command = {
+		
+			allowed = {
+			original_tag = EGY
+			}
+			
+			traits = { army_regrouping_1 }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		EGY_mohamed_sanwar_el_sadat = {
+		
+			allowed = {
+			original_tag = EGY
+			}
+			
+			traits = { army_logistics_2 }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		EGY_ahmed_hakim_amer = {
+			
+			allowed = {
+			original_tag = EGY
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		EGY_hussein_sirri_amer = {
+		
+			allowed = {
+			original_tag = EGY
+			}
+			
+			traits = { army_armored_2 }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		EGY_abdul_moniem_riad = {
+			
+			allowed = {
+			original_tag = EGY
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		EGY_saad_el_shazly = {
+		
+			allowed = {
+			original_tag = EGY
+			}
+			
+			traits = { army_commando_2 }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
 }
