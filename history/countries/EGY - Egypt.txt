@@ -76,3 +76,101 @@ create_country_leader = {
 		#
 	}
 }
+
+create_corps_commander = {
+	name = "Mohamed Naguib"
+	gfx = 
+	traits = { infantry_officer }
+	skill = 5
+	attack_skill = 5
+	defence_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Abdel Hakim Amer"
+	gfx = 
+	traits = { infantry_officer }
+	skill = 5
+	attack_skill = 5
+	defence_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Mohamed Sanwar el-Sadat"
+	gfx = 
+	traits = { infantry_officer }
+	skill = 3
+	attack_skill = 3
+	defence_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Gamal Abdel Nasser"
+	gfx = 
+	traits = { reckless career_officer }
+	skill = 2
+	attack_skill = 2
+	defence_skill = 2
+	planning_skill = 1
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Hussein Sirri Amer"
+	gfx = 
+	traits = { armor_officer }
+	skill = 2
+	attack_skill = 2
+	defence_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Hussein Rekfi Pasha"
+	gfx = 
+	traits = { politically_connected }
+	skill = 4
+	attack_skill = 4
+	defence_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Saad el-Shazly"
+	gfx = 
+	traits = 
+	skill = 5
+	attack_skill = 5
+	defence_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Abdul Moniem Riad"
+	gfx = 
+	traits = 
+	skill = 5
+	attack_skill = 5
+	defence_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_navy_leader = {
+	name = Hussein Rekfi Pasha
+	gfx = 
+	traits =
+	skill = 4
+	attack_skill = 4
+	defence_skill = 4
+	manoevering_skill = 4
+	coordination_skill = 4
