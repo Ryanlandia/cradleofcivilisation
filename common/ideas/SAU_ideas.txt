@@ -5,7 +5,7 @@ ideas = {
                 original_tag = SAU
             }
             modifier = {
-                justify_war_goal_time = 0.40
+                justify_war_goal_time = 0.20
             }
         }
 	}

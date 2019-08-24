@@ -1,0 +1,28 @@
+political_actions = {
+	build_a_palace = {
+
+#		icon = 
+
+		available = {
+			has_stability < 1.0
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+
+		modifier = {
+		}
+
+		days_remove = 200
+		days_re_enable = 200
+
+		cost = 100
+
+		complete_effect = {
+			add_5_islam = yes
+		}
+	}
+}
