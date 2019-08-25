@@ -6,20 +6,35 @@
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+	}
+}
+division_template = {
+	name = "Khazzan Almalaki"		# Vickers M. II Light tanks from ITALIA. Used in 1934 Yemen war
+
+	division_names_group = SAU_ARM_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
 	}
 }
 division_template = {
 	name = "Alfurqat Alfursan"		# Camel-mounted levies (militia)
 
-	division_names_group = SAU_CAV_01
+	division_names_group = SAU_ARM_01
 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
 	}
 }
 division_template = {
-	name = "Al-Ḥars al-Malakī as-Suʿūdī"		# Royal guard
+	name = "Al-Hars al-Malaki as-Su'udi"		# Royal guard
 
 	division_names_group = SAU_INF_01
 
@@ -29,51 +44,69 @@ division_template = {
 		infantry = { x = 0 y = 2 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
 	}
 }
 
 units = {
 	##### Royal Saudi Army #####
-	division = {
-		#name = "Alfursan Almalika 'Medina'"
+	division = {												##### Royal Palace Guards #####
+		name = "Al-Hars al-Malaki as-Su'udi Ar Riyad"
+#		division_name = {    # New syntax for compatibility with name lists
+#			is_name_ordered = yes
+#			name_order = 1
+#		}
+		location = 12727
+		division_template = "Al-Hars al-Malaki as-Su'udi"
+		start_equipment_factor = 0.3
+
+	}
+	
+	division = {												##### Madinah #####
 		division_name = {    # New syntax for compatibility with name lists
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 7934
+		location = 10835
 		division_template = "Alfurqat Almasha"		
 		start_equipment_factor = 0.3
-
 	}
 	division = {
-		#name = "Al-Ḥars al-Malakī as-Suʿūdī Ar Riyad"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 12727
-		division_template = "Al-Ḥars al-Malakī as-Suʿūdī"	
-		start_equipment_factor = 0.3
-
-	}
-	division = {
-		#name = "Al-Ḥars al-Malakī as-Suʿūdī Ar Riyad"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 12727
-		division_template = "Al-Ḥars al-Malakī as-Suʿūdī"	
-		start_equipment_factor = 0.3
-
-	}
-	division = {
-		#name = "Alfurqat Jiddah"
 		division_name = {    # New syntax for compatibility with name lists
 			is_name_ordered = yes
 			name_order = 2
 		}
+		location = 10835
+		division_template = "Alfurqat Almasha"		
+		start_equipment_factor = 0.3
+	}
+	
+	division = {												##### Jeddah #####
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 3
+		}
 		location = 12883
+		division_template = "Alfurqat Almasha"
+		start_equipment_factor = 0.3
+
+	}
+	division = {												##### Meccah #####
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 5037
+		division_template = "Alfurqat Almasha"
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 5037
 		division_template = "Alfurqat Almasha"
 		start_equipment_factor = 0.3
 

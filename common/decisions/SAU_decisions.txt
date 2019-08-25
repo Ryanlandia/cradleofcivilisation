@@ -1,0 +1,28 @@
+political_actions = {
+	SAU_build_a_palace = {
+
+#		icon = 
+
+		available = {
+		}
+
+		visible = {
+			always = yes
+			has_government_neutrality
+		}
+
+		fire_only_once = no
+
+		modifier = {
+		}
+
+		days_remove = 200
+		days_re_enable = 200
+
+		cost = 100
+
+		complete_effect = {
+			add_5_islam = yes
+		}
+	}
+}

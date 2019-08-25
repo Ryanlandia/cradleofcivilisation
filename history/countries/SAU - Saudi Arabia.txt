@@ -12,10 +12,10 @@ set_technology = {
 set_convoys = 5
 
 add_ideas = {
-		
 	SAU_treaty_of_taif
 	SAU_inexperienced_army
 	SAU_large_rural_population
+	SAU_ulama
 }
 
 1939.1.1 = {
