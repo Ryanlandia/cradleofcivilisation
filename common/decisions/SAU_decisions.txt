@@ -8,7 +8,7 @@ political_actions = {
 
 		visible = {
 			always = yes
-			has_government_neutrality
+			has_government = neutrality
 		}
 
 		fire_only_once = no
