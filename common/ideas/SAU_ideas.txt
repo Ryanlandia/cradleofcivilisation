@@ -29,7 +29,28 @@ ideas = {
                 original_tag = SAU
             }
             modifier = {
-				conscription_factor = -0.25
+				conscription_factor = -0.30
+            }
+        }
+	}
+	country = {
+        SAU_ulama = {
+            allowed = {
+                original_tag = SAU
+            }
+            modifier = {
+				research_speed_factor = -0.35
+            }
+        }
+	}
+	country = {
+        SAU_legal_slavery = {
+            allowed = {
+                original_tag = SAU
+            }
+            modifier = {
+				production_speed_buildings_factor = 0.15
+				political_power_cost = 0.15
             }
         }
 	}
