@@ -11,7 +11,7 @@ state={
 			infrastructure = 2
 		}
 	}
-	manpower=1
+	manpower=559869
 	state_category=pastoral
 	buildings_max_level_factor=1.000
 }

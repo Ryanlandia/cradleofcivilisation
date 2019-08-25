@@ -151,4 +151,12 @@ spriteTypes={
 		name="GFX_generic_iraqi_officers"
 		texturefile="gfx/interface/goals/generic_iraqi_officers.dds"
 	}
+	SpriteType={
+		name="GFX_YEM_city_military"
+		texturefile="gfx/interface/goals/YEM_city_military.dds"
+	}
+	SpriteType={
+		name="GFX_generic_modern_tactics"
+		texturefile="gfx/interface/goals/generic_modern_tactics.dds"
+	}
 }

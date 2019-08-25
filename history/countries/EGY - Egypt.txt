@@ -22,11 +22,10 @@ set_politics = {
 }
 
 add_ideas = {
-	EGY_faruk_1
+	EGY_world_breadbasket
 	EGY_political_instability
 	EGY_women_marches
 	EGY_corrupt_bureaucracy
-	EGY_world_breadbasket
 	EGY_rural_urban_split
 }
 
@@ -79,98 +78,77 @@ create_country_leader = {
 
 create_corps_commander = {
 	name = "Mohamed Naguib"
-	gfx = 
-	traits = { infantry_officer }
+	gfx = ""
+	traits = { infantry_officer infantry_leader politically_connected }
 	skill = 5
 	attack_skill = 5
-	defence_skill = 5
-	planning_skill = 5
-	logistics_skill = 5
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 4
 }
 
 create_corps_commander = {
-	name = "Abdel Hakim Amer"
-	gfx = 
-	traits = { infantry_officer }
+	name = "Abdelhakim Amer"
+	gfx = ""
+	traits = { infantry_officer panzer_expert armor_officer }
 	skill = 5
-	attack_skill = 5
-	defence_skill = 5
-	planning_skill = 5
-	logistics_skill = 5
+	attack_skill = 4
+	defense_skill = 5
+	planning_skill = 3
+	logistics_skill = 4
 }
 
 create_corps_commander = {
 	name = "Mohamed Sanwar el-Sadat"
-	gfx = 
+	gfx = ""
 	traits = { infantry_officer }
 	skill = 3
 	attack_skill = 3
-	defence_skill = 3
+	defense_skill = 3
 	planning_skill = 3
 	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "Gamal Abdel Nasser"
-	gfx = 
-	traits = { reckless career_officer }
+	gfx = ""
+	traits = { trait_reckless career_officer politically_connected }
 	skill = 2
 	attack_skill = 2
-	defence_skill = 2
+	defense_skill = 2
 	planning_skill = 1
 	logistics_skill = 4
 }
 
 create_corps_commander = {
 	name = "Hussein Sirri Amer"
-	gfx = 
+	gfx = ""
 	traits = { armor_officer }
 	skill = 2
 	attack_skill = 2
-	defence_skill = 2
+	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 2
 }
 
 create_field_marshal = {
 	name = "Hussein Rekfi Pasha"
-	gfx = 
-	traits = { politically_connected }
+	gfx = ""
+	traits = { politically_connected inflexible_strategist }
 	skill = 4
 	attack_skill = 4
-	defence_skill = 4
+	defense_skill = 4
 	planning_skill = 4
 	logistics_skill = 4
 }
 
-create_corps_commander = {
-	name = "Saad el-Shazly"
-	gfx = 
-	traits = 
-	skill = 5
-	attack_skill = 5
-	defence_skill = 5
-	planning_skill = 5
-	logistics_skill = 5
-}
-
-create_corps_commander = {
-	name = "Abdul Moniem Riad"
-	gfx = 
-	traits = 
-	skill = 5
-	attack_skill = 5
-	defence_skill = 5
-	planning_skill = 5
-	logistics_skill = 5
-}
-
 create_navy_leader = {
-	name = Hussein Rekfi Pasha
-	gfx = 
-	traits =
+	name = "Hussein Rekfi Pasha"
+	gfx = ""
+	traits = {  }
 	skill = 4
-	attack_skill = 4
-	defence_skill = 4
-	manoevering_skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	maneuvering_skill = 5
 	coordination_skill = 4
+}
