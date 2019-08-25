@@ -972,6 +972,10 @@ country_event = {
 			    target = ISR
 			    modifier = anti_zionism
 			}
+			custom_effect_tooltip = YEM_anti_zionism_tt
+			hidden_effect = {
+				add_ideas = YEM_anti_zionist_pact
+			}
 		}
 	}
 }

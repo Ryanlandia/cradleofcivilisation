@@ -13,7 +13,7 @@ state={
 		}
 		add_core_of = EGY
 		victory_points = {
-			1071 1 
+			11967 3
 		}
 	}
 

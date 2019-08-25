@@ -33,7 +33,7 @@ focus_tree = {
 		icon = GFX_generic_wehrmacht_partnership
 		x = 50
 		y = 0
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 45
@@ -50,7 +50,7 @@ focus_tree = {
 		icon = GFX_generic_iraqi_officers
 		x = 52
 		y = 0
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 45
@@ -234,93 +234,6 @@ focus_tree = {
 						instant_build = yes
 					}
 				}
-			}
-		}
-
-	}
-
-	#Focus for Infantry Equipment Development
-	focus = {
-		id = YEM_infantryequipmentdevelopment
-		icon = GFX_goal_generic_small_arms
-		x = 51
-		y = 1
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = {  }
-		ai_will_do = {
-			factor = 50
-		}
-		completion_reward = {
-			add_tech_bonus= {
-				bonus = 1
-				uses = 1
-				category = infantry_weapons
-			}
-		}
-
-	}
-
-	#Focus for Support Equipment Breakthrough
-	focus = {
-		id = YEM_supportequipmentbreakthrough
-		icon = GFX_goal_generic_army_artillery2
-		x = 51
-		y = 2
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = YEM_infantryequipmentdevelopment }
-		ai_will_do = {
-			factor = 46
-		}
-		completion_reward = {
-			add_tech_bonus= {
-				bonus = 1
-				uses = 2
-				category = support_tech
-			}
-		}
-
-	}
-
-	#Focus for Artillery Research
-	focus = {
-		id = YEM_Qrdwytem
-		icon = GFX_goal_generic_army_artillery2
-		x = 51
-		y = 3
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = YEM_supportequipmentbreakthrough }
-		ai_will_do = {
-			factor = 50
-		}
-		completion_reward = {
-			add_tech_bonus= {
-				bonus = 1
-				uses = 1
-				category = artillery
-			}
-		}
-
-	}
-
-	#Focus for Mountainous Warfare
-	focus = {
-		id = YEM_mountainouswarfare
-		icon = GFX_goal_generic_secret_weapon
-		x = 51
-		y = 4
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = YEM_Qrdwytem }
-		ai_will_do = {
-			factor = 50
-		}
-		completion_reward = {
-			custom_effect_tooltip = yem_mountaineers_tt
-			hidden_effect = {
-				load_oob = "YEM_mountaineers"
 			}
 		}
 
@@ -1489,6 +1402,7 @@ focus_tree = {
 			    target = ISR
 			    modifier = anti_zionism
 			}
+			custom_effect_tooltip = YEM_anti_zionism_tt
 			SAU = {
 				country_event = {
 					id = yemen.15
@@ -1501,8 +1415,10 @@ focus_tree = {
 					days = 1
 				}
 			}
+			hidden_effect = {
+				add_ideas = YEM_anti_zionist_pact
+			}
 		}
-
 	}
 
 	#Focus for Start the Civil War
@@ -2328,101 +2244,18 @@ focus_tree = {
 
 	}
 
-	#Focus for Basic Doctrinal Studies
-	focus = {
-		id = YEM_basicdoctrinalstudies
-		icon = GFX_basicdoctrinalstudies
-		x = 53
-		y = 1
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = {  }
-		ai_will_do = {
-			factor = 33
-		}
-		completion_reward = {
-			add_tech_bonus = {
-				bonus = 1
-				uses = 1
-				category = land_doctrine
-			}
-		}
-
-	}
-
-	#Focus for Intermediate Doctrinal Studies
-	focus = {
-		id = YEM_intermediatedoctrinalstudies
-		icon = GFX_intermediatedoctrinalstudies
-		x = 53
-		y = 2
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = YEM_basicdoctrinalstudies }
-		ai_will_do = {
-			factor = 33
-		}
-		completion_reward = {
-			add_tech_bonus = {
-				bonus = 1
-				uses = 1
-				category = land_doctrine
-			}
-		}
-
-	}
-
-	#Focus for Advanced Doctrinal Studies
-	focus = {
-		id = YEM_advanceddoctrinalstudies
-		icon = GFX_advanceddoctrinalstudies
-		x = 53
-		y = 3
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = YEM_intermediatedoctrinalstudies }
-		ai_will_do = {
-			factor = 33
-		}
-		completion_reward = {
-			add_tech_bonus = {
-				bonus = 1
-				uses = 2
-				category = land_doctrine
-			}
-		}
-
-	}
-
-	#Focus for Calvary Improvements
-	focus = {
-		id = YEM_calvaryimprovements
-		icon = GFX_goal_generic_cavalry
-		x = 53
-		y = 4
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = YEM_advanceddoctrinalstudies }
-		ai_will_do = {
-			factor = 33
-		}
-		completion_reward = {
-			add_ideas = generic_arabian_calvary
-		}
-
-	}
-
 	#Focus for The New Army
 	focus = {
 		id = YEM_thenewarmy
 		icon = GFX_goal_generic_axis_build_infantry
-		x = 49
+		x = 51
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = {  }
+		prerequisite = { focus = YEM_wehrmacht_partnership }
+		prerequisite = { focus = YEM_iraqi_officers }
 		ai_will_do = {
-			factor = 75
+			factor = 50
 		}
 		completion_reward = {
 			army_experience = 10
@@ -2432,8 +2265,8 @@ focus_tree = {
 
 	#Focus for Improve the Census
 	focus = {
-		id = YEM_improvethecensus
-		icon = GFX_goal_generic_military_sphere
+		id = YEM_city_military
+		icon = GFX_YEM_city_military
 		x = 49
 		y = 2
 		cost = 10
@@ -2441,6 +2274,23 @@ focus_tree = {
 		prerequisite = { focus = YEM_thenewarmy }
 		ai_will_do = {
 			factor = 80
+		}
+		completion_reward = {
+		}
+
+	}
+
+	#Focus for Improve the Census
+	focus = {
+		id = YEM_census_improvements
+		icon = GFX_focus_secret_rearmament
+		x = 49
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YEM_city_military }
+		ai_will_do = {
+			factor = 50
 		}
 		completion_reward = {
 			swap_ideas = {
@@ -2451,15 +2301,36 @@ focus_tree = {
 
 	}
 
-	#Focus for Sana’a Officer Acedemy
+	#Focus for Kneel the Bedouin
 	focus = {
-		id = YEM_sanaaofficeracedemy
-		icon = GFX_focus_generic_military_mission
+		id = YEM_crush_tribes
+		icon = GFX_goal_generic_secret_weapon
 		x = 49
-		y = 3
+		y = 4
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = YEM_improvethecensus }
+		prerequisite = { focus = YEM_census_improvements }
+		ai_will_do = {
+			factor = 50
+		}
+		completion_reward = {
+			country_event = {
+				id = yemen.16
+				days = 1
+			}
+		}
+
+	}
+
+	#Focus for Western Tactics
+	focus = {
+		id = YEM_modern_tactics
+		icon = GFX_generic_modern_tactics
+		x = 49
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YEM_crush_tribes }
 		ai_will_do = {
 			factor = 50
 		}
@@ -2467,27 +2338,6 @@ focus_tree = {
 			swap_ideas = {
 				remove_idea = YEM_army_2
 				add_idea = YEM_army_3
-			}
-		}
-
-	}
-
-	#Focus for For Imam and Country
-	focus = {
-		id = YEM_forimamandcountry
-		icon = GFX_focus_generic_home_defense
-		x = 49
-		y = 4
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = YEM_sanaaofficeracedemy }
-		ai_will_do = {
-			factor = 50
-		}
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = YEM_army_3
-				add_idea = YEM_army_4
 			}
 		}
 
