@@ -1,14 +1,14 @@
 political_actions = {
-	build_a_palace = {
+	SAU_build_a_palace = {
 
 #		icon = 
 
 		available = {
-			has_stability < 1.0
 		}
 
 		visible = {
 			always = yes
+			has_government_neutrality
 		}
 
 		fire_only_once = no
