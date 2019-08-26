@@ -1,17 +1,18 @@
 ideas = {
     country = {
         SAU_treaty_of_taif = {
+			picture = sau_treaty_of_taif
             allowed = {
                 original_tag = SAU
             }
             modifier = {
                 justify_war_goal_time = 0.20
             }
-			picture = idea_hun_treaty_of_trianon
         }
 	}
 	country = {
         SAU_inexperienced_army = {
+			picture = sau_inexperienced_army
             allowed = {
                 original_tag = SAU
             }
@@ -24,11 +25,11 @@ ideas = {
 				army_attack_factor = -0.10
 				army_defence_factor = -0.10
             }
-			picture = chi_army_corruption
         }
 	}
 	country = {
         SAU_large_rural_population = {
+			picture = sau_pastoral_population
             allowed = {
                 original_tag = SAU
             }

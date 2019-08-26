@@ -10,7 +10,8 @@ focus_tree = {
     }
 	
 	focus = {
-        id = SAU_post_unification
+        id = SAU_third_saudi_state
+		icon = GFX_unitethearabs
         x = 10
         y = 0
         cost = 0
@@ -18,10 +19,9 @@ focus_tree = {
         bypass = {
         }
         available = {
-			always = yes
 		}
         completion_reward = {
-            #
+			add_political_power = 120
         }
     }
 }
