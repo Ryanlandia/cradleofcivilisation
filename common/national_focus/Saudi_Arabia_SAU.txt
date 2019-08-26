@@ -14,7 +14,7 @@ focus_tree = {
 		icon = GFX_unitethearabs
         x = 10
         y = 0
-        cost = 0
+        cost = 10
         available_if_capitulated = no
         bypass = {
         }

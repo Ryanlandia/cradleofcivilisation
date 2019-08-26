@@ -19,7 +19,7 @@ add_ideas = {
 }
 
 1939.1.1 = {
-
+	
 	add_political_power = 1198
 	
 	#generic focuses
