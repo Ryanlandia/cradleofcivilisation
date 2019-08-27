@@ -1,0 +1,27 @@
+focus_tree = { 
+    id = SAU
+
+    country = { 
+        factor = 0 
+        modifier = { 
+        add = 10 
+        tag = SAU
+        } 
+    }
+	
+	focus = {
+        id = post_unification
+        x = 10
+        y = 0
+        cost = 0
+        available_if_capitulated = no
+        bypass = {
+        }
+        available = {
+			always = yes
+		}
+        completion_reward = {
+            #
+        }
+    }
+}
