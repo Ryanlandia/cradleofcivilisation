@@ -1,17 +1,17 @@
-###########################
+﻿###########################
 #######Turkey Events#######
 ###########################
 
 country_event = {
-    id = kemalisttake
-    title = kemalisttake.t
-    desc = kemalisttake.d
+    id = kemalisttake.1
+    title = kemalisttake.1.t
+    desc = kemalisttake.1.d
     fire_only_once = yes
 
 
 
     option = {
-        name = kemalisttake.a
+        name = kemalisttake.1.a
         add_ideas = {
             TUR_favoured_the_state
         }
