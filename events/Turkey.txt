@@ -2,18 +2,18 @@
 #######Turkey Events#######
 ###########################
 
-add_namespace = turkey
+add_namespace = tur
 
 ###Kemalist Take
 country_event = {
-    id = turkey.1
-    title = turkey.1.t
-    desc = turkey.1.d
+    id = tur.1
+    title = tur.1.t
+    desc = tur.1.d
 
     is_triggered_only = yes
 
     option = {
-        name = turkey.1.a  
+        name = tur.1.a  
         add_ideas = {
             TUR_favoured_the_state
         }

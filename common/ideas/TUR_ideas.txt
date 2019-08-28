@@ -46,7 +46,9 @@ ideas = {
             }
             removal_cost = -1
 
-            modifier = {}
+            modifier = {
+                add_stability = 0.1
+            }
         }
     }
 }

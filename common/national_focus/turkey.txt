@@ -170,7 +170,7 @@ focus_tree = {
 		mutually_exclusive = { focus = TUR_traditionaltake }
 		completion_reward = {
 			country_event = {
-				id = turkey.1
+				id = tur.1
 				days = 1
 			}
 		}
