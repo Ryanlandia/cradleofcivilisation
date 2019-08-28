@@ -123,3 +123,7 @@
  yemen.215.t:0 "[From.GetName] Refuses Pact"
  yemen.215.d:0 "[From.GetName] has refused to join our pact, saying that they have no reason to be against Jews at the moment. This means that we have to fight for our cause without them."
  yemen.215.a:0 "We can make do without [From.GetName]."
+  ###Turkey Events
+kemalisttake:0 ""
+kemalisttake.t:0 ""
+kemalisttake.d:0 ""

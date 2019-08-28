@@ -168,6 +168,12 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = TUR_internalproblems }
 		mutually_exclusive = { focus = TUR_traditionaltake }
+		completion_reward = {
+			country_event = {
+				id = kemalisttake.1
+				days = 1
+			}
+		}
 		ai_will_do = {
 			factor = 1
 		}
