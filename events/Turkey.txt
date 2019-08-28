@@ -20,3 +20,85 @@ country_event = {
         
     }
 }
+
+###Status of Minorities
+country_event = {
+    id = tur.2
+    title = tur.2.t
+    desc = tur.2.d
+
+    is_triggered_only = yes
+
+    option = {
+        name = tur.201.a
+        add_building_construction = {
+            type = infrastructure
+            level = 1
+            instant_build = yes
+            id = 354
+        }
+        add_building_construction = {
+            type = infrastructure
+            level = 1
+            instant_build = yes
+            id = 353
+        }
+        add_building_construction = {
+            type = infrastructure
+            level = 1
+            instant_build = yes
+            id = 352
+        }
+        add_building_construction = {
+            type = infrastructure
+            level = 1
+            instant_build = yes
+            id = 350
+        }
+    }
+
+    option = {
+        name = tur.202.a
+        add_building_construction = {
+            type = infrastructure
+            level = 1
+            instant_build = yes
+            id = 339
+        }
+        add_building_construction = {
+            type = infrastructure
+            level = 1
+            instant_build = yes
+            id = 341
+        }
+        add_building_construction = {
+            type = infrastructure
+            level = 1
+            instant_build = yes
+            id = 49
+        }
+        add_stability = 0.1
+
+    }
+}
+
+#Status of Religion
+country_event = {
+    id = tur.3
+    title = tur.3.t
+    desc = tur.3.d
+
+    is_triggered_only = yes
+
+    option = {
+        name = tur.301.a
+    }
+    
+    option = {
+        name = tur.302.a
+    }
+    
+    option = {
+        name = tur.303.a
+    }
+}

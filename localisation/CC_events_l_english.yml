@@ -124,6 +124,18 @@
  yemen.215.d:0 "[From.GetName] has refused to join our pact, saying that they have no reason to be against Jews at the moment. This means that we have to fight for our cause without them."
  yemen.215.a:0 "We can make do without [From.GetName]."
   ###Turkey Events
-tur.1.t:0 "Bu baslik"
-tur.1.d:0 "Bu aciklama"
-tur.1.a:0 "Bu secenek ustu"
+#Kemalist Take
+tur.1.t:0 ""
+tur.1.d:0 ""
+tur.1.a:0 ""
+#Status of Minorities
+tur.2.t:0 ""
+tur.2.d:0 ""
+tur.201.a:0 "Help the Minorities"
+tur.202.a:0 "Favour the Turks"
+#Status of Religion
+tur.3.t:0 ""
+tur.3.d:0 ""
+tur.301.a:0 ""
+tur.302.a:0 ""
+tur.303.a:0 ""

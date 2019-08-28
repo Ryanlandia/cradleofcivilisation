@@ -365,6 +365,12 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			country_event = {
+				id = tur.3
+				days = 1
+			}
+		}
 
 	}
 
@@ -413,6 +419,12 @@ focus_tree = {
 		prerequisite = { focus = TUR_kemalisttake }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			country_event = {
+				id = tur.2
+				days = 1
+			}
 		}
 
 	}
