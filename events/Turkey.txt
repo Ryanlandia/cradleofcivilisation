@@ -35,25 +35,25 @@ country_event = {
             type = infrastructure
             level = 1
             instant_build = yes
-            id = 354
+            province = 354
         }
         add_building_construction = {
             type = infrastructure
             level = 1
             instant_build = yes
-            id = 353
+            province = 353
         }
         add_building_construction = {
             type = infrastructure
             level = 1
             instant_build = yes
-            id = 352
+            province = 352
         }
         add_building_construction = {
             type = infrastructure
             level = 1
             instant_build = yes
-            id = 350
+            province = 350
         }
     }
 
@@ -63,19 +63,19 @@ country_event = {
             type = infrastructure
             level = 1
             instant_build = yes
-            id = 339
+            province = 339
         }
         add_building_construction = {
             type = infrastructure
             level = 1
             instant_build = yes
-            id = 341
+            province = 341
         }
         add_building_construction = {
             type = infrastructure
             level = 1
             instant_build = yes
-            id = 49
+            province = 49
         }
         add_stability = 0.1
 
