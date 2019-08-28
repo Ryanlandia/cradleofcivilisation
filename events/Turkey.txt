@@ -2,6 +2,8 @@
 #######Turkey Events#######
 ###########################
 
+add_namespace = turkey
+
 ###Kemalist Take
 country_event = {
     id = turkey.1
