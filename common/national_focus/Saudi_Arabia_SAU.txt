@@ -25,10 +25,10 @@ focus_tree = {
         }
     }
 	focus = {
-        id = SAU_modernize_economy
+        id = SAU_diversify_economy
 #		icon = 
 		prerequisite = { focus = SAU_third_saudi_state }
-        x = 3
+        x = 2
         y = 1
         cost = 10
         available_if_capitulated = no
@@ -52,7 +52,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			add_timed_idea = { idea = SAU_modernize_economy_idea days = 730 }
+			add_timed_idea = { idea = SAU_diversify_economy_idea days = 730 }
         }
     }
 	focus = {
@@ -69,6 +69,7 @@ focus_tree = {
 		}
         completion_reward = {
 			add_stability = 0.05
+			add_5_islam = yes
         }
     }
 	focus = {
