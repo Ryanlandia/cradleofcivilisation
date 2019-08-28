@@ -41,7 +41,7 @@ ideas = {
                 original_tag = SAU
             }
             modifier = {
-				research_speed_factor = -0.25
+				research_speed_factor = -0.15
             }
         }
 	}
@@ -51,7 +51,8 @@ ideas = {
                 original_tag = SAU
             }
             modifier = {
-				political_power_gain = -0.30
+				political_power_gain = -0.20
+				production_speed_buildings_factor = -0.10
             }
         }
 	}
@@ -78,8 +79,8 @@ ideas = {
         }
 	}
 	
-######################################## MINISTERS	
-########################################
+########################################	
+######################################## MINISTERS
 	political_advisor = {
 		fawzi_al_qawuqji = {
 
@@ -183,8 +184,87 @@ ideas = {
 		}
 	}
 	
-######################################## COMPANIES	
-########################################
+##############################
+############################## HIGH COMMAND
+	army_chief = {
+		
+		abdulaziz_ibn_saud = {
+			
+			allowed = {
+				original_tag = SAU
+			}
+			available = {
+				SAU = { has_government = neutrality }
+			}
+
+			cost = 50
+			
+			traits = { army_chief_offensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		mansour_bin_abdulaziz_al_saud = {
+			
+			allowed = {
+				original_tag = SAU
+			}
+			
+			traits = { army_chief_maneuver_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	air_chief = {
+		
+		abdullah_al_mandili = {
+			
+			allowed = {
+				original_tag = SAU
+			}
+
+			traits = { air_chief_ground_support_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		rashid_al_saleh = {
+			
+			allowed = {
+				original_tag = SAU
+			}
+
+			traits = { air_pilot_training_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	high_command = {
+
+		mohamed_tarek_abdelkader_afrique = {
+			
+#			picture = 
+			
+			allowed = {
+				original_tag = SAU
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+##############################
+############################## COMPANIES
 	industrial_concern = {
 		
 		alawwal_bank = {
