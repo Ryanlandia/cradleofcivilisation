@@ -17,13 +17,10 @@ ideas = {
                 original_tag = SAU
             }
             modifier = {
-                land_reinforce_rate = -0.10
-				planning_speed = -0.10
-				max_planning = -0.10
+				max_planning = -0.15
 				army_org_factor = -0.10
-				training_time_army_factor = 0.10
-				army_attack_factor = -0.10
-				army_defence_factor = -0.10
+				army_attack_factor = -0.15
+				army_defence_factor = -0.15
             }
         }
 	}
@@ -44,7 +41,29 @@ ideas = {
                 original_tag = SAU
             }
             modifier = {
-				research_speed_factor = -0.20
+				research_speed_factor = -0.25
+            }
+        }
+	}
+	country = {
+        SAU_modernize_economy_idea = {
+            allowed = {
+                original_tag = SAU
+				always = no
+            }
+            modifier = {
+				production_speed_buildings_factor = 0.20
+            }
+        }
+	}
+	country = {
+        SAU_saud_fascist_sympathies_idea = {
+            allowed = {
+                original_tag = SAU
+				always = no
+            }
+            modifier = {
+				fascism_drift = 0.10
             }
         }
 	}

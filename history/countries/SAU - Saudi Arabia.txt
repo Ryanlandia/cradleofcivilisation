@@ -18,7 +18,11 @@ add_ideas = {
 	SAU_ulama
 }
 
+set_variable = { islam_progress_bar = 75 }
+
 1939.1.1 = {
+	
+	set_variable = { islam_progress_bar = 75 }
 	
 	add_political_power = 1198
 	

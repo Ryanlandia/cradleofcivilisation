@@ -1,9 +1,10 @@
-political_actions = {
+piety_decisions = {
 	SAU_build_a_palace = {
 
 #		icon = 
 
 		available = {
+			original_tag = SAU
 		}
 
 		visible = {
@@ -17,12 +18,12 @@ political_actions = {
 		}
 
 		days_remove = 200
-		days_re_enable = 200
+		days_re_enable = 50
 
 		cost = 100
 
 		complete_effect = {
-			add_5_islam = yes
+			add_10_islam = yes
 		}
 	}
 }
