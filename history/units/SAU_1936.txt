@@ -10,17 +10,19 @@
 		infantry = { x = 0 y = 3 }
 	}
 }
-division_template = {
-	name = "Khazzan Almalaki"		# Vickers M. II Light tanks from ITALIA. Used in 1934 Yemen war
+#division_template = {
+#	name = "Khazzan Almalaki"		# Vickers M. II Light tanks from ITALIA. Used in 1934 Yemen war
+#
+#	division_names_group = SAU_ARM_01
+#
+#	regiments = {
+#		light_armor = { x = 0 y = 0 }
+#		light_armor = { x = 0 y = 1 }
+#		light_armor = { x = 0 y = 2 }
+#	}
+#}
+# UNLOCK THRU FOCUS
 
-	division_names_group = SAU_ARM_01
-
-	regiments = {
-		light_armor = { x = 0 y = 0 }
-		light_armor = { x = 0 y = 1 }
-		light_armor = { x = 0 y = 2 }
-	}
-}
 division_template = {
 	name = "Alfurqat Alfursan"		# Camel-mounted levies (militia)
 

@@ -87,6 +87,16 @@ ideas = {
 				original_tag = SAU
 			}
 			
+			available = {
+				if = {
+					has_completed_focus = SAU_reinvite_fawzi
+				}
+				if = {
+					limit = { has_dlc = "Man the Guns" }	
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+			}
+			
 			traits = { fascist_demagogue }
 
 			ai_will_do = {

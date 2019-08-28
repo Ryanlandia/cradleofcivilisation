@@ -12,23 +12,25 @@ focus_tree = {
 	focus = {
         id = SAU_third_saudi_state
 		icon = GFX_unitethearabs
-        x = 10
+        x = 7
         y = 0
         cost = 10
         available_if_capitulated = no
         bypass = {
         }
         available = {
+			SAU = { has_government = neutrality }
 		}
         completion_reward = {
-			add_political_power = 120
+			add_political_power = 150
         }
     }
 	focus = {
         id = SAU_diversify_economy
 #		icon = 
 		prerequisite = { focus = SAU_third_saudi_state }
-        x = 2
+		relative_position_id = SAU_third_saudi_state
+        x = -2
         y = 1
         cost = 10
         available_if_capitulated = no
@@ -58,10 +60,10 @@ focus_tree = {
 	focus = {
         id = SAU_support_abdulaziz
 #		icon = 
-		mutually_exclusive = { focus = SAU_saud_fascist_sympathies }
-        x = 15
+		mutually_exclusive = { focus = SAU_reinvite_fawzi }
+        x = 12
         y = 0
-        cost = 10
+        cost = 5
         available_if_capitulated = no
         bypass = {
         }
@@ -73,19 +75,21 @@ focus_tree = {
         }
     }
 	focus = {
-        id = SAU_saud_fascist_sympathies
+        id = SAU_reinvite_fawzi
 #		icon = 
+		relative_position_id = SAU_support_abdulaziz
 		mutually_exclusive = { focus = SAU_support_abdulaziz }
-        x = 18
+        x = 3
         y = 0
-        cost = 10
+        cost = 5
         available_if_capitulated = no
         bypass = {
         }
         available = {
 		}
         completion_reward = {
-			add_timed_idea = { idea = SAU_saud_fascist_sympathies_idea days = 365 }
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = fawzi_al_qawuqji
         }
     }
 }
