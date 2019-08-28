@@ -11,7 +11,7 @@ country_event = {
 
 
     option = {
-        name = kemalisttake.1.a
+        name = kemalisttake.a
         add_ideas = {
             TUR_favoured_the_state
         }
