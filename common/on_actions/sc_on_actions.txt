@@ -26,6 +26,10 @@ on_actions = {
                         value = -1.5
                 }
             }
+            #### ISLAM FOR COUNTRIES
+            SAU = {
+                add_25_islam = yes
+            }
 		}
 	}
 }

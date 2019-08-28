@@ -1,15 +1,17 @@
+
 state={
 	id=811
 	name="STATE_811"
+
 	history={
 		add_core_of = UAE
 		owner = UAE
 		victory_points = {
-			10904 1 
+			13276 1 
 		}
 		buildings = {
 			infrastructure = 2
-			10904 = {
+			13276 = {
 				naval_base = 1
 
 			}
@@ -17,10 +19,11 @@ state={
 		}
 
 	}
+
 	provinces={
-		10904 
+		13276 
 	}
-	manpower=72400
-	state_category=pastoral
+	manpower=37000
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

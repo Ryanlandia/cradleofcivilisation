@@ -72,11 +72,11 @@ country_event = {
 			start_civil_war = {
 				ruling_party = neutrality
 				ideology = neutrality
-				size = 0.5
+				size = 0
 				only_own_territory = yes
 				capital = 293
 				states = { 
-					807 789
+					807 789 846
 				}	
 			    keep_unit_leaders = {
 			    	9001
@@ -99,6 +99,16 @@ country_event = {
 				}
 				load_oob = "OMA_civil_war_imam"
 				add_offsite_building = { type = arms_factory level = 1 }
+				create_country_leader = {
+					name = "Ghalib Alhinai"
+					desc = "POLITICS_SAID_BIN_TAIMUR_DESC"
+					picture = "OMA_Ghalib_Alhinai.dds"
+					expire = "1965.1.1"
+					ideology = despotism
+					traits = {
+						#
+					}
+				}
 			}
 
 			if = {
