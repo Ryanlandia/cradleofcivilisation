@@ -51,7 +51,7 @@ ideas = {
                 original_tag = SAU
             }
             modifier = {
-				political_power_gain = -0.25
+				political_power_gain = -0.30
             }
         }
 	}

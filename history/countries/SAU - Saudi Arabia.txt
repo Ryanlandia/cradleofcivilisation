@@ -16,6 +16,7 @@ add_ideas = {
 	SAU_inexperienced_army
 	SAU_large_rural_population
 	SAU_ulama
+	SAU_hajj_based_economy
 }
 
 1939.1.1 = {
