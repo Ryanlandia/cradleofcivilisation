@@ -82,7 +82,7 @@ country_event = {
     }
 }
 
-#Status of Religion
+###Status of Religion
 country_event = {
     id = tur.3
     title = tur.3.t
