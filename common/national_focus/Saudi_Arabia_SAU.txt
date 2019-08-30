@@ -25,6 +25,7 @@ focus_tree = {
 			add_political_power = 150
         }
     }
+	
 	focus = {
         id = SAU_diversify_economy
 #		icon = 
@@ -55,6 +56,137 @@ focus_tree = {
 				}
 			}
 			add_timed_idea = { idea = SAU_diversify_economy_idea days = 730 }
+        }
+    }
+	
+	focus = {
+        id = SAU_prospect_for_oil_in_al_hasa
+#		icon = 
+		prerequisite = { focus = SAU_diversify_economy }
+		relative_position_id = SAU_diversify_economy
+        x = 0
+        y = 1
+        cost = 10
+        available_if_capitulated = no
+        bypass = {
+        }
+        available = {
+		}
+        completion_reward = {
+			796 = {
+				add_resource = {
+					type = oil
+					amount = 12
+				}
+			}
+        }
+    }
+	
+	focus = {
+        id = SAU_invite_american_experts
+#		icon = 
+		prerequisite = { focus = SAU_prospect_for_oil_in_al_hasa }
+		relative_position_id = SAU_prospect_for_oil_in_al_hasa
+		mutually_exclusive = { focus = SAU_invite_german_experts }
+        x = -1
+        y = 1
+        cost = 10
+        available_if_capitulated = no
+        bypass = {
+        }
+        available = {
+		}
+        completion_reward = {
+			796 = {
+				add_resource = {
+					type = oil
+					amount = 48
+				}
+			}
+			USA = {
+				add_opinion_modifier = { target = SAU modifier = SAU_invited_american_experts }
+			}
+        }
+    }
+	
+	focus = {
+        id = SAU_invite_german_experts
+#		icon = 
+		prerequisite = { focus = SAU_prospect_for_oil_in_al_hasa }
+		relative_position_id = SAU_prospect_for_oil_in_al_hasa
+		mutually_exclusive = { focus = SAU_invite_american_experts }
+        x = 1
+        y = 1
+        cost = 10
+        available_if_capitulated = no
+        bypass = {
+        }
+        available = {
+		}
+        completion_reward = {
+			796 = {
+				add_resource = {
+					type = oil
+					amount = 48
+				}
+			}
+			GER = {
+				add_opinion_modifier = { target = SAU modifier = SAU_invited_german_experts }
+			}
+        }
+    }
+	
+	focus = {
+        id = SAU_exploit_ghawar
+#		icon = 
+		prerequisite = { focus = SAU_invite_german_experts focus = SAU_invite_american_experts}
+		relative_position_id = SAU_invite_german_experts
+        x = -1
+        y = 1
+        cost = 10
+        available_if_capitulated = no
+        bypass = {
+        }
+        available = {
+		}
+        completion_reward = {
+			
+        }
+    }
+	
+	focus = {
+        id = SAU_pro_saudi_propoganda
+#		icon = 
+		prerequisite = { focus = SAU_third_saudi_state }
+		relative_position_id = SAU_third_saudi_state
+        x = 0
+        y = 1
+        cost = 10
+        available_if_capitulated = no
+        bypass = {
+        }
+        available = {
+		}
+        completion_reward = {
+			remove_ideas = SAU_ikhwan_unrest 
+        }
+    }
+	
+	focus = {
+        id = SAU_urban_relocation_program
+#		icon = 
+		prerequisite = { focus = SAU_pro_saudi_propoganda }
+		relative_position_id = SAU_pro_saudi_propoganda
+        x = 0
+        y = 1
+        cost = 10
+        available_if_capitulated = no
+        bypass = {
+        }
+        available = {
+		}
+        completion_reward = {
+			SAU_large_rural_population_level_down = yes
         }
     }
 	focus = {
