@@ -276,7 +276,7 @@ focus_tree = {
 
 	}
 
-	#Focus for Export Crops
+	#Focus for Export Cash Crops
 	focus = {
 		id = YEM_exportcrops
 		icon = GFX_generic_opium_growth
@@ -2263,7 +2263,7 @@ focus_tree = {
 
 	}
 
-	#Focus for Improve the Census
+	#Focus for City Military
 	focus = {
 		id = YEM_city_military
 		icon = GFX_YEM_city_military
@@ -2280,11 +2280,11 @@ focus_tree = {
 
 	}
 
-	#Focus for Improve the Census
+	#Focus for Reform the Draft
 	focus = {
 		id = YEM_census_improvements
 		icon = GFX_focus_secret_rearmament
-		x = 49
+		x = 48
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
@@ -2305,11 +2305,11 @@ focus_tree = {
 	focus = {
 		id = YEM_crush_tribes
 		icon = GFX_goal_generic_secret_weapon
-		x = 49
-		y = 4
+		x = 50
+		y = 3
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = YEM_census_improvements }
+		prerequisite = { focus = YEM_city_military }
 		ai_will_do = {
 			factor = 50
 		}
@@ -2327,10 +2327,11 @@ focus_tree = {
 		id = YEM_modern_tactics
 		icon = GFX_generic_modern_tactics
 		x = 49
-		y = 5
+		y = 4
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_crush_tribes }
+		prerequisite = { focus = YEM_census_improvements }
 		ai_will_do = {
 			factor = 50
 		}
@@ -2339,6 +2340,26 @@ focus_tree = {
 				remove_idea = YEM_army_2
 				add_idea = YEM_army_3
 			}
+		}
+
+	}
+
+	#Focus for Expand the Gendarmerie
+	focus = {
+		id = YEM_strengthenthegendarmerie
+		icon = GFX_strengthenthegendarmerie
+		x = 48
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YEM_modern_tactics }
+		ai_will_do = {
+			factor = 50
+		}
+		completion_reward = {
+			add_war_support = 0.1
+			add_stability  = -0.05
+			add_ideas = YEM_gendarmerie
 		}
 
 	}

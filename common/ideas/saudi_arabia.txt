@@ -263,8 +263,27 @@ ideas = {
 				factor = 1
 			}
 		}
+	}
 ##############################
 ############################## COMPANIES
+	materiel_manufacturer = {
+
+		designer = yes
+
+		haji_husein_alireza = {
+			
+			allowed = {
+				original_tag = SAU
+			}
+			
+			research_bonus = {
+				motorized_equipment = 0.15
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+		}
+	}
+
 	industrial_concern = {
 		
 		alawwal_bank = {
@@ -350,19 +369,6 @@ ideas = {
 			ai_will_do = {
 				factor = 1
 			}
-		}
-		
-		haji_husein_alireza = {
-			
-			allowed = {
-				original_tag = SAU
-			}
-			
-			research_bonus = {
-				motorized_equipment = 0.15
-			}
-			
-			traits = { motorized_equipment_manufacturer }
 		}
 	}
 }

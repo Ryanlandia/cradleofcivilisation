@@ -692,5 +692,24 @@ ideas = {
 			modifier = {
 			}
 		}
+		YEM_gendarmerie = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_spy_intel
+
+			modifier = {
+				enemy_partisan_effect = -0.33
+				decryption_factor = 0.25 
+			}
+		}
 	}
 }
