@@ -159,4 +159,8 @@ spriteTypes={
 		name="GFX_generic_modern_tactics"
 		texturefile="gfx/interface/goals/generic_modern_tactics.dds"
 	}
+	SpriteType={
+		name="GFX_generic_tribal_army"
+		texturefile="gfx/interface/goals/generic_tribal_army.dds"
+	}
 }

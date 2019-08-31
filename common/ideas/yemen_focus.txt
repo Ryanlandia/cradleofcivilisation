@@ -471,6 +471,29 @@ ideas = {
 				army_core_defence_factor = 0.05
 			}
 		}
+		YEM_tribal_army = {
+
+			allowed = {
+				original_tag = YEM
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+
+			modifier = {
+				conscription = 0.05
+				stability_weekly = -0.002
+				army_org_factor = -0.20
+				army_attack_factor = -0.15
+				army_defence_factor = -0.15
+			}
+		}
 		YEM_democraticboost = {
 
 			allowed = {

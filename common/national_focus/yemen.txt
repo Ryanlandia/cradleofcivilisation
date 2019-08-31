@@ -2263,7 +2263,46 @@ focus_tree = {
 
 	}
 
-	#Focus for City Military
+	#Focus for Tribal Army
+	focus = {
+		id = YEM_tribal_army
+		icon = GFX_generic_tribal_army
+		x = 53
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YEM_thenewarmy }
+		mutually_exclusive = { focus = YEM_city_military }
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+		}
+
+	}
+
+	#Focus for Recruit the Tribes
+	focus = {
+		id = YEM_recruit_tribes
+		icon = GFX_focus_generic_military_academy
+		x = 53
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YEM_tribal_army }
+		ai_will_do = {
+			factor = 50
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = YEM_army
+				add_idea = YEM_tribal_army
+			}
+		}
+
+	}
+
+	#Focus for A City Army
 	focus = {
 		id = YEM_city_military
 		icon = GFX_YEM_city_military
@@ -2272,6 +2311,7 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_thenewarmy }
+		mutually_exclusive = { focus = YEM_tribal_army }
 		ai_will_do = {
 			factor = 80
 		}
@@ -2348,7 +2388,7 @@ focus_tree = {
 	focus = {
 		id = YEM_strengthenthegendarmerie
 		icon = GFX_strengthenthegendarmerie
-		x = 48
+		x = 49
 		y = 5
 		cost = 10
 		available_if_capitulated = yes

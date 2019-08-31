@@ -264,3 +264,7 @@
  YEM_crush_tribes_desc:0 "The Bedouin stand in the way of our plans for an army. On the outskirts of the city, the only way we can secure the future of our army is to bring the tribes to heel. That we shall do."
  YEM_modern_tactics:0 "Western Tactics"
  YEM_modern_tactics_desc:0 "Our army is unfortuantely at a disadvantage. The ways of the old have been outshined by the ways of the new age. It is time that we hire Western advisors and introduce new doctrines into our military."
+ YEM_tribal_army:0 "Tribal Army"
+ YEM_tribal_army_desc:0 "Critics of the army say that our army needs to move to a more modern military based in fighting in cities, like the West. We must go the opposite direction. With the help of the tribes, we can create an army of the masses to rival our neighbor's capability to project power."
+ YEM_recruit_tribes:0 "Recruit the Tribes"
+ YEM_recruit_tribes_desc:0 "Earlier, many tribes were granted many immunities to military service, especially ones with a significant degree of power. This policy must end. Now, we must seek the support of the tribes to increase what little we have of manpower."
