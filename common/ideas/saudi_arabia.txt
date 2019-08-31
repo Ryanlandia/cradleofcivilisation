@@ -18,20 +18,44 @@ ideas = {
             }
             modifier = {
 				max_planning = -0.15
-				army_org_factor = -0.10
+				army_org_factor = -0.15
 				army_attack_factor = -0.15
 				army_defence_factor = -0.15
             }
         }
 	}
 	country = {
-        SAU_large_rural_population = {
+        SAU_large_rural_population_1 = {
 			picture = sau_pastoral_population
             allowed = {
                 original_tag = SAU
             }
             modifier = {
-				conscription_factor = -0.30
+				conscription_factor = -0.35
+            }
+        }
+	}
+	
+	country = {
+        SAU_large_rural_population_2 = {
+			picture = sau_pastoral_population
+            allowed = {
+                original_tag = SAU
+            }
+            modifier = {
+				conscription_factor = -0.25
+            }
+        }
+	}
+	
+	country = {
+        SAU_large_rural_population_3 = {
+			picture = sau_pastoral_population
+            allowed = {
+                original_tag = SAU
+            }
+            modifier = {
+				conscription_factor = -0.15
             }
         }
 	}
@@ -57,6 +81,16 @@ ideas = {
         }
 	}
 	country = {
+        SAU_ikhwan_unrest = {
+            allowed = {
+                original_tag = SAU
+            }
+            modifier = {
+				stability_factor = -0.15
+            }
+        }
+	}
+	country = {
         SAU_diversify_economy_idea = {
             allowed = {
                 original_tag = SAU
@@ -64,17 +98,6 @@ ideas = {
             }
             modifier = {
 				production_speed_buildings_factor = 0.20
-            }
-        }
-	}
-	country = {
-        SAU_saud_fascist_sympathies_idea = {
-            allowed = {
-                original_tag = SAU
-				always = no
-            }
-            modifier = {
-				fascism_drift = 0.10
             }
         }
 	}
@@ -208,17 +231,20 @@ ideas = {
 		
 		mansour_bin_abdulaziz_al_saud = {
 			
+#			picture = 
+			
 			allowed = {
 				original_tag = SAU
 			}
 			
-			traits = { army_chief_maneuver_1 }
+			traits = { army_chief_defensive_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 	}
+	
 	air_chief = {
 		
 		abdullah_al_mandili = {
@@ -263,7 +289,38 @@ ideas = {
 				factor = 1
 			}
 		}
+		
+		jafar_bek_pilot = {
+			
+#			picture = 
+			
+			allowed = {
+				original_tag = SAU
+			}
+			
+			traits = { army_regrouping_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		said_bin_abdullah_kurdi = {
+			
+#			picture = 
+			
+			allowed = {
+				original_tag = SAU
+			}
+			
+			traits = { army_commando_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
 	}
+	
 ##############################
 ############################## COMPANIES
 	materiel_manufacturer = {
@@ -288,7 +345,7 @@ ideas = {
 		
 		alawwal_bank = {
 			
-			cost = 100
+			cost = 150
 			
 			allowed = {
 				original_tag = SAU
@@ -307,7 +364,7 @@ ideas = {
 		
 		bin_ladin_group = {
 			
-			cost = 100
+			cost = 150
 			
 			allowed = {
 				original_tag = SAU
@@ -330,7 +387,7 @@ ideas = {
 		
 		house_of_alireza = {
 			
-			cost = 100
+			cost = 150
 			
 			allowed = {
 				original_tag = SAU
@@ -349,7 +406,7 @@ ideas = {
 		
 		aramco = {
 			
-			cost = 100
+			cost = 150
 			
 			allowed = {
 				original_tag = SAU
@@ -369,6 +426,19 @@ ideas = {
 			ai_will_do = {
 				factor = 1
 			}
+		}
+		
+		haji_husein_alireza = {
+			
+			allowed = {
+				original_tag = SAU
+			}
+			
+			research_bonus = {
+				motorized_equipment = 0.10
+			}
+			
+			traits = { motorized_equipment_manufacturer }
 		}
 	}
 }

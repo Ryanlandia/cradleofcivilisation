@@ -14,9 +14,10 @@ set_convoys = 5
 add_ideas = {
 	SAU_treaty_of_taif
 	SAU_inexperienced_army
-	SAU_large_rural_population
+	SAU_large_rural_population_1
 	SAU_ulama
 	SAU_hajj_based_economy
+	SAU_ikhwan_unrest
 }
 
 1939.1.1 = {
@@ -112,8 +113,8 @@ create_field_marshal = {
 	traits = {  }
 	skill = 3
 	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 2
+	defense_skill = 3
+	planning_skill = 4
 	logistics_skill = 4
 }
 
@@ -122,21 +123,21 @@ create_corps_commander = {
 	gfx = ""
 	traits = {  }
 	skill = 3
-    attack_skill = 2
-    defense_skill = 1
+    attack_skill = 3
+    defense_skill = 2
     planning_skill = 3
-    logistics_skill = 1
+    logistics_skill = 2
 }
 
 create_corps_commander = {
 	name = "Faisal bin Abdulaziz"
 	gfx = ""
 	traits = {  }
-	skill = 1
+	skill = 2
     attack_skill = 2
-    defense_skill = 1
+    defense_skill = 2
     planning_skill = 2
-    logistics_skill = 1
+    logistics_skill = 3
 }
 
 create_corps_commander = {
