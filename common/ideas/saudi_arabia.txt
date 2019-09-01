@@ -61,6 +61,7 @@ ideas = {
 	}
 	country = {
         SAU_ulama = {
+			picture = sau_ulama
             allowed = {
                 original_tag = SAU
             }
@@ -71,6 +72,7 @@ ideas = {
 	}
 	country = {
         SAU_hajj_based_economy = {
+			picture = sau_hajj_based_economy
             allowed = {
                 original_tag = SAU
             }
@@ -82,6 +84,7 @@ ideas = {
 	}
 	country = {
         SAU_ikhwan_unrest = {
+			picture = sau_hajj_ikhwan
             allowed = {
                 original_tag = SAU
             }
