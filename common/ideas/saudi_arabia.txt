@@ -427,18 +427,5 @@ ideas = {
 				factor = 1
 			}
 		}
-		
-		haji_husein_alireza = {
-			
-			allowed = {
-				original_tag = SAU
-			}
-			
-			research_bonus = {
-				motorized_equipment = 0.10
-			}
-			
-			traits = { motorized_equipment_manufacturer }
-		}
 	}
 }
