@@ -11,4 +11,16 @@ spriteTypes = {
 		name = "GFX_idea_sau_inexperienced_army"
 		texturefile = "gfx/interface/ideas/idea_SAU_inexperienced_army.dds"			
 	}
+	spriteType = {
+		name = "GFX_idea_sau_ikhwan"
+		texturefile = "gfx/interface/ideas/idea_SAU_ikhwan.dds"			
+	}
+	spriteType = {
+		name = "GFX_idea_sau_ulama"
+		texturefile = "gfx/interface/ideas/idea_SAU_ulama.dds"			
+	}
+	spriteType = {
+		name = "GFX_idea_sau_hajj_based_economy"
+		texturefile = "gfx/interface/ideas/idea_SAU_hajj_based_economy.dds"			
+	}
 }
