@@ -8,11 +8,12 @@ focus_tree = {
 		}
 	}
 	continuous_focus_position = { x = 25 y = 1100 }
-	#Focus for Traditional Law
+
+	#Focus for Sharia Law
 	focus = {
 		id = YEM_traditionallaw
-		icon = GFX_focus_hol_the_foundations_of_defense
-		x = 6
+		icon = GFX_generic_sharia_law
+		x = 8
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
@@ -21,8 +22,28 @@ focus_tree = {
 			factor = 15
 		}
 		completion_reward = {
-			add_stability= 0.05
+			add_10_islam = yes
 			add_ideas= YEM_traditional_law
+		}
+
+	}
+
+	#Focus for Equality before God
+	focus = {
+		id = YEM_equality_before_god
+		icon = GFX_goal_tripartite_pact
+		x = 8
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YEM_traditionallaw }
+		ai_will_do = {
+			factor = 15
+		}
+		completion_reward = {
+			add_5_islam = yes
+			add_war_support = 0.1
+			add_stability = 0.05
 		}
 
 	}
@@ -91,7 +112,7 @@ focus_tree = {
 		icon = GFX_goal_generic_consumer_goods
 		x = 41
 		y = 0
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 50
@@ -112,7 +133,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civilian
 		x = 40
 		y = 1
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_beginthesixyearplan }
 		mutually_exclusive = { focus = YEM_electronicsresearch }
@@ -133,7 +154,7 @@ focus_tree = {
 	focus = {
 		id = YEM_armanentsinsanaa
 		icon = GFX_goal_generic_construct_mil_factory
-		x = 37
+		x = 38
 		y = 3
 		cost = 15
 		available_if_capitulated = yes
@@ -169,7 +190,7 @@ focus_tree = {
 	focus = {
 		id = YEM_armanentsintaizz
 		icon = GFX_goal_generic_construct_mil_factory
-		x = 37
+		x = 36
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
@@ -276,11 +297,33 @@ focus_tree = {
 
 	}
 
+	#Focus for Crush the Nobles
+	focus = {
+		id = YEM_crush_nobles
+		icon = GFX_generic_crush_extremists
+		x = 10
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YEM_exportcrops }
+		ai_will_do = {
+			factor = 15
+		}
+		completion_reward = {
+			add_popularity = {
+			    ideology = democratic
+			    popularity = 0.15
+			}
+			add_political_power = -75
+		}
+
+	}
+
 	#Focus for Export Cash Crops
 	focus = {
 		id = YEM_exportcrops
 		icon = GFX_generic_opium_growth
-		x = 8
+		x = 10
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
@@ -294,30 +337,11 @@ focus_tree = {
 
 	}
 
-	#Focus for The New Yemen
-	focus = {
-		id = YEM_thenewyemen
-		icon = GFX_focus_generic_industry_3
-		x = 15
-		y = 6
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = YEM_beginelectrification }
-		prerequisite = { focus = YEM_draftnewlaws }
-		ai_will_do = {
-			factor = 100
-		}
-		completion_reward = {
-			add_stability= 0.1
-		}
-
-	}
-
-	#Focus for Conservative Party Wins
+	#Focus for An Islamic Republic
 	focus = {
 		id = YEM_conservativepartywins
-		icon = GFX_focus_generic_the_giant_wakes
-		x = 7
+		icon = GFX_generic_liberalizing_islam
+		x = 9
 		y = 4
 		cost = 1
 		available_if_capitulated = yes
@@ -334,11 +358,11 @@ focus_tree = {
 		}
 	}
 
-	#Focus for Liberal Party Wins
+	#Focus for Join the Western Democracies
 	focus = {
 		id = YEM_liberalpartywins
-		icon = GFX_liberalpartywins
-		x = 15
+		icon = GFX_focus_generic_the_giant_wakes
+		x = 13
 		y = 4
 		cost = 1
 		available_if_capitulated = yes
@@ -435,55 +459,15 @@ focus_tree = {
 
 	}
 
-	#Focus for Draft New Laws
-	focus = {
-		id = YEM_draftnewlaws
-		icon = GFX_goal_generic_forceful_treaty
-		x = 14
-		y = 5
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = YEM_liberalpartywins }
-		ai_will_do = {
-			factor = 15
-		}
-		completion_reward = {
-			add_ideas= YEM_new_laws
-		}
-
-	}
-
-	#Focus for The Yemeni Constitution
-	focus = {
-		id = YEM_theyemeniconstitution
-		icon = GFX_theyemeniconstitution
-		x = 11
-		y = 7
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = YEM_workerspush }
-		prerequisite = { focus = YEM_encouragemilitarism }
-		ai_will_do = {
-			factor = 50
-		}
-		completion_reward = {
-			country_event= {
-				days = 1
-				id = yemen.3
-			}
-		}
-
-	}
-
 	#Focus for Invite Intellectuals
 	focus = {
 		id = YEM_inviteintellectuals
 		icon = GFX_goal_generic_scientific_exchange
-		x = 10
-		y = 8
+		x = 12
+		y = 5
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = YEM_theyemeniconstitution }
+		prerequisite = { focus = YEM_liberalpartywins }
 		ai_will_do = {
 			factor = 25
 		}
@@ -549,12 +533,12 @@ focus_tree = {
 	focus = {
 		id = YEM_nahda
 		icon = GFX_generic_islamic_research
-		x = 11
-		y = 9
+		x = 13
+		y = 7
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_civilliberties }
-		prerequisite = { focus = YEM_inviteintellectuals }
+		prerequisite = { focus = YEM_abolish_slavery }
 		ai_will_do = {
 			factor = 25
 		}
@@ -568,7 +552,7 @@ focus_tree = {
 	focus = {
 		id = YEM_beginelectrification
 		icon = GFX_goal_generic_production2
-		x = 16
+		x = 14
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
@@ -594,6 +578,28 @@ focus_tree = {
 
 	}
 
+	#Focus for Abolish Slavery
+	focus = {
+		id = YEM_abolish_slavery
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		x = 14
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YEM_beginelectrification }
+		ai_will_do = {
+			factor = 15
+		}
+		completion_reward = {
+			add_stability = 0.2
+			add_war_support = -0.1
+			add_timed_idea = {
+				idea = YEM_echoes_of_slavery
+				days = 150
+			}
+		}	
+	}
+
 	#Focus for Rewrite the Friendship Treaty
 	focus = {
 		id = YEM_rewritethefriendshiptreaty
@@ -608,7 +614,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			ENG = {
-				country_event = {days = 1 id = yemen.4 }
+				country_event = { days = 1 id = yemen.4 }
 			}
 		}
 
@@ -644,7 +650,7 @@ focus_tree = {
 		icon = GFX_goal_generic_radar
 		x = 42
 		y = 1
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_beginthesixyearplan }
 		mutually_exclusive = { focus = YEM_industrialresearch }
@@ -1447,10 +1453,10 @@ focus_tree = {
 	#Focus for Consolidate Imam Authority
 	focus = {
 		id = YEM_thenewcentralgovernment
-		icon = GFX_focus_rom_royal_dictatorship
+		icon = GFX_YEM_consolidate_imam_authority
 		x = 1
 		y = 1
-		cost = 8
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = YEM_consolidateimamauthority }
 		mutually_exclusive = { focus = YEM_alwaziri_coup }
@@ -1589,9 +1595,9 @@ focus_tree = {
 
 	}
 
-	#Focus for Establish an Heir
+	#Focus for Organize the Royal Guard
 	focus = {
-		id = YEM_establishanheir
+		id = YEM_organize_royal_guard
 		icon = GFX_focus_generic_treaty
 		x = 0
 		y = 3
@@ -1603,6 +1609,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			remove_ideas= YEM_family_struggle
+			add_manpower = 6000
 		}
 
 	}
@@ -1628,39 +1635,19 @@ focus_tree = {
 	#Focus for Civil Liberties
 	focus = {
 		id = YEM_civilliberties
-		icon = GFX_focus_generic_diplomatic_treaty
+		icon = GFX_generic_civil_rights
 		x = 12
-		y = 8
+		y = 6
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = YEM_theyemeniconstitution }
+		prerequisite = { focus = YEM_inviteintellectuals }
 		ai_will_do = {
 			factor = 25
 		}
 		completion_reward = {
-			add_stability= 0.05
-			add_war_support= -0.05
-		}
-
-	}
-
-	#Focus for Worker's Push
-	focus = {
-		id = YEM_workerspush
-		icon = GFX_goal_generic_production
-		x = 10
-		y = 6
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = YEM_rebuildthecountry }
-		ai_will_do = {
-			factor = 50
-		}
-		completion_reward = {
-			add_timed_idea= {
-				idea = YEM_rebuild
-				days = 300
-			}
+			add_stability= 0.1
+			add_war_support= -0.15
+			subtract_10_islam = yes
 		}
 
 	}
@@ -1689,59 +1676,33 @@ focus_tree = {
 
 	}
 
-	#Focus for Encourage Militarism
+	#Focus for Fund Democratic Partisans
 	focus = {
-		id = YEM_encouragemilitarism
-		icon = GFX_encouragemilitarism
-		x = 12
-		y = 6
+		id = YEM_fund_democratic_partisans
+		icon = GFX_YEM_saudi_partisans
+		x = 9
+		y = 7
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = YEM_rebuildthecountry }
-		ai_will_do = {
-			factor = 50
-		}
-		completion_reward = {
-			add_manpower= 50000
-			army_experience= 10
-		}
-
-	}
-
-	#Focus for Rebuild the Country
-	focus = {
-		id = YEM_rebuildthecountry
-		icon = GFX_rebuildthecountry
-		x = 11
-		y = 5
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = YEM_holdelections }
-		ai_will_do = {
-			factor = 50
-		}
-		completion_reward = {
-			add_political_power= 50
-		}
-
-	}
-
-	#Focus for Enact Tariffs
-	focus = {
-		id = YEM_enacttariffs
-		icon = GFX_enacttariffs
-		x = 7
-		y = 6
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = YEM_exportcrops }
-		prerequisite = { focus = YEM_traditionallaw }
+		prerequisite = { focus = YEM_equality_before_god }
+		prerequisite = { focus = YEM_crush_nobles }
 		ai_will_do = {
 			factor = 15
 		}
 		completion_reward = {
-			add_ideas= limited_exports
-			add_political_power = 150
+			SAU = {
+				add_timed_idea = {
+					idea = YEM_democratic_partisans
+					days = 120
+				}
+			}
+			OMA = {
+				add_timed_idea = {
+					idea = YEM_democratic_partisans
+					days = 120
+				}
+			}
+			add_political_power = -100
 		}
 
 	}
@@ -1862,23 +1823,6 @@ focus_tree = {
 			factor = 33
 		}
 		completion_reward = {
-			random_owned_controlled_state={
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 0
-						include_locked = yes
-					}
-
-				}
-
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
 
 			random_owned_controlled_state={
 				limit = {
@@ -1927,24 +1871,6 @@ focus_tree = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-
-			random_owned_controlled_state={
-				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 0
-						include_locked = yes
-					}
-
-				}
-
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
 					level = 1
 					instant_build = yes
 				}
@@ -2053,15 +1979,16 @@ focus_tree = {
 	focus = {
 		id = YEM_prospectforoil
 		icon = GFX_goal_generic_oil_refinery
-		x = 37
+		x = 41
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = YEM_industryintheeast }
+		prerequisite = { focus = YEM_extraresearchslot }
 		ai_will_do = {
 			factor = 33
 		}
 		completion_reward = {
+			custom_effect_tooltip = YEM_extract_oil_tt
 		}
 
 	}
@@ -2388,7 +2315,7 @@ focus_tree = {
 	focus = {
 		id = YEM_strengthenthegendarmerie
 		icon = GFX_strengthenthegendarmerie
-		x = 49
+		x = 48
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
@@ -2400,6 +2327,24 @@ focus_tree = {
 			add_war_support = 0.1
 			add_stability  = -0.05
 			add_ideas = YEM_gendarmerie
+		}
+
+	}
+
+	#Focus for Cavalry Improvements
+	focus = {
+		id = YEM_cavalry_improvements
+		icon = GFX_generic_cavalry_improvements
+		x = 50
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YEM_modern_tactics }
+		ai_will_do = {
+			factor = 50
+		}
+		completion_reward = {
+			add_ideas = generic_arabian_calvary
 		}
 
 	}

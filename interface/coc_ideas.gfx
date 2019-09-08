@@ -207,4 +207,8 @@ spriteTypes = {
 	name = "GFX_idea_EGY_Agha_Khan_III"
 	texturefile = "gfx/interface/ideas/idea_EGY_Agha_Khan_III.dds"
 	}
+	spriteType = {
+	name = "GFX_idea_yemen_broken_army"
+	texturefile = "gfx/interface/ideas/idea_yemen_broken_army.dds"
+	}
 }

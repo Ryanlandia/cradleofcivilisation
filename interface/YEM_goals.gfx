@@ -163,4 +163,32 @@ spriteTypes={
 		name="GFX_generic_tribal_army"
 		texturefile="gfx/interface/goals/generic_tribal_army.dds"
 	}
+	SpriteType={
+		name="GFX_generic_liberalizing_islam"
+		texturefile="gfx/interface/goals/generic_liberalizing_islam.dds"
+	}
+	SpriteType={
+		name="GFX_YEM_consolidate_imam_authority"
+		texturefile="gfx/interface/goals/YEM_consolidate_imam_authority.dds"
+	}
+	SpriteType={
+		name="GFX_generic_sharia_law"
+		texturefile="gfx/interface/goals/generic_sharia_law.dds"
+	}
+	SpriteType={
+		name="GFX_YEM_saudi_partisans"
+		texturefile="gfx/interface/goals/YEM_saudi_partisans.dds"
+	}
+	SpriteType={
+		name="GFX_generic_crush_extremists"
+		texturefile="gfx/interface/goals/generic_crush_extremists.dds"
+	}
+	SpriteType={
+		name="GFX_generic_civil_rights"
+		texturefile="gfx/interface/goals/generic_civil_rights.dds"
+	}
+	SpriteType={
+		name="GFX_generic_cavalry_improvements"
+		texturefile="gfx/interface/goals/generic_cavalry_improvements.dds"
+	}
 }

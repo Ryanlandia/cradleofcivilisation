@@ -30,6 +30,9 @@ on_actions = {
             SAU = {
                 add_25_islam = yes
             }
+            YEM = {
+                add_20_islam = yes
+            }
 		}
 	}
 }

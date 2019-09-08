@@ -15,6 +15,6 @@
 #	THIS FILE IS FOR TRIGGERS SPECIFICALLY FOR THE GER TAG
 is_islamic = {
 	OR = {
-		has_idea = muslim_nation
+		has_country_flag = muslim_nation
 	}
 }

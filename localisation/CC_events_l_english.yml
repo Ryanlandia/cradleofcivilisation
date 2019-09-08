@@ -14,7 +14,7 @@
  neutral_zone.2.b:0 "Now is not the time to escalate further tension."
   ### Yemen Misc
  YEM_arms_stockpile_tt:0 "§Y2000.§! guns will be sent upon breakout of civil war."
- YEM_civil_war_tt:0 "Begins the civil war!§! Militia divisions will automatically spawn on both sides."
+ YEM_civil_war_tt:0 "Begins the civil war!§! Militia divisions will automatically spawn on both sides.\n"
   ### Yemen Events
  yemen.1.t:0 "Yemeni Republicans ask for support."
  yemen.101.t:0 "Britain accepts request for aid!"

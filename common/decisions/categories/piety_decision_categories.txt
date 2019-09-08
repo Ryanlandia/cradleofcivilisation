@@ -10,10 +10,4 @@ piety_decisions = {
 	allowed = {
 		is_islamic = yes
 	}
-	visible = {
-		is_islamic = yes
-		NOT = {
-			has_government = communism
-		}
-	}
 }

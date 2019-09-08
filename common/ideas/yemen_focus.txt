@@ -400,7 +400,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = chi_army_corruption
+			picture = yemen_broken_army
 
 			modifier = {
 				conscription = -0.005
@@ -732,6 +732,44 @@ ideas = {
 			modifier = {
 				enemy_partisan_effect = -0.33
 				decryption_factor = 0.25 
+			}
+		}
+		YEM_democratic_partisans = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_spy_political
+
+			modifier = {
+				democratic_drift = 0.05
+				stability_factor = -0.05
+			}
+		}
+		YEM_echoes_of_slavery = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = FRA_matignon_agreements
+
+			modifier = {
+				political_power_cost = 0.5
+				consumer_goods_factor = 0.2
 			}
 		}
 	}
