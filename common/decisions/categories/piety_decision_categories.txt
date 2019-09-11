@@ -7,7 +7,7 @@ piety_decisions = {
 	icon = GFX_decision_category_piety
 	picture = GFX_decision_cat_picture_piety_mechanics
 	
-	allowed = {
+	visible = {
 		is_islamic = yes
 	}
 }

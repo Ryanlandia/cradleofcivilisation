@@ -585,8 +585,6 @@ ideas = {
 			picture = generic_production_bonus
 
 			modifier = {
-				stability_weekly = 0.005
-				war_support_weekly = 0.005
 				consumer_goods_factor = -0.3
 			}
 		}
@@ -770,6 +768,43 @@ ideas = {
 			modifier = {
 				political_power_cost = 0.5
 				consumer_goods_factor = 0.2
+			}
+		}
+		YEM_militarism = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.015
+			}
+		}
+		YEM_taizz_arsenal_idea = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_production_bonus
+
+			removal_cost = -1
+
+			equipment_bonus = {
+			    infantry_equipment = {
+			    	instant = yes
+			    	build_cost_ic = -0.1
+				}
 			}
 		}
 	}

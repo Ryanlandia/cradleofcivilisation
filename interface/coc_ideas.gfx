@@ -211,4 +211,8 @@ spriteTypes = {
 	name = "GFX_idea_yemen_broken_army"
 	texturefile = "gfx/interface/ideas/idea_yemen_broken_army.dds"
 	}
+	spriteType = {
+	name = "GFX_idea_YEM_militarism"
+	texturefile = "gfx/interface/ideas/YEM_militarism.dds"
+	}
 }

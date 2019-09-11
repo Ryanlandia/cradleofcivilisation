@@ -13,7 +13,7 @@ spriteTypes={
 	}
 	SpriteType={
 		name="GFX_theyemeniconstitution"
-		texturefile="gfx/interface/goals/GFX_theyemeniconstitution.tga"
+		texturefile="gfx/interface/goals/GFX_theyemeniconstitution.dds"
 	}
 	SpriteType={
 		name="GFX_pacifyasir"
@@ -190,5 +190,13 @@ spriteTypes={
 	SpriteType={
 		name="GFX_generic_cavalry_improvements"
 		texturefile="gfx/interface/goals/generic_cavalry_improvements.dds"
+	}
+	SpriteType={
+		name="GFX_YEM_militarism"
+		texturefile="gfx/interface/goals/YEM_militarism.dds"
+	}
+	SpriteType={
+		name="GFX_generic_union_workers"
+		texturefile="gfx/interface/goals/generic_union_workers.dds"
 	}
 }

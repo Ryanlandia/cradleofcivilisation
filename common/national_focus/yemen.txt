@@ -9,6 +9,24 @@ focus_tree = {
 	}
 	continuous_focus_position = { x = 25 y = 1100 }
 
+	#Focus for Encourage Militarism
+	focus = {
+		id = YEM_encourage_militarism
+		icon = GFX_YEM_militarism
+		x = 6
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YEM_conservativepartywins }
+		ai_will_do = {
+			factor = 15
+		}
+		completion_reward = {
+			add_ideas= YEM_militarism
+		}
+
+	}
+
 	#Focus for Sharia Law
 	focus = {
 		id = YEM_traditionallaw
@@ -319,6 +337,28 @@ focus_tree = {
 
 	}
 
+	#Focus for The Yemeni Constitution
+	focus = {
+		id = YEM_the_yemeni_constutution
+		icon = GFX_theyemeniconstitution
+		x = 11
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YEM_fund_democratic_partisans focus = YEM_nahda }
+		ai_will_do = {
+			factor = 15
+		}
+		completion_reward = {
+			add_stability = 0.1
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.2
+			}
+		}
+
+	}
+
 	#Focus for Export Cash Crops
 	focus = {
 		id = YEM_exportcrops
@@ -548,6 +588,27 @@ focus_tree = {
 
 	}
 
+	#Focus for Worker's Push
+	focus = {
+		id = YEM_workers_push
+		icon = GFX_generic_union_workers
+		x = 16
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YEM_liberalpartywins }
+		ai_will_do = {
+			factor = 15
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = YEM_rebuild
+				days = 180
+			}
+		}
+
+	}
+
 	#Focus for Begin Electrification
 	focus = {
 		id = YEM_beginelectrification
@@ -563,7 +624,7 @@ focus_tree = {
 		completion_reward = {
 			293= {
 				add_building_construction = {type = infrastructure
-					level = 2
+					level = 1
 					instant_build = yes}
 
 			}
@@ -592,7 +653,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_stability = 0.2
-			add_war_support = -0.1
+			add_war_support = -0.15
 			add_timed_idea = {
 				idea = YEM_echoes_of_slavery
 				days = 150
@@ -1167,10 +1228,10 @@ focus_tree = {
 		id = YEM_requestcontrolofaden
 		icon = GFX_goal_generic_position_armies
 		x = 21
-		y = 7
+		y = 6
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = YEM_guardiansoftheredsea }
+		prerequisite = { focus = YEM_signprotectoratetreaty focus = YEM_internationalequals }
 		ai_will_do = {
 			factor = 200
 		}
@@ -1221,24 +1282,6 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_political_power= 150
-		}
-
-	}
-
-	#Focus for Guardians of the Red Sea
-	focus = {
-		id = YEM_guardiansoftheredsea
-		icon = GFX_goal_generic_political_pressure
-		x = 21
-		y = 6
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = YEM_signprotectoratetreaty focus = YEM_internationalequals }
-		ai_will_do = {
-			factor = 30
-		}
-		completion_reward = {
-			add_stability= 0.05
 		}
 
 	}
@@ -2204,6 +2247,24 @@ focus_tree = {
 			factor = 80
 		}
 		completion_reward = {
+		}
+
+	}
+
+	#Focus for Improve the Taizz Arsenal
+	focus = {
+		id = YEM_taizz_arsenal
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 52
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = YEM_recruit_tribes }
+		ai_will_do = {
+			factor = 50
+		}
+		completion_reward = {
+			add_ideas = YEM_taizz_arsenal_idea
 		}
 
 	}

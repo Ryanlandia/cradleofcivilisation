@@ -6,6 +6,7 @@ scripted_gui = {
 	        window_name = "islamic_diploview"
 
 	        visible = {
+	        	is_islamic = yes
 	        }
 
 	        effects = {

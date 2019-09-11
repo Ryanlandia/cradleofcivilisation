@@ -14,7 +14,7 @@ piety_decisions = {
 		}
 
 		remove_effect = {
-			subtract_5_islam = yes
+			add_5_islam = yes
 			clr_country_flag = already_taking_piety_flag
 		}
 		
